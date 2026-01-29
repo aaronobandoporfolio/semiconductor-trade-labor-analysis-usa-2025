@@ -4,18 +4,18 @@
 
 This project examines how U.S. semiconductor trade flows (HS Code 85423100) are being reshaped by inflationary pressures, labor costs, tariff structures, and global demand. By integrating official datasets from trade, labor, logistics, and market demand sources, the analysis highlights strategic insights relevant to executives, startups, recruiters, and policymakers.
 
-The work is structured in phases.  
+The work is structured in phases:  
 - **Phase 1** focused on locating and extracting data from legal and public sources.  
 - **Phase 2** involved cleaning, organizing, and preparing the datasets for analysis.  
 - **Phase 3**, the current stage, is dedicated to Exploratory Data Analysis (EDA), where patterns, relationships, and actionable insights are uncovered.  
 
-The emphasis is on understanding how nearshoring, tariff advantages, and employment trends are influencing the semiconductor supply chain, with Mexico and South Korea emerging as critical hubs.
+The emphasis is on understanding how nearshoring, tariff advantages, and employment trends are influencing the semiconductor supply chain. Mexico and South Korea stand out as critical hubs, while China faces structural disadvantages due to Section 301 tariffs.
 
 
 ## Objectives
 
 - Compare U.S. semiconductor imports and exports by destination (Mexico, China, South Korea, Taiwan)  
-- Analyze tariff structures and trade barriers (MFN, Section 301)  
+- Quantify tariff structures and trade barriers (MFN, Section 301) and their impact on competitiveness  
 - Assess logistic efficiency and potential cost savings using rail and border data  
 - Evaluate labor costs and employment trends in semiconductor-related industries (NAICS 334)  
 - Project global demand growth and the rise of new hubs using OECD and SIA data  
@@ -63,10 +63,10 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 
 ## Insights & Use Cases
 
-- **Startups and CEOs**: Identify cost-saving trade routes and labor-efficient regions for semiconductor operations  
-- **Recruiters**: Pinpoint high-growth metro areas where semiconductor talent is in demand  
-- **Policy Analysts**: Evaluate the impact of tariffs and nearshoring on U.S. competitiveness  
-- **Data Scientists**: Explore cross-domain modeling opportunities by linking trade, labor, and logistics datasets  
+- **Startups and CEOs**: Identify cost-saving trade routes and labor-efficient regions. For example, Mexico shows strong import/export volumes with zero MFN tariffs, while China faces a 25% Section 301 penalty.  
+- **Recruiters**: Pinpoint metro areas where semiconductor employment is expanding, aligning talent pipelines with industry growth.  
+- **Policy Analysts**: Evaluate how tariff structures and concentrated value chains (75% in five countries per OECD) affect U.S. resilience.  
+- **Data Scientists**: Explore cross-domain modeling opportunities by linking trade flows, labor costs, and logistics data to forecast supply chain risks.  
 
 
 ## Author
