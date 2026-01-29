@@ -51,13 +51,16 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 
 ## Documentation Links
 
-- [https://drive.google.com/file/d/19-W453X8x7ObEjlr15hCc0Rgo8kl877T/view?usp=sharing] `Cleaned_TradeData_Imports.csv`  
-- [ ] `Cleaned_HS3542_Exports.csv`  
-- [ ] `Semiconductor_Tariff_Analysis_2025.xlsx`  
-- [ ] `Demand_SIA_OECD.xlsx`  
-- [ ] `Employment_Trends_QCEW_OEWS.pdf`  
-- [ ] `Logistics_Costs_Rail_Form54.csv`
-
+- [USA TradeData Imports Dataset.pdf](https://drive.google.com/file/d/19-W453X8x7ObEjlr15hCc0Rgo8kl877T/view?usp=sharing)
+- [HS 3542 UN Comtrade USA Exports Dataset.pdf](https://drive.google.com/file/d/1umFuqWcKWQFO3eTeUraaI7nfavj-NvIk/view?usp=sharing)
+- [Semiconductor Demand Study (SIA & OECD Sources).pdf](https://drive.google.com/file/d/1niSpH__EBZdBA8a-gGmgplcgDxt7jDTM/view?usp=sharing)
+- [Semiconductor Tariff Analysis – HS Code 85423100 (2025).pdf](https://drive.google.com/file/d/15FI1PaNU9tcyD6-j4nQEbEvy2xff--ym/view?usp=sharing)
+- [Rail Equipment Accident Incident Data (Form 54).pdf](https://drive.google.com/file/d/1mOiZihihsxE3XrSKQwqxSErUZ8Y7CH7f/view?usp=sharing)  
+- [Quarterly Census of Employment and Wages.pdf](https://drive.google.com/file/d/1HlZ5APMSZj7GxU3De_NxVm7ft1BYHM1a/view?usp=sharing)
+- [ECI Tables Downloaded for Analysis.pdf](https://drive.google.com/file/d/1Pj5ZDTAeu8sL2FTPo6mOxnFPI-Jayala/view?usp=sharing)  
+- [SAE Tables Downloaded for State and Metro Analysis.pdf](https://drive.google.com/file/d/1xIlwAIftNFx8QVGm7WVKNOGulA6somkl/view?usp=sharing)
+- [Occupational Employment and Wage Statistics (OEWS).pdf](https://drive.google.com/file/d/1Dm9Se3QDwJh-OBzt4PCSUI3vox_0qd6E/view?usp=sharing)  
+- [Cleaning Company Census File (20260121).pdf](https://drive.google.com/file/d/1_-K7h0vSKHO36TBgNEFuYoEpLDlO0Unp/view?usp=sharing)
 
 ## Insights & Use Cases
 
