@@ -4,10 +4,12 @@
 
 This project examines how U.S. semiconductor trade flows (HS Code 85423100) are being reshaped by inflationary pressures, labor costs, tariff structures, and global demand. By integrating official datasets from trade, labor, logistics, and market demand sources, the analysis highlights strategic insights relevant to executives, startups, recruiters, and policymakers.
 
-The work is structured in phases:  
-- **Phase 1** focused on locating and extracting data from legal and public sources.  
-- **Phase 2** involved cleaning, organizing, and preparing the datasets for analysis.  
-- **Phase 3**, the current stage, is dedicated to Exploratory Data Analysis (EDA), where patterns, relationships, and actionable insights are uncovered.  
+The work is structured in phases, serving as a showcase of my professional approach to data analysis and business intelligence:  
+- **Phase 1** focused on locating and extracting data from authoritative legal and public sources.  
+- **Phase 2** involved cleaning, organizing, and preparing the datasets to ensure accuracy and reliability.  
+- **Phase 3**, the current stage, is dedicated to Exploratory Data Analysis (EDA), where patterns, relationships, and actionable insights are uncovered. 
+- **Phase 4** will emphasize Data Visualization, including the development of a Power BI Dashboard designed to present insights interactively for executives, managers, and decision-makers.  
+- **Phase 5** will consolidate findings into a comprehensive Report and PowerPoint Presentation, tailored to professionals, recruiters, CEOs, and policymakers seeking strategic clarity and actionable recommendations.  
 
 The emphasis is on understanding how nearshoring, tariff advantages, and employment trends are influencing the semiconductor supply chain. Mexico and South Korea stand out as critical hubs, while China faces structural disadvantages due to Section 301 tariffs.
 
