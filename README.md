@@ -78,7 +78,7 @@ During Phase 2, I worked with two windows simultaneously: one running Python scr
 - Some files contained millions of rows, which required longer debugging cycles to ensure accuracy.  
 
 
-![Dual-Screen Data Wrangling](Images/Screenshot 2026-01-29 192358.png)
+![Dual-Screen Data Wrangling](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/Screenshot%202026-01-29%20191735.png)
 
 *(Image: dual-screen setup with Python script and Excel file open)*
 
