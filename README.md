@@ -11,6 +11,7 @@ The work is structured in phases:
 
 The emphasis is on understanding how nearshoring, tariff advantages, and employment trends are influencing the semiconductor supply chain. Mexico and South Korea stand out as critical hubs, while China faces structural disadvantages due to Section 301 tariffs.
 
+---
 
 ## Objectives
 
@@ -20,6 +21,7 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 - Evaluate labor costs and employment trends in semiconductor-related industries (NAICS 334)  
 - Project global demand growth and the rise of new hubs using OECD and SIA data  
 
+---
 
 ## Data Sources
 
@@ -48,27 +50,75 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 - [Occupational Employment and Wage Statistics (OEWS)](https://www.bls.gov/data/)  
 - [Company Census File – BLS CEW](https://www.bls.gov/cew/)
 
+---
 
 ## Documentation Links
 
-- [USA TradeData Imports Dataset.pdf](https://drive.google.com/file/d/19-W453X8x7ObEjlr15hCc0Rgo8kl877T/view?usp=sharing)
-- [HS 3542 UN Comtrade USA Exports Dataset.pdf](https://drive.google.com/file/d/1umFuqWcKWQFO3eTeUraaI7nfavj-NvIk/view?usp=sharing)
-- [Semiconductor Demand Study (SIA & OECD Sources).pdf](https://drive.google.com/file/d/1niSpH__EBZdBA8a-gGmgplcgDxt7jDTM/view?usp=sharing)
-- [Semiconductor Tariff Analysis – HS Code 85423100 (2025).pdf](https://drive.google.com/file/d/15FI1PaNU9tcyD6-j4nQEbEvy2xff--ym/view?usp=sharing)
+- [USA TradeData Imports Dataset.pdf](https://drive.google.com/file/d/19-W453X8x7ObEjlr15hCc0Rgo8kl877T/view?usp=sharing)  
+- [HS 3542 UN Comtrade USA Exports Dataset.pdf](https://drive.google.com/file/d/1umFuqWcKWQFO3eTeUraaI7nfavj-NvIk/view?usp=sharing)  
+- [Semiconductor Demand Study (SIA & OECD Sources).pdf](https://drive.google.com/file/d/1niSpH__EBZdBA8a-gGmgplcgDxt7jDTM/view?usp=sharing)  
+- [Semiconductor Tariff Analysis – HS Code 85423100 (2025).pdf](https://drive.google.com/file/d/15FI1PaNU9tcyD6-j4nQEbEvy2xff--ym/view?usp=sharing)  
 - [Rail Equipment Accident Incident Data (Form 54).pdf](https://drive.google.com/file/d/1mOiZihihsxE3XrSKQwqxSErUZ8Y7CH7f/view?usp=sharing)  
-- [Quarterly Census of Employment and Wages.pdf](https://drive.google.com/file/d/1HlZ5APMSZj7GxU3De_NxVm7ft1BYHM1a/view?usp=sharing)
+- [Quarterly Census of Employment and Wages.pdf](https://drive.google.com/file/d/1HlZ5APMSZj7GxU3De_NxVm7ft1BYHM1a/view?usp=sharing)  
 - [ECI Tables Downloaded for Analysis.pdf](https://drive.google.com/file/d/1Pj5ZDTAeu8sL2FTPo6mOxnFPI-Jayala/view?usp=sharing)  
-- [SAE Tables Downloaded for State and Metro Analysis.pdf](https://drive.google.com/file/d/1xIlwAIftNFx8QVGm7WVKNOGulA6somkl/view?usp=sharing)
+- [SAE Tables Downloaded for State and Metro Analysis.pdf](https://drive.google.com/file/d/1xIlwAIftNFx8QVGm7WVKNOGulA6somkl/view?usp=sharing)  
 - [Occupational Employment and Wage Statistics (OEWS).pdf](https://drive.google.com/file/d/1Dm9Se3QDwJh-OBzt4PCSUI3vox_0qd6E/view?usp=sharing)  
 - [Cleaning Company Census File (20260121).pdf](https://drive.google.com/file/d/1_-K7h0vSKHO36TBgNEFuYoEpLDlO0Unp/view?usp=sharing)
+
+
+## Process & Documentation Images
+
+### Data Wrangling Process
+During Phase 2, I worked with two windows simultaneously: one running Python scripts in Visual Studio Code and another displaying CSV files in Excel. This setup allowed me to check the accuracy of my data wrangling process step by step.  
+
+- I verified data types across columns, which were all accurate.  
+- My focus was on extracting what was relevant and dropping what was not.  
+- After ensuring the wrangling met expectations, I documented the major steps and added comments to the code.  
+- Some files contained millions of rows, which required longer debugging cycles to ensure accuracy.  
+
+*(Image: dual-screen setup with Python script and Excel file open)*
+
+### Cleaned Data Repository
+The cleaned dataset now consists of **23 files in total**, covering trade, labor, logistics, and economic indicators. These include:  
+
+1. Occupational Employment and Wage Statistics (OEWS).txt  
+2. Rail_Equipment_Accident_Incident_Data_(Form_54)_20260121.csv  
+3. Demand SIA_OECD.xlsx  
+4. Imports USA.csv  
+5. Quarterly Census of Employment and Wages.csv  
+6. semiconductors_tariffs_2025.xlsx  
+7. Company_Census_File_20260121.csv  
+8. HS_3542_Un_Comtrade_USA_Exports.csv  
+9. Employment and Earnings Table B-1a.pdf  
+10. Employment and Earnings Table B-1b.pdf  
+11. Employment and Earnings Table B-3a.pdf  
+12. Employment and Earnings Table B-3b.pdf  
+13. Employment and Earnings Table B-8a.pdf  
+14. Employment and Earnings Table B-8b.pdf  
+15. Export Price Indexes, by Harmonized System - 2025 M11 Results.pdf  
+16. Ports by Commodities.pdf  
+17. SAE table-2-employees-on-nonfarm-payrolls-by-states-selected-metropolitan-areas-and-metropolitan-divisions.pdf  
+18. Table 1. Seasonally adjusted Employment Cost Index – 2025 Q03 Results.pdf  
+19. Table 2. Seasonally adjusted Employment Cost Index – 2025 Q03 Results.pdf  
+20. Table 3. Seasonally adjusted Employment Cost Index – 2025 Q03 Results.pdf  
+21. Index for wages and salaries – 2025.pdf  
+22. Table 13. Compensation and wages and salaries (not seasonally adjusted) – 2025 Q0.pdf  
+23. Weekly_Traffic_Volume_20260121.csv  
+
+All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover actionable insights.
+
+*(Image: File Explorer window showing the cleaned data repository)*
+
 
 ## Insights & Use Cases
 
 - **Startups and CEOs**: Identify cost-saving trade routes and labor-efficient regions. For example, Mexico shows strong import/export volumes with zero MFN tariffs, while China faces a 25% Section 301 penalty.  
 - **Recruiters**: Pinpoint metro areas where semiconductor employment is expanding, aligning talent pipelines with industry growth.  
-- **Policy Analysts**: Evaluate how tariff structures and concentrated value chains (75% in five countries per OECD) affect U.S. resilience.  
-- **Data Scientists**: Explore cross-domain modeling opportunities by linking trade flows, labor costs, and logistics data to forecast supply chain risks.  
+- **Policy Analysts**: Evaluate how tariff structures and concentrated value chains (75% in
+## Disclaimer
 
+- **Data Privacy**: Due to privacy considerations, the cleaned datasets and intermediate files used in this project are not available for direct download. Documentation and methodological notes are provided instead to ensure transparency without compromising data security.
+- **Wrangling Steps**: During the data wrangling process, several repetitive but essential validation steps (such as df.describe(), df.info(), and checks on dtypes) were performed. In some cases, these commands were later deleted or commented out in the final code to streamline readability once validation was complete. Their absence in the published scripts does not mean they were skipped; rather, they were executed during the workflow and discarded only after confirming accuracy.
 
 ## Author
 
