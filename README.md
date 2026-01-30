@@ -136,6 +136,14 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 
 ---
 
+## Connect With Me
+
+If you found this project interesting and would like to discuss insights, opportunities, or collaborations, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/aaron-obando-55a098308/).  
+
+You can also review my CV to learn more about my background and experience: [CV Link](https://drive.google.com/file/d/1yGkgz0aStFy2S96RH0hK7VwVpMIuYpYl/view?usp=sharing).
+
+---
+
 ## Support This Project
 
 This project represents my debut in strategic data analysis, connecting trade, labor, and logistics to actionable insights for professionals, startups, and decision-makers.  
