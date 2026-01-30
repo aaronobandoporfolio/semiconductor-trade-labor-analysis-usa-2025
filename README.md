@@ -65,6 +65,7 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 - [Occupational Employment and Wage Statistics (OEWS).pdf](https://drive.google.com/file/d/1Dm9Se3QDwJh-OBzt4PCSUI3vox_0qd6E/view?usp=sharing)  
 - [Cleaning Company Census File (20260121).pdf](https://drive.google.com/file/d/1_-K7h0vSKHO36TBgNEFuYoEpLDlO0Unp/view?usp=sharing)
 
+---
 
 ## Process & Documentation Images
 
@@ -76,7 +77,12 @@ During Phase 2, I worked with two windows simultaneously: one running Python scr
 - After ensuring the wrangling met expectations, I documented the major steps and added comments to the code.  
 - Some files contained millions of rows, which required longer debugging cycles to ensure accuracy.  
 
+
+![Dual-Screen Data Wrangling](Images/Screenshot 2026-01-29 192358.png)
+
 *(Image: dual-screen setup with Python script and Excel file open)*
+
+---
 
 ### Cleaned Data Repository
 The cleaned dataset now consists of **23 files in total**, covering trade, labor, logistics, and economic indicators. These include:  
@@ -109,16 +115,23 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 
 *(Image: File Explorer window showing the cleaned data repository)*
 
+---
 
 ## Insights & Use Cases
 
 - **Startups and CEOs**: Identify cost-saving trade routes and labor-efficient regions. For example, Mexico shows strong import/export volumes with zero MFN tariffs, while China faces a 25% Section 301 penalty.  
 - **Recruiters**: Pinpoint metro areas where semiconductor employment is expanding, aligning talent pipelines with industry growth.  
-- **Policy Analysts**: Evaluate how tariff structures and concentrated value chains (75% in
+- **Policy Analysts**: Evaluate how tariff structures and concentrated value chains (75% in five countries per OECD) affect U.S. resilience.
+- **Data Scientists**: Explore cross-domain modeling opportunities by linking trade flows, labor costs, and logistics data to forecast supply chain risks.
+
+---
+  
 ## Disclaimer
 
 - **Data Privacy**: Due to privacy considerations, the cleaned datasets and intermediate files used in this project are not available for direct download. Documentation and methodological notes are provided instead to ensure transparency without compromising data security.
 - **Wrangling Steps**: During the data wrangling process, several repetitive but essential validation steps (such as df.describe(), df.info(), and checks on dtypes) were performed. In some cases, these commands were later deleted or commented out in the final code to streamline readability once validation was complete. Their absence in the published scripts does not mean they were skipped; rather, they were executed during the workflow and discarded only after confirming accuracy.
+
+---
 
 ## Author
 
