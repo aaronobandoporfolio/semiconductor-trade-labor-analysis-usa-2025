@@ -80,7 +80,6 @@ During Phase 2, I worked with two windows simultaneously: one running Python scr
 
 ![Dual-Screen Data Wrangling](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/Screenshot%202026-01-29%20191735.png)
 
-*(Image: dual-screen setup with Python script and Excel file open)*
 
 ---
 
@@ -113,7 +112,11 @@ The cleaned dataset now consists of **23 files in total**, covering trade, labor
 
 All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover actionable insights.
 
-*(Image: File Explorer window showing the cleaned data repository)*
+
+![Project Folder Structure](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/Screenshot%202026-01-29%20192358.png)
+
+![Cleaned Data Repository](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/Screenshot%202026-01-29%20191958.png)
+
 
 ---
 
