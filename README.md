@@ -136,6 +136,19 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 
 ---
 
+## Support This Project
+
+This project represents my debut in strategic data analysis, connecting trade, labor, and logistics to actionable insights for professionals, startups, and decision-makers.  
+
+If you found value in this work and would like to support further research and development, you can contribute here:  
+
+[Support via PayPal](https://paypal.me/AaronObando505?locale.x=en_US&country.x=CR)  
+
+Your support helps me dedicate more time to expanding the analysis, improving documentation, and sharing insights with the community.
+
+---
+
+
 ## Author
 
 **Aaron Eliseo Obando Gómez**  
