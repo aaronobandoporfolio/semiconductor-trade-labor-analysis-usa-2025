@@ -13,7 +13,6 @@ The work is structured in phases, serving as a showcase of my professional appro
 
 The emphasis is on understanding how nearshoring, tariff advantages, and employment trends are influencing the semiconductor supply chain. Mexico and South Korea stand out as critical hubs, while China faces structural disadvantages due to Section 301 tariffs.
 
----
 
 ## Objectives
 
@@ -23,7 +22,6 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 - Evaluate labor costs and employment trends in semiconductor-related industries (NAICS 334)  
 - Project global demand growth and the rise of new hubs using OECD and SIA data  
 
----
 
 ## Data Sources
 
@@ -52,7 +50,6 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 - [Occupational Employment and Wage Statistics (OEWS)](https://www.bls.gov/data/)  
 - [Company Census File – BLS CEW](https://www.bls.gov/cew/)
 
----
 
 ## Documentation Links
 
@@ -67,7 +64,6 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 - [Occupational Employment and Wage Statistics (OEWS).pdf](https://drive.google.com/file/d/1Dm9Se3QDwJh-OBzt4PCSUI3vox_0qd6E/view?usp=sharing)  
 - [Cleaning Company Census File (20260121).pdf](https://drive.google.com/file/d/1_-K7h0vSKHO36TBgNEFuYoEpLDlO0Unp/view?usp=sharing)
 
----
 
 ## Process & Documentation Images
 
@@ -83,7 +79,6 @@ During Phase 2, I worked with two windows simultaneously: one running Python scr
 ![Dual-Screen Data Wrangling](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/Screenshot%202026-01-29%20191735.png)
 
 
----
 
 ### Cleaned Data Repository
 The cleaned dataset now consists of **23 files in total**, covering trade, labor, logistics, and economic indicators. These include:  
@@ -120,7 +115,6 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 ![Cleaned Data Repository](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/Screenshot%202026-01-29%20191958.png)
 
 
----
 
 ## Insights & Use Cases
 
@@ -129,14 +123,12 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 - **Policy Analysts**: Evaluate how tariff structures and concentrated value chains (75% in five countries per OECD) affect U.S. resilience.
 - **Data Scientists**: Explore cross-domain modeling opportunities by linking trade flows, labor costs, and logistics data to forecast supply chain risks.
 
----
   
 ## Disclaimer
 
 - **Data Privacy**: Due to privacy considerations, the cleaned datasets and intermediate files used in this project are not available for direct download. Documentation and methodological notes are provided instead to ensure transparency without compromising data security.
 - **Wrangling Steps**: During the data wrangling process, several repetitive but essential validation steps (such as df.describe(), df.info(), and checks on dtypes) were performed. In some cases, these commands were later deleted or commented out in the final code to streamline readability once validation was complete. Their absence in the published scripts does not mean they were skipped; rather, they were executed during the workflow and discarded only after confirming accuracy.
 
----
 
 ## Connect With Me
 
@@ -144,7 +136,6 @@ If you found this project interesting and would like to discuss insights, opport
 
 You can also review my CV to learn more about my background and experience: [CV Link](https://drive.google.com/file/d/1eGT9nxJvH_wlA_xEE3MSumNMo90Nqzi6/view?usp=sharing).
 
----
 
 ## Support This Project
 
@@ -156,7 +147,6 @@ If you found value in this work and would like to support further research and d
 
 Your support helps me dedicate more time to expanding the analysis, improving documentation, and sharing insights with the community.
 
----
 
 
 ## Author
