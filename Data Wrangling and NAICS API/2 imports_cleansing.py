@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Read the CSV file containing trade data
-df = pd.read_csv("TradeData_1_21_2026_21_51_10.csv")
+df = pd.read_csv("Done//TradeData_1_21_2026_21_51_10.csv")
 
 # Convert selected columns to numeric (floats); if conversion fails, set as NaN
 for col in ["qty","altQty","netWgt","grossWgt","cifvalue","fobvalue","primaryValue"]:
@@ -43,8 +43,12 @@ df["data_quality"] = df["isNetWgtEstimated"].map({True:"Estimated", False:"Repor
 critical_cols = ["reporterISO","motDesc","qty","cifvalue"]
 df = df.dropna(subset=critical_cols, how="all")
 
+# Drop redundant/irrelevant columns to streamline dataset
+cols_to_drop = ['primaryValue', 'partner2Code', 'partner2ISO', 'partner2Desc', 'grossWgt', 'mosCode']
+df = df.drop(columns=cols_to_drop)
+
 # Fill missing values in numeric columns with 0
-num_cols = ["qty","altQty","netWgt","grossWgt","cifvalue","fobvalue","primaryValue","qty_standard","qty_kg"]
+num_cols = ["qty","altQty","netWgt","cifvalue","fobvalue","qty_standard","qty_kg"]
 df[num_cols] = df[num_cols].fillna(0)
 
 # Replace missing or 'N/A' values in text columns with "Unknown"
