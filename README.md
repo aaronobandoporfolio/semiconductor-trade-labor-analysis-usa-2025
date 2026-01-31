@@ -53,7 +53,7 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 
 ## Documentation Links
 
-- [USA TradeData Imports Dataset.pdf](https://drive.google.com/file/d/19-W453X8x7ObEjlr15hCc0Rgo8kl877T/view?usp=sharing)  
+- [USA TradeData Imports Dataset.pdf](https://drive.google.com/file/d/15XfoNXVKj7G0hJE2CGBGGT3rYNSSqkAt/view?usp=sharing)  
 - [HS 3542 UN Comtrade USA Exports Dataset.pdf](https://drive.google.com/file/d/1umFuqWcKWQFO3eTeUraaI7nfavj-NvIk/view?usp=sharing)  
 - [Semiconductor Demand Study (SIA & OECD Sources).pdf](https://drive.google.com/file/d/1niSpH__EBZdBA8a-gGmgplcgDxt7jDTM/view?usp=sharing)  
 - [Semiconductor Tariff Analysis – HS Code 85423100 (2025).pdf](https://drive.google.com/file/d/15FI1PaNU9tcyD6-j4nQEbEvy2xff--ym/view?usp=sharing)  
