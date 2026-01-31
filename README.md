@@ -142,7 +142,7 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 
 If you found this project interesting and would like to discuss insights, opportunities, or collaborations, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/aaron-obando-55a098308/).  
 
-You can also review my CV to learn more about my background and experience: [CV Link](https://drive.google.com/file/d/1yGkgz0aStFy2S96RH0hK7VwVpMIuYpYl/view?usp=sharing).
+You can also review my CV to learn more about my background and experience: [CV Link](https://drive.google.com/file/d/1eGT9nxJvH_wlA_xEE3MSumNMo90Nqzi6/view?usp=sharing).
 
 ---
 
