@@ -65,6 +65,8 @@ Analysis, and How They Were Collected](https://drive.google.com/file/d/1B-DoWoTZ
 - [SAE Tables Downloaded for State and Metro Analysis.pdf](https://drive.google.com/file/d/1xIlwAIftNFx8QVGm7WVKNOGulA6somkl/view?usp=sharing)  
 - [Occupational Employment and Wage Statistics (OEWS).pdf](https://drive.google.com/file/d/1Dm9Se3QDwJh-OBzt4PCSUI3vox_0qd6E/view?usp=sharing)  
 - [Cleaning Company Census File (20260121).pdf](https://drive.google.com/file/d/1_-K7h0vSKHO36TBgNEFuYoEpLDlO0Unp/view?usp=sharing)
+- [Saving Cleaned Imports USA.csv
+into MySQL for Semiconductor Trade Analysis](https://drive.google.com/file/d/1EYzP69Kc7IlzDihOQ4pEbZuh5kAtRrj7/view?usp=sharing)
 
 
 ## Process & Documentation Images
