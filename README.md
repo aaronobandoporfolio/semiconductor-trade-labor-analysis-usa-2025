@@ -53,6 +53,8 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 
 ## Documentation Links
 
+- [Why These Datasets, Why This
+Analysis, and How They Were Collected](https://drive.google.com/file/d/1B-DoWoTZz46CbGMlxdyh96ooA5mH0ddv/view?usp=sharing)
 - [USA TradeData Imports Dataset.pdf](https://drive.google.com/file/d/15XfoNXVKj7G0hJE2CGBGGT3rYNSSqkAt/view?usp=sharing)  
 - [HS 3542 UN Comtrade USA Exports Dataset.pdf](https://drive.google.com/file/d/1umFuqWcKWQFO3eTeUraaI7nfavj-NvIk/view?usp=sharing)  
 - [Semiconductor Demand Study (SIA & OECD Sources).pdf](https://drive.google.com/file/d/1niSpH__EBZdBA8a-gGmgplcgDxt7jDTM/view?usp=sharing)  
