@@ -123,10 +123,14 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 
 ## Insights & Use Cases
 
-- **Startups and CEOs**: Identify cost-saving trade routes and labor-efficient regions. For example, Mexico shows strong import/export volumes with zero MFN tariffs, while China faces a 25% Section 301 penalty.  
-- **Recruiters**: Pinpoint metro areas where semiconductor employment is expanding, aligning talent pipelines with industry growth.  
-- **Policy Analysts**: Evaluate how tariff structures and concentrated value chains (75% in five countries per OECD) affect U.S. resilience.
-- **Data Scientists**: Explore cross-domain modeling opportunities by linking trade flows, labor costs, and logistics data to forecast supply chain risks.
+- **Startups and CEOs**: Identify cost-saving trade routes and labor-efficient regions. For instance, Mexico benefits from **zero MFN tariffs under USMCA**, making it a competitive hub for electronics assembly and semiconductor-related imports. By contrast, China faces a **25% Section 301 tariff penalty**, which significantly raises landed costs and incentivizes U.S. firms to diversify sourcing toward allies and nearshoring partners.
+
+- **Recruiters**: Pinpoint metro areas where semiconductor employment is expanding. According to recent industry reports, U.S. hubs like **Phoenix, Austin, and Albany** are seeing rapid growth in semiconductor fabrication and R&D jobs, while **Malaysia, Germany, and Japan** remain critical external partners. Aligning talent pipelines with these hotspots ensures workforce readiness for both domestic production and international supply chain management.
+
+- **Policy Analysts**: Evaluate how tariff structures and concentrated value chains affect resilience. OECD data shows that **75% of semiconductor trade value is concentrated in just five countries**, underscoring systemic risk. Malaysia’s dominance in U.S. imports (55–65% share in 2025) highlights both efficiency and vulnerability. Analysts can use this insight to model scenarios where geopolitical shocks or natural disasters disrupt supply, and to assess how diversification toward Brazil, India, and Israel could mitigate exposure.
+
+- **Data Scientists**: Explore cross-domain modeling opportunities by linking trade flows, labor costs, and logistics data. For example, combining **UN Comtrade import values** with **freight mode data (air vs. sea)** and **tariff schedules** enables predictive modeling of supply chain risks. This can forecast bottlenecks, identify cost-optimized sourcing strategies, and quantify resilience under different policy regimes.
+
 
   
 ## Disclaimer
