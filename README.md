@@ -16,7 +16,7 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 
 ## Objectives
 
-- Compare U.S. semiconductor imports and exports by destination (Mexico, China, South Korea, Taiwan)  
+- Compare U.S. semiconductor imports and exports by destination (Mexico, China, Malaysia, South Korea, Taiwan)  
 - Quantify tariff structures and trade barriers (MFN, Section 301) and their impact on competitiveness  
 - Assess logistic efficiency and potential cost savings using rail and border data  
 - Evaluate labor costs and employment trends in semiconductor-related industries (NAICS 334)  
