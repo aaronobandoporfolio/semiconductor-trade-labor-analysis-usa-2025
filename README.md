@@ -69,6 +69,10 @@ Analysis, and How They Were Collected](https://drive.google.com/file/d/1B-DoWoTZ
 into MySQL for Semiconductor Trade Analysis](https://drive.google.com/file/d/1EYzP69Kc7IlzDihOQ4pEbZuh5kAtRrj7/view?usp=sharing)
 - [U.S. Semiconductor Imports Analysis: Comprehensive EDA Documentation](https://drive.google.com/file/d/1k2RcVabMy0CW8YUx8hM-jBAmBMXw85Md/view?usp=sharing)
 - [SQL Validation and Extended Insights on U.S. Semiconductor Imports (2025)](https://drive.google.com/file/d/11WCcobP-a0hK_gwzbrXkYfblGfZ_rIWB/view?usp=sharing)
+- [CIF Imports Overview by Country 
+(2025) Dashboard Insights](https://drive.google.com/file/d/1sh7wzO63HLhjtmA6VAYC2tJR2sVIRa-b/view?usp=sharing)
+- [1 US Semiconductors CIF Imports Overview.pbix](https://drive.google.com/file/d/1mbQUYXKKl5IAuiRkpYCiW4bcPqYXsULt/view?usp=sharing)
+
 
 
 ## Process & Documentation Images
@@ -124,13 +128,13 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 
 ## Insights & Use Cases
 
-- **Startups and CEOs**: Identify cost-saving trade routes and labor-efficient regions. For instance, Mexico benefits from **zero MFN tariffs under USMCA**, making it a competitive hub for electronics assembly and semiconductor-related imports. By contrast, China faces a **25% Section 301 tariff penalty**, which significantly raises landed costs and incentivizes U.S. firms to diversify sourcing toward allies and nearshoring partners.
+- **Startups and CEOs**: Identify more cost-effective trade routes and regions with labor efficiency. For example, Mexico benefits from **zero MFN tariffs under USMCA**, making it a competitive hub for **electronics assembly and semiconductor-related activities**. In contrast, China faces a **25% penalty under Section 301**, which significantly raises import costs and motivates U.S. companies to diversify sourcing toward allies and nearshoring partners.  
 
-- **Recruiters**: Pinpoint metro areas where semiconductor employment is expanding. According to recent industry reports, U.S. hubs like **Phoenix, Austin, and Albany** are seeing rapid growth in semiconductor fabrication and R&D jobs, while **Malaysia, Germany, and Japan** remain critical external partners. Aligning talent pipelines with these hotspots ensures workforce readiness for both domestic production and international supply chain management.
+- **Recruiters**: Detect metropolitan areas where semiconductor employment is growing. Recent reports show that U.S. hubs such as **Phoenix, Austin, and Albany** are experiencing rapid growth in manufacturing and R&D jobs, while **Malaysia, Germany, and Japan** remain critical external partners. Aligning talent pipelines with these hotspots ensures workforce readiness for both domestic production and international supply chain management.  
 
-- **Policy Analysts**: Evaluate how tariff structures and concentrated value chains affect resilience. OECD data shows that **75% of semiconductor trade value is concentrated in just five countries**, underscoring systemic risk. Malaysia’s dominance in U.S. imports (55–65% share in 2025) highlights both efficiency and vulnerability. Analysts can use this insight to model scenarios where geopolitical shocks or natural disasters disrupt supply, and to assess how diversification toward Brazil, India, and Israel could mitigate exposure.
+- **Policy Analysts**: Assess how tariff structures and concentrated value chains affect resilience. OECD data shows that **75% of semiconductor trade value is concentrated in just five countries**, highlighting systemic risk. Malaysia’s dominance in U.S. imports (55–65% in 2025) reflects efficiency but also vulnerability. Analysts can use this insight to model scenarios of geopolitical disruption or natural disasters, and evaluate how diversification toward **Brazil, India, and Israel** could mitigate exposure.  
 
-- **Data Scientists**: Explore cross-domain modeling opportunities by linking trade flows, labor costs, and logistics data. For example, combining **UN Comtrade import values** with **freight mode data (air vs. sea)** and **tariff schedules** enables predictive modeling of supply chain risks. This can forecast bottlenecks, identify cost-optimized sourcing strategies, and quantify resilience under different policy regimes.
+- **Data Scientists**: Explore multidomain modeling opportunities by linking trade flows, labor costs, and logistics data. For example, combining **UN Comtrade import values** with **transport mode data (air vs. sea)** and **tariff schemes** enables the construction of predictive models for supply chain risks. This can anticipate bottlenecks, identify cost-optimized sourcing strategies, and quantify resilience under different trade policy regimes.  
 
 
   
