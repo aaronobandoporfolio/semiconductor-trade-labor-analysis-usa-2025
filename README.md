@@ -68,6 +68,7 @@ Analysis, and How They Were Collected](https://drive.google.com/file/d/1B-DoWoTZ
 - [Saving Cleaned Imports USA.csv
 into MySQL for Semiconductor Trade Analysis](https://drive.google.com/file/d/1EYzP69Kc7IlzDihOQ4pEbZuh5kAtRrj7/view?usp=sharing)
 - [U.S. Semiconductor Imports Analysis: Comprehensive EDA Documentation](https://drive.google.com/file/d/1k2RcVabMy0CW8YUx8hM-jBAmBMXw85Md/view?usp=sharing)
+- [SQL Validation and Extended Insights on U.S. Semiconductor Imports (2025)](https://drive.google.com/file/d/11WCcobP-a0hK_gwzbrXkYfblGfZ_rIWB/view?usp=sharing)
 
 
 ## Process & Documentation Images
