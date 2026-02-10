@@ -1,0 +1,1720 @@
+
+Group 1 (['Antigua and Barbuda', 'Argentina', 'Australia', 'Austria', 'Bahrain', 'Bangladesh', 'Armenia', 'Barbados', 'Belgium', 'Bermuda'])
+Antigua and Barbuda
+  First: 3724
+  Max: 73136
+  Last: 2620
+  Per month:
+    January: 3724
+    July: 73136
+    March: 2620
+Argentina
+  First: 11091174
+  Max: 11091174
+  Last: 3997142
+  Per month:
+     April: 11091174
+    August: 7760911
+    February: 9064028
+    January: 9727619
+    July: 6868987
+    June: 7033752
+    March: 7421887
+    May: 7394821
+    October: 6506402
+    September: 3997142
+Australia
+  First: 1741607
+  Max: 16717909
+  Last: 2470967
+  Per month:
+     April: 1741607
+    August: 740144
+    February: 4319539
+    January: 1540289
+    July: 2395735
+    June: 3169279
+    March: 16717909
+    May: 5806304
+    October: 650703
+    September: 2470967
+Austria
+  First: 339749
+  Max: 648498
+  Last: 587897
+  Per month:
+     April: 339749
+    August: 620352
+    February: 648498
+    January: 460668
+    July: 465929
+    June: 556088
+    March: 227586
+    May: 316300
+    October: 641801
+    September: 587897
+Bahrain
+  First: 11990
+  Max: 39060
+  Last: 11295
+  Per month:
+     April: 11990
+    August: 17195
+    January: 39060
+    July: 5166
+    March: 6634
+    May: 5165
+    September: 11295
+Bangladesh
+  First: 4434
+  Max: 19680
+  Last: 4082
+  Per month:
+    August: 4434
+    February: 19680
+    January: 4082
+Armenia
+  First: 2649
+  Max: 4093
+  Last: 4093
+  Per month:
+    January: 2649
+    October: 4093
+Barbados
+  First: 19464
+  Max: 109975
+  Last: 9576
+  Per month:
+     April: 19464
+    August: 4900
+    February: 5523
+    January: 6361
+    July: 5370
+    June: 2725
+    May: 2776
+    October: 109975
+    September: 9576
+Belgium
+  First: 1938002
+  Max: 20559414
+  Last: 3241165
+  Per month:
+     April: 1938002
+    August: 1877950
+    February: 1540722
+    January: 5696223
+    July: 6848265
+    June: 2687434
+    March: 20559414
+    May: 1328493
+    October: 3291602
+    September: 3241165
+Bermuda
+  First: 4572
+  Max: 44444
+  Last: 12994
+  Per month:
+     April: 4572
+    August: 8004
+    January: 44444
+    June: 10942
+    May: 3557
+    October: 43790
+    September: 12994
+
+------------------------------------------------------------
+
+Group 2 (['Bolivia', 'Brazil', 'Bulgaria', 'Canada', 'Cayman Isds', 'Sri Lanka', 'Chile', 'China', 'Colombia', 'Costa Rica'])
+Bolivia
+  First: 53695
+  Max: 195786
+  Last: 39320
+  Per month:
+     April: 53695
+    August: 61827
+    February: 195786
+    January: 27839
+    July: 19616
+    June: 23936
+    March: 101711
+    May: 76770
+    October: 66860
+    September: 39320
+Brazil
+  First: 59175711
+  Max: 107909987
+  Last: 92903798
+  Per month:
+     April: 59175711
+    August: 107909987
+    February: 86216234
+    January: 100022861
+    July: 82394337
+    June: 94452618
+    March: 67703765
+    May: 83018844
+    October: 68407202
+    September: 92903798
+Bulgaria
+  First: 43123
+  Max: 611987
+  Last: 611987
+  Per month:
+     April: 43123
+    August: 150515
+    February: 23814
+    January: 147644
+    July: 23761
+    June: 369456
+    March: 289812
+    May: 495331
+    October: 38576
+    September: 611987
+Canada
+  First: 38020167
+  Max: 51409832
+  Last: 27065171
+  Per month:
+     April: 38020167
+    August: 22972606
+    February: 46939814
+    January: 51409832
+    July: 43088114
+    June: 43011065
+    March: 37792531
+    May: 40911621
+    October: 44015179
+    September: 27065171
+Cayman Isds
+  First: 58062
+  Max: 114648
+  Last: 7185
+  Per month:
+    August: 58062
+    February: 84802
+    January: 114648
+    July: 50887
+    June: 49568
+    March: 3855
+    May: 16033
+    October: 22619
+    September: 7185
+Sri Lanka
+  First: 16640
+  Max: 111576
+  Last: 77241
+  Per month:
+     April: 16640
+    August: 52642
+    February: 33196
+    January: 111576
+    July: 85586
+    June: 15858
+    March: 7881
+    May: 73568
+    October: 16006
+    September: 77241
+Chile
+  First: 1764388
+  Max: 3402409
+  Last: 1584827
+  Per month:
+     April: 1764388
+    August: 1807570
+    February: 2554315
+    January: 3402409
+    July: 1442099
+    June: 1988393
+    March: 2346824
+    May: 1199547
+    October: 1982630
+    September: 1584827
+China
+  First: 557339058
+  Max: 838723007
+  Last: 472577865
+  Per month:
+     April: 557339058
+    August: 642519180
+    February: 808084375
+    January: 838723007
+    July: 533109373
+    June: 563942403
+    March: 714492937
+    May: 539250941
+    October: 526342630
+    September: 472577865
+Colombia
+  First: 709955
+  Max: 1092215
+  Last: 839767
+  Per month:
+     April: 709955
+    August: 438322
+    February: 565590
+    January: 424026
+    July: 1092215
+    June: 494153
+    March: 754436
+    May: 588867
+    October: 341676
+    September: 839767
+Costa Rica
+  First: 24536700
+  Max: 30948028
+  Last: 6052742
+  Per month:
+     April: 24536700
+    August: 3979237
+    February: 11789223
+    January: 13161754
+    July: 4558275
+    June: 9074028
+    March: 24327793
+    May: 30948028
+    October: 4340061
+    September: 6052742
+
+------------------------------------------------------------
+
+Group 3 (['Croatia', 'Czechia', 'Denmark', 'Dominican Republic', 'Ecuador', 'El Salvador', 'Estonia', 'Finland', 'France', 'Germany'])
+Croatia
+  First: 19478
+  Max: 80305
+  Last: 21436
+  Per month:
+     April: 19478
+    August: 9215
+    February: 47400
+    January: 4807
+    July: 11040
+    June: 6005
+    March: 2967
+    May: 4982
+    October: 80305
+    September: 21436
+Czechia
+  First: 14393620
+  Max: 31711311
+  Last: 14511672
+  Per month:
+     April: 14393620
+    August: 13989234
+    February: 18884499
+    January: 10704446
+    July: 15054166
+    June: 6098567
+    March: 31711311
+    May: 19865630
+    October: 10698275
+    September: 14511672
+Denmark
+  First: 159833
+  Max: 1505992
+  Last: 201952
+  Per month:
+     April: 159833
+    August: 330507
+    February: 374407
+    January: 194613
+    July: 86798
+    June: 121691
+    March: 342471
+    May: 1505992
+    October: 460560
+    September: 201952
+Dominican Republic
+  First: 357029
+  Max: 394338
+  Last: 234303
+  Per month:
+     April: 357029
+    August: 394338
+    February: 167684
+    January: 324751
+    July: 369298
+    June: 55751
+    March: 97735
+    May: 173570
+    October: 108806
+    September: 234303
+Ecuador
+  First: 252395
+  Max: 1175015
+  Last: 908614
+  Per month:
+     April: 252395
+    August: 135084
+    February: 150048
+    January: 1175015
+    July: 117612
+    June: 406763
+    March: 251867
+    May: 423038
+    October: 140701
+    September: 908614
+El Salvador
+  First: 101559
+  Max: 581515
+  Last: 63992
+  Per month:
+     April: 101559
+    August: 53794
+    February: 177183
+    January: 154852
+    July: 581515
+    June: 87361
+    March: 123059
+    May: 69666
+    October: 116770
+    September: 63992
+Estonia
+  First: 205073
+  Max: 205073
+  Last: 47578
+  Per month:
+     April: 205073
+    August: 65581
+    February: 26896
+    January: 105232
+    July: 39208
+    June: 78612
+    March: 10813
+    May: 20949
+    October: 95226
+    September: 47578
+Finland
+  First: 176044
+  Max: 860501
+  Last: 103147
+  Per month:
+     April: 176044
+    August: 44075
+    February: 161156
+    January: 860501
+    July: 40174
+    June: 91418
+    March: 211722
+    May: 261327
+    October: 127297
+    September: 103147
+France
+  First: 2078363
+  Max: 2977337
+  Last: 2512761
+  Per month:
+     April: 2078363
+    August: 2325724
+    February: 2977337
+    January: 1663586
+    July: 1919413
+    June: 998882
+    March: 2311830
+    May: 1649573
+    October: 1872721
+    September: 2512761
+Germany
+  First: 12037583
+  Max: 16410922
+  Last: 10548895
+  Per month:
+     April: 12037583
+    August: 9726482
+    February: 16410922
+    January: 16269904
+    July: 13369325
+    June: 6772454
+    March: 9816533
+    May: 8556770
+    October: 9377125
+    September: 10548895
+
+------------------------------------------------------------
+
+Group 4 (['Greece', 'Guatemala', 'Guyana', 'Honduras', 'China, Hong Kong', 'Hungary', 'Indonesia', 'Iraq', 'Ireland', 'Israel'])
+Greece
+  First: 10582
+  Max: 11723537
+  Last: 2421612
+  Per month:
+     April: 10582
+    August: 10309
+    February: 35890
+    January: 326373
+    July: 11723537
+    June: 47398
+    March: 110423
+    May: 67990
+    October: 25770
+    September: 2421612
+Guatemala
+  First: 104459
+  Max: 752481
+  Last: 257834
+  Per month:
+     April: 104459
+    August: 147430
+    February: 194898
+    January: 752481
+    July: 546689
+    June: 142721
+    March: 157265
+    May: 65906
+    October: 196920
+    September: 257834
+Guyana
+  First: 4320
+  Max: 56236
+  Last: 2676
+  Per month:
+    January: 4320
+    July: 56236
+    March: 2693
+    May: 17566
+    October: 5072
+    September: 2676
+Honduras
+  First: 26190
+  Max: 92237
+  Last: 66604
+  Per month:
+     April: 26190
+    August: 25275
+    February: 26775
+    January: 77085
+    July: 92237
+    June: 50932
+    March: 32463
+    May: 34123
+    October: 55662
+    September: 66604
+China, Hong Kong
+  First: 36792169
+  Max: 53848802
+  Last: 41299736
+  Per month:
+     April: 36792169
+    August: 34909024
+    February: 28461046
+    January: 24495112
+    July: 24229041
+    June: 27038753
+    March: 53848802
+    May: 22264243
+    October: 32640465
+    September: 41299736
+Hungary
+  First: 16362575
+  Max: 39677895
+  Last: 3802467
+  Per month:
+     April: 16362575
+    August: 15601656
+    February: 18169335
+    January: 31377184
+    July: 39677895
+    June: 22907454
+    March: 24716261
+    May: 29492496
+    October: 8205429
+    September: 3802467
+Indonesia
+  First: 129369
+  Max: 129369
+  Last: 79903
+  Per month:
+     April: 129369
+    August: 11195
+    February: 84633
+    January: 50370
+    July: 9121
+    June: 34019
+    March: 62688
+    May: 52898
+    October: 52002
+    September: 79903
+Iraq
+  First: 7628
+  Max: 10603
+  Last: 7092
+  Per month:
+    August: 7628
+    February: 3038
+    January: 10603
+    June: 9301
+    October: 7092
+Ireland
+  First: 22783029
+  Max: 79658921
+  Last: 79658921
+  Per month:
+     April: 22783029
+    August: 56325586
+    February: 11183259
+    January: 22093387
+    July: 74040506
+    June: 54522453
+    March: 16481234
+    May: 43750136
+    October: 56272653
+    September: 79658921
+Israel
+  First: 24413111
+  Max: 46106573
+  Last: 46106573
+  Per month:
+     April: 24413111
+    August: 39243227
+    February: 16602670
+    January: 38905502
+    July: 29777117
+    June: 4878754
+    March: 31149507
+    May: 25317603
+    October: 6134507
+    September: 46106573
+
+------------------------------------------------------------
+
+Group 5 (['Italy', 'Jamaica', 'Japan', 'Kazakhstan', 'South Korea', 'Kuwait', 'Latvia', 'Lithuania', 'Luxembourg', 'Malawi'])
+Italy
+  First: 1202701
+  Max: 8620415
+  Last: 8620415
+  Per month:
+     April: 1202701
+    August: 857773
+    February: 3010430
+    January: 2470552
+    July: 1948962
+    June: 1156180
+    March: 2106507
+    May: 1084995
+    October: 1289559
+    September: 8620415
+Jamaica
+  First: 34510
+  Max: 34510
+  Last: 19398
+  Per month:
+    August: 34510
+    February: 7532
+    January: 9842
+    May: 14399
+    October: 6450
+    September: 19398
+Japan
+  First: 13445026
+  Max: 14079911
+  Last: 9034841
+  Per month:
+     April: 13445026
+    August: 10197190
+    February: 10805814
+    January: 9419455
+    July: 10427324
+    June: 7261508
+    March: 11871952
+    May: 14079911
+    October: 12853716
+    September: 9034841
+Kazakhstan
+  First: 13374
+  Max: 29460
+  Last: 8800
+  Per month:
+     April: 13374
+    February: 29460
+    January: 8846
+    March: 5100
+    May: 6332
+    October: 8800
+South Korea
+  First: 117533241
+  Max: 155449225
+  Last: 95449778
+  Per month:
+     April: 117533241
+    August: 78152240
+    February: 152713842
+    January: 155449225
+    July: 73728315
+    June: 127788879
+    March: 126206398
+    May: 126506350
+    October: 76778621
+    September: 95449778
+Kuwait
+  First: 96638
+  Max: 201221
+  Last: 28890
+  Per month:
+     April: 96638
+    August: 76052
+    February: 70125
+    January: 23600
+    July: 58367
+    June: 74155
+    March: 201221
+    October: 68279
+    September: 28890
+Latvia
+  First: 16004
+  Max: 766939
+  Last: 97760
+  Per month:
+     April: 16004
+    August: 112837
+    February: 2712
+    January: 13620
+    July: 51849
+    June: 17163
+    March: 24622
+    May: 766939
+    October: 288733
+    September: 97760
+Lithuania
+  First: 43832
+  Max: 1099321
+  Last: 24838
+  Per month:
+     April: 43832
+    August: 1099321
+    February: 12440
+    January: 9500
+    July: 3415
+    June: 28785
+    March: 55800
+    May: 31734
+    October: 84427
+    September: 24838
+Luxembourg
+  First: 76966
+  Max: 122018
+  Last: 9937
+  Per month:
+     April: 76966
+    February: 51311
+    January: 122018
+    July: 4895
+    June: 5506
+    March: 14686
+    October: 9060
+    September: 9937
+Malawi
+  First: 638865
+  Max: 638865
+  Last: 638865
+  Per month:
+    January: 638865
+
+------------------------------------------------------------
+
+Group 6 (['Malaysia', 'Malta', 'Mexico', 'Other Asia, nes', 'Namibia', 'Nepal', 'Netherlands', 'Curaçao', 'New Zealand', 'Nicaragua'])
+Malaysia
+  First: 491543401
+  Max: 608650177
+  Last: 512772851
+  Per month:
+     April: 491543401
+    August: 489692935
+    February: 279007123
+    January: 586984074
+    July: 406521137
+    June: 500355395
+    March: 312999716
+    May: 476818798
+    October: 608650177
+    September: 512772851
+Malta
+  First: 2900
+  Max: 140211
+  Last: 6770
+  Per month:
+     April: 2900
+    August: 10179
+    February: 33983
+    January: 2875
+    July: 2700
+    June: 26632
+    May: 140211
+    October: 38221
+    September: 6770
+Mexico
+  First: 1016946152
+  Max: 1016946152
+  Last: 654840023
+  Per month:
+     April: 1016946152
+    August: 730581723
+    February: 844064330
+    January: 970336727
+    July: 901075475
+    June: 722179896
+    March: 920709486
+    May: 828758946
+    October: 945354112
+    September: 654840023
+Other Asia, nes
+  First: 417569686
+  Max: 417569686
+  Last: 265475142
+  Per month:
+     April: 417569686
+    August: 246536034
+    February: 139832031
+    January: 154067534
+    July: 292362157
+    June: 251076293
+    March: 154497647
+    May: 247487122
+    October: 255121331
+    September: 265475142
+Namibia
+  First: 61069
+  Max: 61069
+  Last: 2754
+  Per month:
+     April: 61069
+    January: 3600
+    March: 2754
+    May: 23207
+    October: 2754
+Nepal
+  First: 3151
+  Max: 4350
+  Last: 4350
+  Per month:
+    January: 3151
+    March: 4350
+Netherlands
+  First: 5494462
+  Max: 34361936
+  Last: 34361936
+  Per month:
+     April: 5494462
+    August: 23203286
+    February: 12249790
+    January: 23962591
+    July: 9170722
+    June: 20507634
+    March: 32943815
+    May: 11677254
+    October: 10267497
+    September: 34361936
+Curaçao
+  First: 4937
+  Max: 27335
+  Last: 2718
+  Per month:
+     April: 4937
+    August: 4592
+    January: 4447
+    March: 27335
+    May: 4400
+    September: 2718
+New Zealand
+  First: 89621
+  Max: 476390
+  Last: 71531
+  Per month:
+     April: 89621
+    August: 48837
+    February: 473485
+    January: 108583
+    July: 261373
+    June: 35925
+    March: 57557
+    May: 476390
+    October: 14253
+    September: 71531
+Nicaragua
+  First: 19129
+  Max: 39595
+  Last: 28816
+  Per month:
+     April: 19129
+    August: 25091
+    February: 8776
+    January: 7952
+    July: 9579
+    June: 39595
+    March: 22051
+    May: 15000
+    October: 8737
+    September: 28816
+
+------------------------------------------------------------
+
+Group 7 (['Norway', 'Panama', 'Paraguay', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Romania', 'Rwanda'])
+Norway
+  First: 269048
+  Max: 1168642
+  Last: 458759
+  Per month:
+     April: 269048
+    August: 372055
+    February: 775233
+    January: 93475
+    July: 199126
+    June: 128865
+    March: 436211
+    May: 180562
+    October: 1168642
+    September: 458759
+Panama
+  First: 17900
+  Max: 80961
+  Last: 25709
+  Per month:
+     April: 17900
+    August: 47134
+    February: 51725
+    January: 58607
+    July: 44203
+    June: 18194
+    March: 28071
+    May: 80961
+    October: 54394
+    September: 25709
+Paraguay
+  First: 815863
+  Max: 1846629
+  Last: 630774
+  Per month:
+     April: 815863
+    August: 769326
+    February: 1061655
+    January: 1846629
+    July: 857060
+    June: 1229258
+    March: 1475698
+    May: 677974
+    October: 999761
+    September: 630774
+Peru
+  First: 2869474
+  Max: 3146912
+  Last: 2256304
+  Per month:
+     April: 2869474
+    August: 3146912
+    February: 2777061
+    January: 2567432
+    July: 1476495
+    June: 2134208
+    March: 2829940
+    May: 2607156
+    October: 2256473
+    September: 2256304
+Philippines
+  First: 28499226
+  Max: 37572408
+  Last: 33334704
+  Per month:
+     April: 28499226
+    August: 26956854
+    February: 23408414
+    January: 28194249
+    July: 33797140
+    June: 29312511
+    March: 35615075
+    May: 27188221
+    October: 37572408
+    September: 33334704
+Poland
+  First: 15939787
+  Max: 17559191
+  Last: 17559191
+  Per month:
+     April: 15939787
+    August: 3944947
+    February: 4494324
+    January: 4419556
+    July: 3663754
+    June: 12563658
+    March: 11455936
+    May: 5237577
+    October: 7065724
+    September: 17559191
+Portugal
+  First: 8692767
+  Max: 14207090
+  Last: 7125346
+  Per month:
+     April: 8692767
+    August: 13870694
+    February: 8812492
+    January: 14207090
+    July: 2899926
+    June: 7501566
+    March: 11275045
+    May: 7704826
+    October: 4226897
+    September: 7125346
+Qatar
+  First: 170835
+  Max: 170835
+  Last: 103656
+  Per month:
+     April: 170835
+    August: 20334
+    February: 105393
+    January: 39665
+    July: 4000
+    June: 10745
+    March: 4444
+    May: 6137
+    October: 26008
+    September: 103656
+Romania
+  First: 771117
+  Max: 8085433
+  Last: 851955
+  Per month:
+     April: 771117
+    August: 602337
+    February: 639390
+    January: 608404
+    July: 749449
+    June: 692845
+    March: 790519
+    May: 770729
+    October: 8085433
+    September: 851955
+Rwanda
+  First: 116704
+  Max: 116704
+  Last: 116704
+  Per month:
+    January: 116704
+
+------------------------------------------------------------
+
+Group 8 (['St. Kitts and Nevis', 'Saint Lucia', 'Saudi Arabia', 'Senegal', 'Serbia', 'India', 'Singapore', 'Slovakia', 'Viet Nam', 'Slovenia'])
+St. Kitts and Nevis
+  First: 42382
+  Max: 42382
+  Last: 9279
+  Per month:
+     April: 42382
+    August: 7440
+    January: 4204
+    September: 9279
+Saint Lucia
+  First: 10397
+  Max: 10397
+  Last: 3830
+  Per month:
+    January: 10397
+    June: 10304
+    October: 3830
+Saudi Arabia
+  First: 110790
+  Max: 470072
+  Last: 215516
+  Per month:
+     April: 110790
+    August: 470072
+    February: 205068
+    January: 99006
+    July: 292614
+    June: 165198
+    March: 218530
+    May: 156594
+    October: 63980
+    September: 215516
+Senegal
+  First: 14300
+  Max: 14300
+  Last: 14300
+  Per month:
+    January: 14300
+Serbia
+  First: 164484
+  Max: 262800
+  Last: 165075
+  Per month:
+     April: 164484
+    August: 17962
+    February: 111600
+    January: 46800
+    July: 262800
+    June: 163245
+    March: 158270
+    May: 211927
+    October: 237989
+    September: 165075
+India
+  First: 5050556
+  Max: 13707357
+  Last: 13707357
+  Per month:
+     April: 5050556
+    August: 4740951
+    February: 8721455
+    January: 4936507
+    July: 6121948
+    June: 9279827
+    March: 7762515
+    May: 7001568
+    October: 6370001
+    September: 13707357
+Singapore
+  First: 29954120
+  Max: 61368828
+  Last: 36140685
+  Per month:
+     April: 29954120
+    August: 34657797
+    February: 42809092
+    January: 28355773
+    July: 58343918
+    June: 41909618
+    March: 16179683
+    May: 34591878
+    October: 61368828
+    September: 36140685
+Slovakia
+  First: 48372
+  Max: 133818
+  Last: 26179
+  Per month:
+     April: 48372
+    August: 21759
+    February: 114898
+    January: 133818
+    July: 26316
+    June: 84829
+    March: 75418
+    May: 116026
+    October: 89468
+    September: 26179
+Viet Nam
+  First: 112238705
+  Max: 163220373
+  Last: 95957505
+  Per month:
+     April: 112238705
+    August: 131802042
+    February: 102390476
+    January: 92840963
+    July: 163220373
+    June: 123984574
+    March: 118232218
+    May: 119871270
+    October: 104241871
+    September: 95957505
+Slovenia
+  First: 36681
+  Max: 585178
+  Last: 16018
+  Per month:
+     April: 36681
+    August: 25808
+    February: 47379
+    January: 28336
+    July: 42249
+    June: 13568
+    March: 161684
+    May: 56197
+    October: 585178
+    September: 16018
+
+------------------------------------------------------------
+
+Group 9 (['South Africa', 'Spain', 'Sweden', 'Switzerland', 'Thailand', 'Trinidad and Tobago', 'United Arab Emirates', 'Tunisia', 'Türkiye', 'Ukraine'])
+South Africa
+  First: 149227
+  Max: 2679310
+  Last: 87707
+  Per month:
+     April: 149227
+    August: 2679310
+    February: 102759
+    January: 108436
+    July: 146677
+    June: 467308
+    March: 66104
+    May: 77279
+    October: 279159
+    September: 87707
+Spain
+  First: 1086682
+  Max: 1913808
+  Last: 1553387
+  Per month:
+     April: 1086682
+    August: 904701
+    February: 1913808
+    January: 678947
+    July: 1221305
+    June: 1207496
+    March: 1293429
+    May: 905889
+    October: 542020
+    September: 1553387
+Sweden
+  First: 1509074
+  Max: 3390445
+  Last: 1669196
+  Per month:
+     April: 1509074
+    August: 878568
+    February: 1099026
+    January: 946268
+    July: 3390445
+    June: 1640827
+    March: 3000084
+    May: 1108194
+    October: 1455073
+    September: 1669196
+Switzerland
+  First: 348555
+  Max: 1070391
+  Last: 757908
+  Per month:
+     April: 348555
+    August: 814124
+    February: 924010
+    January: 513492
+    July: 640298
+    June: 1070391
+    March: 853579
+    May: 322050
+    October: 634554
+    September: 757908
+Thailand
+  First: 19100316
+  Max: 34188673
+  Last: 21612375
+  Per month:
+     April: 19100316
+    August: 23802359
+    February: 21643133
+    January: 9250608
+    July: 20395145
+    June: 16026192
+    March: 23256957
+    May: 25670365
+    October: 34188673
+    September: 21612375
+Trinidad and Tobago
+  First: 3393
+  Max: 29433
+  Last: 3224
+  Per month:
+     April: 3393
+    August: 2593
+    January: 21590
+    July: 10246
+    June: 29433
+    March: 3780
+    May: 20000
+    October: 20317
+    September: 3224
+United Arab Emirates
+  First: 288694
+  Max: 1849625
+  Last: 1369494
+  Per month:
+     April: 288694
+    August: 364540
+    February: 1132682
+    January: 670557
+    July: 754558
+    June: 492741
+    March: 1204212
+    May: 1555148
+    October: 1849625
+    September: 1369494
+Tunisia
+  First: 6038
+  Max: 112284
+  Last: 69213
+  Per month:
+     April: 6038
+    August: 9099
+    February: 13851
+    January: 5887
+    July: 6971
+    March: 112284
+    October: 69213
+Türkiye
+  First: 219794
+  Max: 3212622
+  Last: 3212622
+  Per month:
+     April: 219794
+    August: 535741
+    February: 538905
+    January: 440027
+    July: 1380913
+    June: 844217
+    March: 238854
+    May: 447775
+    October: 274556
+    September: 3212622
+Ukraine
+  First: 72680
+  Max: 212614
+  Last: 8393
+  Per month:
+     April: 72680
+    August: 50425
+    February: 35072
+    January: 47914
+    July: 19234
+    June: 11521
+    March: 15534
+    May: 212614
+    October: 32615
+    September: 8393
+
+------------------------------------------------------------
+
+Group 10 (['Egypt', 'United Kingdom', 'Uruguay', 'Uzbekistan', 'Venezuela', 'Zambia', 'Bosnia Herzegovina', 'Cambodia', 'Djibouti', 'Jordan'])
+Egypt
+  First: 6750
+  Max: 24354
+  Last: 21375
+  Per month:
+    February: 6750
+    January: 10178
+    July: 3564
+    June: 10879
+    March: 3976
+    May: 13182
+    October: 24354
+    September: 21375
+United Kingdom
+  First: 6625744
+  Max: 11138719
+  Last: 6860316
+  Per month:
+     April: 6625744
+    August: 7636364
+    February: 8901475
+    January: 8126183
+    July: 11138719
+    June: 9978787
+    March: 8891296
+    May: 5907543
+    October: 9638120
+    September: 6860316
+Uruguay
+  First: 443510
+  Max: 605362
+  Last: 540666
+  Per month:
+     April: 443510
+    August: 197640
+    February: 408437
+    January: 357461
+    July: 429956
+    June: 272689
+    March: 393655
+    May: 151147
+    October: 605362
+    September: 540666
+Uzbekistan
+  First: 13467
+  Max: 13467
+  Last: 2574
+  Per month:
+     April: 13467
+    February: 2707
+    January: 2574
+Venezuela
+  First: 8900
+  Max: 153989
+  Last: 5616
+  Per month:
+    August: 8900
+    February: 67355
+    January: 44252
+    July: 20150
+    March: 10057
+    May: 14576
+    October: 153989
+    September: 5616
+Zambia
+  First: 4660
+  Max: 7645
+  Last: 7645
+  Per month:
+    January: 4660
+    June: 2864
+    March: 7645
+Bosnia Herzegovina
+  First: 4797
+  Max: 4797
+  Last: 2742
+  Per month:
+    February: 4797
+    March: 2742
+Cambodia
+  First: 252550
+  Max: 252550
+  Last: 3543
+  Per month:
+    February: 252550
+    July: 3543
+Djibouti
+  First: 120000
+  Max: 120000
+  Last: 120000
+  Per month:
+    February: 120000
+Jordan
+  First: 3043
+  Max: 13134
+  Last: 13134
+  Per month:
+    February: 3043
+    March: 8418
+    September: 13134
+
+------------------------------------------------------------
+
+Group 11 (['Kenya', 'Mali', 'Mauritius', 'Oman', 'Sint Maarten', 'Turks and Caicos Isds', 'Uganda', 'Cyprus', 'Equatorial Guinea', 'Iceland'])
+Kenya
+  First: 19882
+  Max: 75149
+  Last: 75149
+  Per month:
+     April: 19882
+    February: 5600
+    May: 75149
+Mali
+  First: 3666
+  Max: 12646
+  Last: 12646
+  Per month:
+    February: 3666
+    October: 12646
+Mauritius
+  First: 6132
+  Max: 14012
+  Last: 4182
+  Per month:
+     April: 6132
+    August: 14012
+    February: 10798
+    June: 8464
+    May: 4182
+Oman
+  First: 19836
+  Max: 64888
+  Last: 6470
+  Per month:
+    August: 19836
+    February: 10660
+    July: 5683
+    May: 64888
+    October: 28674
+    September: 6470
+Sint Maarten
+  First: 19710
+  Max: 31429
+  Last: 16425
+  Per month:
+     April: 19710
+    February: 31429
+    May: 16425
+Turks and Caicos Isds
+  First: 11332
+  Max: 11332
+  Last: 10892
+  Per month:
+     April: 11332
+    February: 4242
+    September: 10892
+Uganda
+  First: 14990
+  Max: 14990
+  Last: 12689
+  Per month:
+    February: 14990
+    June: 12689
+Cyprus
+  First: 3841
+  Max: 11577
+  Last: 11577
+  Per month:
+     April: 3841
+    August: 7350
+    March: 11577
+Equatorial Guinea
+  First: 6028
+  Max: 108063
+  Last: 108063
+  Per month:
+     April: 6028
+    March: 5413
+    May: 25594
+    October: 108063
+Iceland
+  First: 7506
+  Max: 15740
+  Last: 15740
+  Per month:
+    March: 7506
+    May: 15740
+    October: 4527
+    September: 15740
+
+------------------------------------------------------------
+
+Group 12 (['Morocco', 'Aruba', 'Vanuatu', 'Nigeria', 'Russian Federation', 'Eswatini', 'North Macedonia', 'Bahamas', 'Grenada', 'Kyrgyzstan'])
+Morocco
+  First: 3710
+  Max: 26479
+  Last: 2832
+  Per month:
+     April: 3710
+    March: 3653
+    May: 26479
+    October: 5864
+    September: 2832
+Aruba
+  First: 49003
+  Max: 49003
+  Last: 5681
+  Per month:
+    July: 49003
+    June: 12420
+    March: 13239
+    May: 5681
+Vanuatu
+  First: 2570
+  Max: 2800
+  Last: 2800
+  Per month:
+    March: 2570
+    May: 2800
+Nigeria
+  First: 6413
+  Max: 26995
+  Last: 3708
+  Per month:
+    July: 6413
+    June: 3850
+    March: 11241
+    May: 4776
+    October: 26995
+    September: 3708
+Russian Federation
+  First: 3576
+  Max: 3606
+  Last: 3606
+  Per month:
+    March: 3576
+    October: 3606
+Eswatini
+  First: 26793
+  Max: 26793
+  Last: 26793
+  Per month:
+    March: 26793
+North Macedonia
+  First: 4061
+  Max: 4061
+  Last: 2537
+  Per month:
+    August: 4061
+    July: 3018
+    March: 2537
+Bahamas
+  First: 5178
+  Max: 31528
+  Last: 3080
+  Per month:
+     April: 5178
+    August: 31528
+    July: 12000
+    October: 24071
+    September: 3080
+Grenada
+  First: 17823
+  Max: 17900
+  Last: 17900
+  Per month:
+     April: 17823
+    August: 12375
+    June: 3900
+    October: 17900
+Kyrgyzstan
+  First: 4170
+  Max: 4170
+  Last: 4170
+  Per month:
+     April: 4170
+
+------------------------------------------------------------
+
+Group 13 (['China, Macao', 'Mongolia', 'Brunei Darussalam', 'Congo', 'Madagascar', 'Pakistan', 'San Marino', 'Albania', 'Lebanon', 'FS Micronesia'])
+China, Macao
+  First: 4704
+  Max: 393582
+  Last: 50700
+  Per month:
+     April: 4704
+    August: 30035
+    July: 139500
+    June: 393582
+    May: 7774
+    October: 21384
+    September: 50700
+Mongolia
+  First: 2786
+  Max: 2786
+  Last: 2786
+  Per month:
+     April: 2786
+Brunei Darussalam
+  First: 3660
+  Max: 3660
+  Last: 3660
+  Per month:
+    May: 3660
+Congo
+  First: 4461
+  Max: 4461
+  Last: 4461
+  Per month:
+    May: 4461
+Madagascar
+  First: 12825
+  Max: 12825
+  Last: 12825
+  Per month:
+    May: 12825
+Pakistan
+  First: 7317
+  Max: 15234
+  Last: 2583
+  Per month:
+    August: 7317
+    May: 6035
+    October: 15234
+    September: 2583
+San Marino
+  First: 2769
+  Max: 2769
+  Last: 2769
+  Per month:
+    May: 2769
+Albania
+  First: 5504
+  Max: 5504
+  Last: 5504
+  Per month:
+    June: 5504
+Lebanon
+  First: 34967
+  Max: 34967
+  Last: 6123
+  Per month:
+    August: 34967
+    July: 2556
+    June: 31206
+    October: 13648
+    September: 6123
+FS Micronesia
+  First: 3499
+  Max: 3499
+  Last: 3499
+  Per month:
+    June: 3499
+
+------------------------------------------------------------
+
+Group 14 (['Papua New Guinea', 'Algeria', 'Angola', 'Belize', 'Anguilla', 'St. Vincent and the Grenadineses', 'Georgia', 'Yemen', 'Azerbaijan', 'Ethiopia'])
+Papua New Guinea
+  First: 3320
+  Max: 3320
+  Last: 3320
+  Per month:
+    June: 3320
+Algeria
+  First: 3506
+  Max: 30243
+  Last: 30243
+  Per month:
+    August: 3506
+    July: 3506
+    October: 5139
+    September: 30243
+Angola
+  First: 110551
+  Max: 110551
+  Last: 26875
+  Per month:
+    August: 110551
+    July: 6710
+    September: 26875
+Belize
+  First: 3831
+  Max: 3831
+  Last: 3715
+  Per month:
+    July: 3831
+    September: 3715
+Anguilla
+  First: 28474
+  Max: 29588
+  Last: 29588
+  Per month:
+    July: 28474
+    October: 29588
+St. Vincent and the Grenadineses
+  First: 47106
+  Max: 47106
+  Last: 3843
+  Per month:
+    July: 47106
+    October: 3843
+Georgia
+  First: 4830
+  Max: 4830
+  Last: 4830
+  Per month:
+    August: 4830
+Yemen
+  First: 3750
+  Max: 3750
+  Last: 3750
+  Per month:
+    August: 3750
+Azerbaijan
+  First: 4685
+  Max: 4685
+  Last: 4685
+  Per month:
+    September: 4685
+Ethiopia
+  First: 3170900
+  Max: 3170900
+  Last: 1029600
+  Per month:
+    October: 3170900
+    September: 1029600
+
+------------------------------------------------------------
+
+Group 15 (['Liberia', 'Haiti'])
+Liberia
+  First: 2571
+  Max: 2571
+  Last: 2571
+  Per month:
+    September: 2571
+Haiti
+  First: 3335
+  Max: 3335
+  Last: 3335
+  Per month:
+    October: 3335
+
+------------------------------------------------------------

@@ -1,0 +1,202 @@
+
+Group 1 (['Antigua and Barbuda', 'Argentina', 'Australia', 'Austria', 'Bahrain', 'Bangladesh', 'Armenia', 'Barbados', 'Belgium', 'Bermuda'])
+Antigua and Barbuda: {'count': 3, 'Q1': np.float64(3172.0), 'Median': np.float64(3724.0), 'Q3': np.float64(38430.0), 'Lower Whisker': np.int64(2620), 'Upper Whisker': np.int64(73136), 'Outliers': []}
+Argentina: {'count': 10, 'Q1': np.float64(6910178.25), 'Median': np.float64(7408354.0), 'Q3': np.float64(8738248.75), 'Lower Whisker': np.int64(6506402), 'Upper Whisker': np.int64(11091174), 'Outliers': [3997142]}
+Australia: {'count': 10, 'Q1': np.float64(1590618.5), 'Median': np.float64(2433351.0), 'Q3': np.float64(4031974.0), 'Lower Whisker': np.int64(650703), 'Upper Whisker': np.int64(5806304), 'Outliers': [16717909]}
+Austria: {'count': 10, 'Q1': np.float64(369978.75), 'Median': np.float64(511008.5), 'Q3': np.float64(612238.25), 'Lower Whisker': np.int64(227586), 'Upper Whisker': np.int64(648498), 'Outliers': []}
+Bahrain: {'count': 7, 'Q1': np.float64(5900.0), 'Median': np.float64(11295.0), 'Q3': np.float64(14592.5), 'Lower Whisker': np.int64(5165), 'Upper Whisker': np.int64(17195), 'Outliers': [39060]}
+Bangladesh: {'count': 3, 'Q1': np.float64(4258.0), 'Median': np.float64(4434.0), 'Q3': np.float64(12057.0), 'Lower Whisker': np.int64(4082), 'Upper Whisker': np.int64(19680), 'Outliers': []}
+Armenia: {'count': 2, 'Q1': np.float64(3010.0), 'Median': np.float64(3371.0), 'Q3': np.float64(3732.0), 'Lower Whisker': np.int64(2649), 'Upper Whisker': np.int64(4093), 'Outliers': []}
+Barbados: {'count': 9, 'Q1': np.float64(4900.0), 'Median': np.float64(5523.0), 'Q3': np.float64(9576.0), 'Lower Whisker': np.int64(2725), 'Upper Whisker': np.int64(9576), 'Outliers': [19464, 109975]}
+Belgium: {'count': 10, 'Q1': np.float64(1892963.0), 'Median': np.float64(2964299.5), 'Q3': np.float64(5095067.75), 'Lower Whisker': np.int64(1328493), 'Upper Whisker': np.int64(6848265), 'Outliers': [20559414]}
+Bermuda: {'count': 7, 'Q1': np.float64(6288.0), 'Median': np.float64(10942.0), 'Q3': np.float64(28392.0), 'Lower Whisker': np.int64(3557), 'Upper Whisker': np.int64(44444), 'Outliers': []}
+
+------------------------------------------------------------
+
+Group 2 (['Bolivia', 'Brazil', 'Bulgaria', 'Canada', 'Cayman Isds', 'Sri Lanka', 'Chile', 'China', 'Colombia', 'Costa Rica'])
+Bolivia: {'count': 10, 'Q1': np.float64(30709.25), 'Median': np.float64(57761.0), 'Q3': np.float64(74292.5), 'Lower Whisker': np.int64(19616), 'Upper Whisker': np.int64(101711), 'Outliers': [195786]}
+Brazil: {'count': 10, 'Q1': np.float64(71903985.75), 'Median': np.float64(84617539.0), 'Q3': np.float64(94065413.0), 'Lower Whisker': np.int64(59175711), 'Upper Whisker': np.int64(107909987), 'Outliers': []}
+Bulgaria: {'count': 10, 'Q1': np.float64(39712.75), 'Median': np.float64(149079.5), 'Q3': np.float64(349545.0), 'Lower Whisker': np.int64(23761), 'Upper Whisker': np.int64(611987), 'Outliers': []}
+Canada: {'count': 10, 'Q1': np.float64(37849440.0), 'Median': np.float64(41961343.0), 'Q3': np.float64(43783412.75), 'Lower Whisker': np.int64(37792531), 'Upper Whisker': np.int64(51409832), 'Outliers': [22972606, 27065171]}
+Cayman Isds: {'count': 9, 'Q1': np.float64(16033.0), 'Median': np.float64(49568.0), 'Q3': np.float64(58062.0), 'Lower Whisker': np.int64(3855), 'Upper Whisker': np.int64(114648), 'Outliers': []}
+Sri Lanka: {'count': 10, 'Q1': np.float64(16164.5), 'Median': np.float64(42919.0), 'Q3': np.float64(76322.75), 'Lower Whisker': np.int64(7881), 'Upper Whisker': np.int64(111576), 'Outliers': []}
+Chile: {'count': 10, 'Q1': np.float64(1629717.25), 'Median': np.float64(1895100.0), 'Q3': np.float64(2257216.25), 'Lower Whisker': np.int64(1199547), 'Upper Whisker': np.int64(2554315), 'Outliers': [3402409]}
+China: {'count': 10, 'Q1': np.float64(534644765.0), 'Median': np.float64(560640730.5), 'Q3': np.float64(696499497.75), 'Lower Whisker': np.int64(472577865), 'Upper Whisker': np.int64(838723007), 'Outliers': []}
+Colombia: {'count': 10, 'Q1': np.float64(452279.75), 'Median': np.float64(577228.5), 'Q3': np.float64(743315.75), 'Lower Whisker': np.int64(341676), 'Upper Whisker': np.int64(1092215), 'Outliers': []}
+Costa Rica: {'count': 10, 'Q1': np.float64(4931891.75), 'Median': np.float64(10431625.5), 'Q3': np.float64(21536283.25), 'Lower Whisker': np.int64(3979237), 'Upper Whisker': np.int64(30948028), 'Outliers': []}
+
+------------------------------------------------------------
+
+Group 3 (['Croatia', 'Czechia', 'Denmark', 'Dominican Republic', 'Ecuador', 'El Salvador', 'Estonia', 'Finland', 'France', 'Germany'])
+Croatia: {'count': 10, 'Q1': np.float64(5237.75), 'Median': np.float64(10127.5), 'Q3': np.float64(20946.5), 'Lower Whisker': np.int64(2967), 'Upper Whisker': np.int64(21436), 'Outliers': [47400, 80305]}
+Czechia: {'count': 10, 'Q1': np.float64(11525643.0), 'Median': np.float64(14452646.0), 'Q3': np.float64(17926915.75), 'Lower Whisker': np.int64(6098567), 'Upper Whisker': np.int64(19865630), 'Outliers': [31711311]}
+Denmark: {'count': 10, 'Q1': np.float64(168528.0), 'Median': np.float64(266229.5), 'Q3': np.float64(366423.0), 'Lower Whisker': np.int64(86798), 'Upper Whisker': np.int64(460560), 'Outliers': [1505992]}
+Dominican Republic: {'count': 10, 'Q1': np.float64(123525.5), 'Median': np.float64(203936.5), 'Q3': np.float64(348959.5), 'Lower Whisker': np.int64(55751), 'Upper Whisker': np.int64(394338), 'Outliers': []}
+Ecuador: {'count': 10, 'Q1': np.float64(143037.75), 'Median': np.float64(252131.0), 'Q3': np.float64(418969.25), 'Lower Whisker': np.int64(117612), 'Upper Whisker': np.int64(423038), 'Outliers': [1175015, 908614]}
+El Salvador: {'count': 10, 'Q1': np.float64(74089.75), 'Median': np.float64(109164.5), 'Q3': np.float64(146903.75), 'Lower Whisker': np.int64(53794), 'Upper Whisker': np.int64(177183), 'Outliers': [581515]}
+Estonia: {'count': 10, 'Q1': np.float64(29974.0), 'Median': np.float64(56579.5), 'Q3': np.float64(91072.5), 'Lower Whisker': np.int64(10813), 'Upper Whisker': np.int64(105232), 'Outliers': [205073]}
+Finland: {'count': 10, 'Q1': np.float64(94350.25), 'Median': np.float64(144226.5), 'Q3': np.float64(202802.5), 'Lower Whisker': np.int64(40174), 'Upper Whisker': np.int64(261327), 'Outliers': [860501]}
+France: {'count': 10, 'Q1': np.float64(1715869.75), 'Median': np.float64(1998888.0), 'Q3': np.float64(2322250.5), 'Lower Whisker': np.int64(998882), 'Upper Whisker': np.int64(2977337), 'Outliers': []}
+Germany: {'count': 10, 'Q1': np.float64(9464464.25), 'Median': np.float64(10182714.0), 'Q3': np.float64(13036389.5), 'Lower Whisker': np.int64(6772454), 'Upper Whisker': np.int64(16410922), 'Outliers': []}
+
+------------------------------------------------------------
+
+Group 4 (['Greece', 'Guatemala', 'Guyana', 'Honduras', 'China, Hong Kong', 'Hungary', 'Indonesia', 'Iraq', 'Ireland', 'Israel'])
+Greece: {'count': 10, 'Q1': np.float64(28300.0), 'Median': np.float64(57694.0), 'Q3': np.float64(272385.5), 'Lower Whisker': np.int64(10309), 'Upper Whisker': np.int64(326373), 'Outliers': [11723537, 2421612]}
+Guatemala: {'count': 10, 'Q1': np.float64(143898.25), 'Median': np.float64(176081.5), 'Q3': np.float64(242605.5), 'Lower Whisker': np.int64(65906), 'Upper Whisker': np.int64(257834), 'Outliers': [752481, 546689]}
+Guyana: {'count': 6, 'Q1': np.float64(3099.75), 'Median': np.float64(4696.0), 'Q3': np.float64(14442.5), 'Lower Whisker': np.int64(2676), 'Upper Whisker': np.int64(17566), 'Outliers': [56236]}
+Honduras: {'count': 10, 'Q1': np.float64(28197.0), 'Median': np.float64(42527.5), 'Q3': np.float64(63868.5), 'Lower Whisker': np.int64(25275), 'Upper Whisker': np.int64(92237), 'Outliers': []}
+China, Hong Kong: {'count': 10, 'Q1': np.float64(25131022.25), 'Median': np.float64(30550755.5), 'Q3': np.float64(36321382.75), 'Lower Whisker': np.int64(22264243), 'Upper Whisker': np.int64(41299736), 'Outliers': [53848802]}
+Hungary: {'count': 10, 'Q1': np.float64(15791885.75), 'Median': np.float64(20538394.5), 'Q3': np.float64(28298437.25), 'Lower Whisker': np.int64(3802467), 'Upper Whisker': np.int64(39677895), 'Outliers': []}
+Indonesia: {'count': 10, 'Q1': np.float64(38106.75), 'Median': np.float64(52450.0), 'Q3': np.float64(75599.25), 'Lower Whisker': np.int64(9121), 'Upper Whisker': np.int64(129369), 'Outliers': []}
+Iraq: {'count': 5, 'Q1': np.float64(7092.0), 'Median': np.float64(7628.0), 'Q3': np.float64(9301.0), 'Lower Whisker': np.int64(7092), 'Upper Whisker': np.int64(10603), 'Outliers': [3038]}
+Ireland: {'count': 10, 'Q1': np.float64(22265797.5), 'Median': np.float64(49136294.5), 'Q3': np.float64(56312352.75), 'Lower Whisker': np.int64(11183259), 'Upper Whisker': np.int64(79658921), 'Outliers': []}
+Israel: {'count': 10, 'Q1': np.float64(18555280.25), 'Median': np.float64(27547360.0), 'Q3': np.float64(36966503.25), 'Lower Whisker': np.int64(4878754), 'Upper Whisker': np.int64(46106573), 'Outliers': []}
+
+------------------------------------------------------------
+
+Group 5 (['Italy', 'Jamaica', 'Japan', 'Kazakhstan', 'South Korea', 'Kuwait', 'Latvia', 'Lithuania', 'Luxembourg', 'Malawi'])
+Italy: {'count': 10, 'Q1': np.float64(1167810.25), 'Median': np.float64(1619260.5), 'Q3': np.float64(2379540.75), 'Lower Whisker': np.int64(857773), 'Upper Whisker': np.int64(3010430), 'Outliers': [8620415]}
+Jamaica: {'count': 6, 'Q1': np.float64(8109.5), 'Median': np.float64(12120.5), 'Q3': np.float64(18148.25), 'Lower Whisker': np.int64(6450), 'Upper Whisker': np.int64(19398), 'Outliers': [34510]}
+Japan: {'count': 10, 'Q1': np.float64(9613888.75), 'Median': np.float64(10616569.0), 'Q3': np.float64(12608275.0), 'Lower Whisker': np.int64(7261508), 'Upper Whisker': np.int64(14079911), 'Outliers': []}
+Kazakhstan: {'count': 6, 'Q1': np.float64(6949.0), 'Median': np.float64(8823.0), 'Q3': np.float64(12242.0), 'Lower Whisker': np.int64(5100), 'Upper Whisker': np.int64(13374), 'Outliers': [29460]}
+South Korea: {'count': 10, 'Q1': np.float64(82476624.5), 'Median': np.float64(121869819.5), 'Q3': np.float64(127468246.75), 'Lower Whisker': np.int64(73728315), 'Upper Whisker': np.int64(155449225), 'Outliers': []}
+Kuwait: {'count': 9, 'Q1': np.float64(58367.0), 'Median': np.float64(70125.0), 'Q3': np.float64(76052.0), 'Lower Whisker': np.int64(58367), 'Upper Whisker': np.int64(96638), 'Outliers': [23600, 201221, 28890]}
+Latvia: {'count': 10, 'Q1': np.float64(16293.75), 'Median': np.float64(38235.5), 'Q3': np.float64(109067.75), 'Lower Whisker': np.int64(2712), 'Upper Whisker': np.int64(112837), 'Outliers': [766939, 288733]}
+Lithuania: {'count': 10, 'Q1': np.float64(15539.5), 'Median': np.float64(30259.5), 'Q3': np.float64(52808.0), 'Lower Whisker': np.int64(3415), 'Upper Whisker': np.int64(84427), 'Outliers': [1099321]}
+Luxembourg: {'count': 8, 'Q1': np.float64(8171.5), 'Median': np.float64(12311.5), 'Q3': np.float64(57724.75), 'Lower Whisker': np.int64(4895), 'Upper Whisker': np.int64(122018), 'Outliers': []}
+Malawi: {'count': 1, 'Q1': np.float64(638865.0), 'Median': np.float64(638865.0), 'Q3': np.float64(638865.0), 'Lower Whisker': np.int64(638865), 'Upper Whisker': np.int64(638865), 'Outliers': []}
+
+------------------------------------------------------------
+
+Group 6 (['Malaysia', 'Malta', 'Mexico', 'Other Asia, nes', 'Namibia', 'Nepal', 'Netherlands', 'Curaçao', 'New Zealand', 'Nicaragua'])
+Malaysia: {'count': 10, 'Q1': np.float64(424095552.25), 'Median': np.float64(490618168.0), 'Q3': np.float64(509668487.0), 'Lower Whisker': np.int64(312999716), 'Upper Whisker': np.int64(608650177), 'Outliers': [279007123]}
+Malta: {'count': 9, 'Q1': np.float64(2900.0), 'Median': np.float64(10179.0), 'Q3': np.float64(33983.0), 'Lower Whisker': np.int64(2700), 'Upper Whisker': np.int64(38221), 'Outliers': [140211]}
+Mexico: {'count': 10, 'Q1': np.float64(755126028.75), 'Median': np.float64(872569902.5), 'Q3': np.float64(939192955.5), 'Lower Whisker': np.int64(654840023), 'Upper Whisker': np.int64(1016946152), 'Outliers': []}
+Other Asia, nes: {'count': 10, 'Q1': np.float64(177507243.75), 'Median': np.float64(249281707.5), 'Q3': np.float64(262886689.25), 'Lower Whisker': np.int64(139832031), 'Upper Whisker': np.int64(292362157), 'Outliers': [417569686]}
+Namibia: {'count': 5, 'Q1': np.float64(2754.0), 'Median': np.float64(3600.0), 'Q3': np.float64(23207.0), 'Lower Whisker': np.int64(2754), 'Upper Whisker': np.int64(23207), 'Outliers': [61069]}
+Nepal: {'count': 2, 'Q1': np.float64(3450.75), 'Median': np.float64(3750.5), 'Q3': np.float64(4050.25), 'Lower Whisker': np.int64(3151), 'Upper Whisker': np.int64(4350), 'Outliers': []}
+Netherlands: {'count': 10, 'Q1': np.float64(10619936.25), 'Median': np.float64(16378712.0), 'Q3': np.float64(23772764.75), 'Lower Whisker': np.int64(5494462), 'Upper Whisker': np.int64(34361936), 'Outliers': []}
+Curaçao: {'count': 6, 'Q1': np.float64(4411.75), 'Median': np.float64(4519.5), 'Q3': np.float64(4850.75), 'Lower Whisker': np.int64(4400), 'Upper Whisker': np.int64(4937), 'Outliers': [27335, 2718]}
+New Zealand: {'count': 10, 'Q1': np.float64(51017.0), 'Median': np.float64(80576.0), 'Q3': np.float64(223175.5), 'Lower Whisker': np.int64(14253), 'Upper Whisker': np.int64(476390), 'Outliers': []}
+Nicaragua: {'count': 10, 'Q1': np.float64(8976.75), 'Median': np.float64(17064.5), 'Q3': np.float64(24331.0), 'Lower Whisker': np.int64(7952), 'Upper Whisker': np.int64(39595), 'Outliers': []}
+
+------------------------------------------------------------
+
+Group 7 (['Norway', 'Panama', 'Paraguay', 'Peru', 'Philippines', 'Poland', 'Portugal', 'Qatar', 'Romania', 'Rwanda'])
+Norway: {'count': 10, 'Q1': np.float64(185203.0), 'Median': np.float64(320551.5), 'Q3': np.float64(453122.0), 'Lower Whisker': np.int64(93475), 'Upper Whisker': np.int64(775233), 'Outliers': [1168642]}
+Panama: {'count': 10, 'Q1': np.float64(26299.5), 'Median': np.float64(45668.5), 'Q3': np.float64(53726.75), 'Lower Whisker': np.int64(17900), 'Upper Whisker': np.int64(80961), 'Outliers': []}
+Paraguay: {'count': 10, 'Q1': np.float64(780960.25), 'Median': np.float64(928410.5), 'Q3': np.float64(1187357.25), 'Lower Whisker': np.int64(630774), 'Upper Whisker': np.int64(1475698), 'Outliers': [1846629]}
+Peru: {'count': 10, 'Q1': np.float64(2256346.25), 'Median': np.float64(2587294.0), 'Q3': np.float64(2816720.25), 'Lower Whisker': np.int64(1476495), 'Upper Whisker': np.int64(3146912), 'Outliers': []}
+Philippines: {'count': 10, 'Q1': np.float64(27439728.0), 'Median': np.float64(28905868.5), 'Q3': np.float64(33681531.0), 'Lower Whisker': np.int64(23408414), 'Upper Whisker': np.int64(37572408), 'Outliers': []}
+Poland: {'count': 10, 'Q1': np.float64(4438248.0), 'Median': np.float64(6151650.5), 'Q3': np.float64(12286727.5), 'Lower Whisker': np.int64(3663754), 'Upper Whisker': np.int64(17559191), 'Outliers': []}
+Portugal: {'count': 10, 'Q1': np.float64(7219401.0), 'Median': np.float64(8198796.5), 'Q3': np.float64(10659406.75), 'Lower Whisker': np.int64(2899926), 'Upper Whisker': np.int64(14207090), 'Outliers': []}
+Qatar: {'count': 10, 'Q1': np.float64(7289.0), 'Median': np.float64(23171.0), 'Q3': np.float64(87658.25), 'Lower Whisker': np.int64(4000), 'Upper Whisker': np.int64(170835), 'Outliers': []}
+Romania: {'count': 10, 'Q1': np.float64(652753.75), 'Median': np.float64(760089.0), 'Q3': np.float64(785668.5), 'Lower Whisker': np.int64(602337), 'Upper Whisker': np.int64(851955), 'Outliers': [8085433]}
+Rwanda: {'count': 1, 'Q1': np.float64(116704.0), 'Median': np.float64(116704.0), 'Q3': np.float64(116704.0), 'Lower Whisker': np.int64(116704), 'Upper Whisker': np.int64(116704), 'Outliers': []}
+
+------------------------------------------------------------
+
+Group 8 (['St. Kitts and Nevis', 'Saint Lucia', 'Saudi Arabia', 'Senegal', 'Serbia', 'India', 'Singapore', 'Slovakia', 'Viet Nam', 'Slovenia'])
+St. Kitts and Nevis: {'count': 4, 'Q1': np.float64(6631.0), 'Median': np.float64(8359.5), 'Q3': np.float64(17554.75), 'Lower Whisker': np.int64(4204), 'Upper Whisker': np.int64(9279), 'Outliers': [42382]}
+Saint Lucia: {'count': 3, 'Q1': np.float64(7067.0), 'Median': np.float64(10304.0), 'Q3': np.float64(10350.5), 'Lower Whisker': np.int64(3830), 'Upper Whisker': np.int64(10397), 'Outliers': []}
+Saudi Arabia: {'count': 10, 'Q1': np.float64(122241.0), 'Median': np.float64(185133.0), 'Q3': np.float64(217776.5), 'Lower Whisker': np.int64(63980), 'Upper Whisker': np.int64(292614), 'Outliers': [470072]}
+Senegal: {'count': 1, 'Q1': np.float64(14300.0), 'Median': np.float64(14300.0), 'Q3': np.float64(14300.0), 'Lower Whisker': np.int64(14300), 'Upper Whisker': np.int64(14300), 'Outliers': []}
+Serbia: {'count': 10, 'Q1': np.float64(123267.5), 'Median': np.float64(163864.5), 'Q3': np.float64(200214.0), 'Lower Whisker': np.int64(17962), 'Upper Whisker': np.int64(262800), 'Outliers': []}
+India: {'count': 10, 'Q1': np.float64(5318404.0), 'Median': np.float64(6685784.5), 'Q3': np.float64(8481720.0), 'Lower Whisker': np.int64(4740951), 'Upper Whisker': np.int64(9279827), 'Outliers': [13707357]}
+Singapore: {'count': 10, 'Q1': np.float64(31113559.5), 'Median': np.float64(35399241.0), 'Q3': np.float64(42584223.5), 'Lower Whisker': np.int64(16179683), 'Upper Whisker': np.int64(58343918), 'Outliers': [61368828]}
+Slovakia: {'count': 10, 'Q1': np.float64(31830.0), 'Median': np.float64(80123.5), 'Q3': np.float64(108540.5), 'Lower Whisker': np.int64(21759), 'Upper Whisker': np.int64(133818), 'Outliers': []}
+Viet Nam: {'count': 10, 'Q1': np.float64(102853324.75), 'Median': np.float64(115235461.5), 'Q3': np.float64(122956248.0), 'Lower Whisker': np.int64(92840963), 'Upper Whisker': np.int64(131802042), 'Outliers': [163220373]}
+Slovenia: {'count': 10, 'Q1': np.float64(26440.0), 'Median': np.float64(39465.0), 'Q3': np.float64(53992.5), 'Lower Whisker': np.int64(13568), 'Upper Whisker': np.int64(56197), 'Outliers': [161684, 585178]}
+
+------------------------------------------------------------
+
+Group 9 (['South Africa', 'Spain', 'Sweden', 'Switzerland', 'Thailand', 'Trinidad and Tobago', 'United Arab Emirates', 'Tunisia', 'Türkiye', 'Ukraine'])
+South Africa: {'count': 10, 'Q1': np.float64(91470.0), 'Median': np.float64(127556.5), 'Q3': np.float64(246676.0), 'Lower Whisker': np.int64(66104), 'Upper Whisker': np.int64(467308), 'Outliers': [2679310]}
+Spain: {'count': 10, 'Q1': np.float64(904998.0), 'Median': np.float64(1147089.0), 'Q3': np.float64(1275398.0), 'Lower Whisker': np.int64(542020), 'Upper Whisker': np.int64(1553387), 'Outliers': [1913808]}
+Sweden: {'count': 10, 'Q1': np.float64(1101318.0), 'Median': np.float64(1482073.5), 'Q3': np.float64(1662103.75), 'Lower Whisker': np.int64(878568), 'Upper Whisker': np.int64(1669196), 'Outliers': [3000084, 3390445]}
+Switzerland: {'count': 10, 'Q1': np.float64(543757.5), 'Median': np.float64(699103.0), 'Q3': np.float64(843715.25), 'Lower Whisker': np.int64(322050), 'Upper Whisker': np.int64(1070391), 'Outliers': []}
+Thailand: {'count': 10, 'Q1': np.float64(19424023.25), 'Median': np.float64(21627754.0), 'Q3': np.float64(23666008.5), 'Lower Whisker': np.int64(16026192), 'Upper Whisker': np.int64(25670365), 'Outliers': [9250608, 34188673]}
+Trinidad and Tobago: {'count': 9, 'Q1': np.float64(3393.0), 'Median': np.float64(10246.0), 'Q3': np.float64(20317.0), 'Lower Whisker': np.int64(2593), 'Upper Whisker': np.int64(29433), 'Outliers': []}
+United Arab Emirates: {'count': 10, 'Q1': np.float64(537195.0), 'Median': np.float64(943620.0), 'Q3': np.float64(1328173.5), 'Lower Whisker': np.int64(288694), 'Upper Whisker': np.int64(1849625), 'Outliers': []}
+Tunisia: {'count': 7, 'Q1': np.float64(6504.5), 'Median': np.float64(9099.0), 'Q3': np.float64(41532.0), 'Lower Whisker': np.int64(5887), 'Upper Whisker': np.int64(69213), 'Outliers': [112284]}
+Türkiye: {'count': 10, 'Q1': np.float64(315923.75), 'Median': np.float64(491758.0), 'Q3': np.float64(767889.0), 'Lower Whisker': np.int64(219794), 'Upper Whisker': np.int64(1380913), 'Outliers': [3212622]}
+Ukraine: {'count': 10, 'Q1': np.float64(16459.0), 'Median': np.float64(33843.5), 'Q3': np.float64(49797.25), 'Lower Whisker': np.int64(8393), 'Upper Whisker': np.int64(72680), 'Outliers': [212614]}
+
+------------------------------------------------------------
+
+Group 10 (['Egypt', 'United Kingdom', 'Uruguay', 'Uzbekistan', 'Venezuela', 'Zambia', 'Bosnia Herzegovina', 'Cambodia', 'Djibouti', 'Jordan'])
+Egypt: {'count': 8, 'Q1': np.float64(6056.5), 'Median': np.float64(10528.5), 'Q3': np.float64(15230.25), 'Lower Whisker': np.int64(3564), 'Upper Whisker': np.int64(24354), 'Outliers': []}
+United Kingdom: {'count': 10, 'Q1': np.float64(7054328.0), 'Median': np.float64(8508739.5), 'Q3': np.float64(9453958.75), 'Lower Whisker': np.int64(5907543), 'Upper Whisker': np.int64(11138719), 'Outliers': []}
+Uruguay: {'count': 10, 'Q1': np.float64(293882.0), 'Median': np.float64(401046.0), 'Q3': np.float64(440121.5), 'Lower Whisker': np.int64(151147), 'Upper Whisker': np.int64(605362), 'Outliers': []}
+Uzbekistan: {'count': 3, 'Q1': np.float64(2640.5), 'Median': np.float64(2707.0), 'Q3': np.float64(8087.0), 'Lower Whisker': np.int64(2574), 'Upper Whisker': np.int64(13467), 'Outliers': []}
+Venezuela: {'count': 8, 'Q1': np.float64(9767.75), 'Median': np.float64(17363.0), 'Q3': np.float64(50027.75), 'Lower Whisker': np.int64(5616), 'Upper Whisker': np.int64(67355), 'Outliers': [153989]}
+Zambia: {'count': 3, 'Q1': np.float64(3762.0), 'Median': np.float64(4660.0), 'Q3': np.float64(6152.5), 'Lower Whisker': np.int64(2864), 'Upper Whisker': np.int64(7645), 'Outliers': []}
+Bosnia Herzegovina: {'count': 2, 'Q1': np.float64(3255.75), 'Median': np.float64(3769.5), 'Q3': np.float64(4283.25), 'Lower Whisker': np.int64(2742), 'Upper Whisker': np.int64(4797), 'Outliers': []}
+Cambodia: {'count': 2, 'Q1': np.float64(65794.75), 'Median': np.float64(128046.5), 'Q3': np.float64(190298.25), 'Lower Whisker': np.int64(3543), 'Upper Whisker': np.int64(252550), 'Outliers': []}
+Djibouti: {'count': 1, 'Q1': np.float64(120000.0), 'Median': np.float64(120000.0), 'Q3': np.float64(120000.0), 'Lower Whisker': np.int64(120000), 'Upper Whisker': np.int64(120000), 'Outliers': []}
+Jordan: {'count': 3, 'Q1': np.float64(5730.5), 'Median': np.float64(8418.0), 'Q3': np.float64(10776.0), 'Lower Whisker': np.int64(3043), 'Upper Whisker': np.int64(13134), 'Outliers': []}
+
+------------------------------------------------------------
+
+Group 11 (['Kenya', 'Mali', 'Mauritius', 'Oman', 'Sint Maarten', 'Turks and Caicos Isds', 'Uganda', 'Cyprus', 'Equatorial Guinea', 'Iceland'])
+Kenya: {'count': 3, 'Q1': np.float64(12741.0), 'Median': np.float64(19882.0), 'Q3': np.float64(47515.5), 'Lower Whisker': np.int64(5600), 'Upper Whisker': np.int64(75149), 'Outliers': []}
+Mali: {'count': 2, 'Q1': np.float64(5911.0), 'Median': np.float64(8156.0), 'Q3': np.float64(10401.0), 'Lower Whisker': np.int64(3666), 'Upper Whisker': np.int64(12646), 'Outliers': []}
+Mauritius: {'count': 5, 'Q1': np.float64(6132.0), 'Median': np.float64(8464.0), 'Q3': np.float64(10798.0), 'Lower Whisker': np.int64(4182), 'Upper Whisker': np.int64(14012), 'Outliers': []}
+Oman: {'count': 6, 'Q1': np.float64(7517.5), 'Median': np.float64(15248.0), 'Q3': np.float64(26464.5), 'Lower Whisker': np.int64(5683), 'Upper Whisker': np.int64(28674), 'Outliers': [64888]}
+Sint Maarten: {'count': 3, 'Q1': np.float64(18067.5), 'Median': np.float64(19710.0), 'Q3': np.float64(25569.5), 'Lower Whisker': np.int64(16425), 'Upper Whisker': np.int64(31429), 'Outliers': []}
+Turks and Caicos Isds: {'count': 3, 'Q1': np.float64(7567.0), 'Median': np.float64(10892.0), 'Q3': np.float64(11112.0), 'Lower Whisker': np.int64(4242), 'Upper Whisker': np.int64(11332), 'Outliers': []}
+Uganda: {'count': 2, 'Q1': np.float64(13264.25), 'Median': np.float64(13839.5), 'Q3': np.float64(14414.75), 'Lower Whisker': np.int64(12689), 'Upper Whisker': np.int64(14990), 'Outliers': []}
+Cyprus: {'count': 3, 'Q1': np.float64(5595.5), 'Median': np.float64(7350.0), 'Q3': np.float64(9463.5), 'Lower Whisker': np.int64(3841), 'Upper Whisker': np.int64(11577), 'Outliers': []}
+Equatorial Guinea: {'count': 4, 'Q1': np.float64(5874.25), 'Median': np.float64(15811.0), 'Q3': np.float64(46211.25), 'Lower Whisker': np.int64(5413), 'Upper Whisker': np.int64(25594), 'Outliers': [108063]}
+Iceland: {'count': 4, 'Q1': np.float64(6761.25), 'Median': np.float64(11623.0), 'Q3': np.float64(15740.0), 'Lower Whisker': np.int64(4527), 'Upper Whisker': np.int64(15740), 'Outliers': []}
+
+------------------------------------------------------------
+
+Group 12 (['Morocco', 'Aruba', 'Vanuatu', 'Nigeria', 'Russian Federation', 'Eswatini', 'North Macedonia', 'Bahamas', 'Grenada', 'Kyrgyzstan'])
+Morocco: {'count': 5, 'Q1': np.float64(3653.0), 'Median': np.float64(3710.0), 'Q3': np.float64(5864.0), 'Lower Whisker': np.int64(2832), 'Upper Whisker': np.int64(5864), 'Outliers': [26479]}
+Aruba: {'count': 4, 'Q1': np.float64(10735.25), 'Median': np.float64(12829.5), 'Q3': np.float64(22180.0), 'Lower Whisker': np.int64(5681), 'Upper Whisker': np.int64(13239), 'Outliers': [49003]}
+Vanuatu: {'count': 2, 'Q1': np.float64(2627.5), 'Median': np.float64(2685.0), 'Q3': np.float64(2742.5), 'Lower Whisker': np.int64(2570), 'Upper Whisker': np.int64(2800), 'Outliers': []}
+Nigeria: {'count': 6, 'Q1': np.float64(4081.5), 'Median': np.float64(5594.5), 'Q3': np.float64(10034.0), 'Lower Whisker': np.int64(3708), 'Upper Whisker': np.int64(11241), 'Outliers': [26995]}
+Russian Federation: {'count': 2, 'Q1': np.float64(3583.5), 'Median': np.float64(3591.0), 'Q3': np.float64(3598.5), 'Lower Whisker': np.int64(3576), 'Upper Whisker': np.int64(3606), 'Outliers': []}
+Eswatini: {'count': 1, 'Q1': np.float64(26793.0), 'Median': np.float64(26793.0), 'Q3': np.float64(26793.0), 'Lower Whisker': np.int64(26793), 'Upper Whisker': np.int64(26793), 'Outliers': []}
+North Macedonia: {'count': 3, 'Q1': np.float64(2777.5), 'Median': np.float64(3018.0), 'Q3': np.float64(3539.5), 'Lower Whisker': np.int64(2537), 'Upper Whisker': np.int64(4061), 'Outliers': []}
+Bahamas: {'count': 5, 'Q1': np.float64(5178.0), 'Median': np.float64(12000.0), 'Q3': np.float64(24071.0), 'Lower Whisker': np.int64(3080), 'Upper Whisker': np.int64(31528), 'Outliers': []}
+Grenada: {'count': 4, 'Q1': np.float64(10256.25), 'Median': np.float64(15099.0), 'Q3': np.float64(17842.25), 'Lower Whisker': np.int64(3900), 'Upper Whisker': np.int64(17900), 'Outliers': []}
+Kyrgyzstan: {'count': 1, 'Q1': np.float64(4170.0), 'Median': np.float64(4170.0), 'Q3': np.float64(4170.0), 'Lower Whisker': np.int64(4170), 'Upper Whisker': np.int64(4170), 'Outliers': []}
+
+------------------------------------------------------------
+
+Group 13 (['China, Macao', 'Mongolia', 'Brunei Darussalam', 'Congo', 'Madagascar', 'Pakistan', 'San Marino', 'Albania', 'Lebanon', 'FS Micronesia'])
+China, Macao: {'count': 7, 'Q1': np.float64(14579.0), 'Median': np.float64(30035.0), 'Q3': np.float64(95100.0), 'Lower Whisker': np.int64(4704), 'Upper Whisker': np.int64(139500), 'Outliers': [393582]}
+Mongolia: {'count': 1, 'Q1': np.float64(2786.0), 'Median': np.float64(2786.0), 'Q3': np.float64(2786.0), 'Lower Whisker': np.int64(2786), 'Upper Whisker': np.int64(2786), 'Outliers': []}
+Brunei Darussalam: {'count': 1, 'Q1': np.float64(3660.0), 'Median': np.float64(3660.0), 'Q3': np.float64(3660.0), 'Lower Whisker': np.int64(3660), 'Upper Whisker': np.int64(3660), 'Outliers': []}
+Congo: {'count': 1, 'Q1': np.float64(4461.0), 'Median': np.float64(4461.0), 'Q3': np.float64(4461.0), 'Lower Whisker': np.int64(4461), 'Upper Whisker': np.int64(4461), 'Outliers': []}
+Madagascar: {'count': 1, 'Q1': np.float64(12825.0), 'Median': np.float64(12825.0), 'Q3': np.float64(12825.0), 'Lower Whisker': np.int64(12825), 'Upper Whisker': np.int64(12825), 'Outliers': []}
+Pakistan: {'count': 4, 'Q1': np.float64(5172.0), 'Median': np.float64(6676.0), 'Q3': np.float64(9296.25), 'Lower Whisker': np.int64(2583), 'Upper Whisker': np.int64(15234), 'Outliers': []}
+San Marino: {'count': 1, 'Q1': np.float64(2769.0), 'Median': np.float64(2769.0), 'Q3': np.float64(2769.0), 'Lower Whisker': np.int64(2769), 'Upper Whisker': np.int64(2769), 'Outliers': []}
+Albania: {'count': 1, 'Q1': np.float64(5504.0), 'Median': np.float64(5504.0), 'Q3': np.float64(5504.0), 'Lower Whisker': np.int64(5504), 'Upper Whisker': np.int64(5504), 'Outliers': []}
+Lebanon: {'count': 5, 'Q1': np.float64(6123.0), 'Median': np.float64(13648.0), 'Q3': np.float64(31206.0), 'Lower Whisker': np.int64(2556), 'Upper Whisker': np.int64(34967), 'Outliers': []}
+FS Micronesia: {'count': 1, 'Q1': np.float64(3499.0), 'Median': np.float64(3499.0), 'Q3': np.float64(3499.0), 'Lower Whisker': np.int64(3499), 'Upper Whisker': np.int64(3499), 'Outliers': []}
+
+------------------------------------------------------------
+
+Group 14 (['Papua New Guinea', 'Algeria', 'Angola', 'Belize', 'Anguilla', 'St. Vincent and the Grenadineses', 'Georgia', 'Yemen', 'Azerbaijan', 'Ethiopia'])
+Papua New Guinea: {'count': 1, 'Q1': np.float64(3320.0), 'Median': np.float64(3320.0), 'Q3': np.float64(3320.0), 'Lower Whisker': np.int64(3320), 'Upper Whisker': np.int64(3320), 'Outliers': []}
+Algeria: {'count': 4, 'Q1': np.float64(3506.0), 'Median': np.float64(4322.5), 'Q3': np.float64(11415.0), 'Lower Whisker': np.int64(3506), 'Upper Whisker': np.int64(5139), 'Outliers': [30243]}
+Angola: {'count': 3, 'Q1': np.float64(16792.5), 'Median': np.float64(26875.0), 'Q3': np.float64(68713.0), 'Lower Whisker': np.int64(6710), 'Upper Whisker': np.int64(110551), 'Outliers': []}
+Belize: {'count': 2, 'Q1': np.float64(3744.0), 'Median': np.float64(3773.0), 'Q3': np.float64(3802.0), 'Lower Whisker': np.int64(3715), 'Upper Whisker': np.int64(3831), 'Outliers': []}
+Anguilla: {'count': 2, 'Q1': np.float64(28752.5), 'Median': np.float64(29031.0), 'Q3': np.float64(29309.5), 'Lower Whisker': np.int64(28474), 'Upper Whisker': np.int64(29588), 'Outliers': []}
+St. Vincent and the Grenadineses: {'count': 2, 'Q1': np.float64(14658.75), 'Median': np.float64(25474.5), 'Q3': np.float64(36290.25), 'Lower Whisker': np.int64(3843), 'Upper Whisker': np.int64(47106), 'Outliers': []}
+Georgia: {'count': 1, 'Q1': np.float64(4830.0), 'Median': np.float64(4830.0), 'Q3': np.float64(4830.0), 'Lower Whisker': np.int64(4830), 'Upper Whisker': np.int64(4830), 'Outliers': []}
+Yemen: {'count': 1, 'Q1': np.float64(3750.0), 'Median': np.float64(3750.0), 'Q3': np.float64(3750.0), 'Lower Whisker': np.int64(3750), 'Upper Whisker': np.int64(3750), 'Outliers': []}
+Azerbaijan: {'count': 1, 'Q1': np.float64(4685.0), 'Median': np.float64(4685.0), 'Q3': np.float64(4685.0), 'Lower Whisker': np.int64(4685), 'Upper Whisker': np.int64(4685), 'Outliers': []}
+Ethiopia: {'count': 2, 'Q1': np.float64(1564925.0), 'Median': np.float64(2100250.0), 'Q3': np.float64(2635575.0), 'Lower Whisker': np.int64(1029600), 'Upper Whisker': np.int64(3170900), 'Outliers': []}
+
+------------------------------------------------------------
+
+Group 15 (['Liberia', 'Haiti'])
+Liberia: {'count': 1, 'Q1': np.float64(2571.0), 'Median': np.float64(2571.0), 'Q3': np.float64(2571.0), 'Lower Whisker': np.int64(2571), 'Upper Whisker': np.int64(2571), 'Outliers': []}
+Haiti: {'count': 1, 'Q1': np.float64(3335.0), 'Median': np.float64(3335.0), 'Q3': np.float64(3335.0), 'Lower Whisker': np.int64(3335), 'Upper Whisker': np.int64(3335), 'Outliers': []}
+
+------------------------------------------------------------
