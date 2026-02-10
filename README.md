@@ -72,6 +72,7 @@ into MySQL for Semiconductor Trade Analysis](https://drive.google.com/file/d/1EY
 - [CIF Imports Overview by Country 
 (2025) Dashboard Insights](https://drive.google.com/file/d/1sh7wzO63HLhjtmA6VAYC2tJR2sVIRa-b/view?usp=sharing)
 - [1 US Semiconductors CIF Imports Overview.pbix](https://drive.google.com/file/d/1mbQUYXKKl5IAuiRkpYCiW4bcPqYXsULt/view?usp=sharing)
+- [An Exploratory Data Analysis of HS Code 3542 (USA Exportations)](https://drive.google.com/file/d/1fYur07R_3y9E-j08jG05jtHyKeOS0rqu/view?usp=sharing)
 
 
 
