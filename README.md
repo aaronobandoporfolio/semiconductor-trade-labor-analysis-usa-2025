@@ -158,10 +158,13 @@ This contrast underscores both the **strengths** and the **fragilities** of the 
 
 
   
-## Disclaimer
+## Disclaimer  
 
-- **Data Privacy**: Due to privacy considerations, the cleaned datasets and intermediate files used in this project are not available for direct download. Documentation and methodological notes are provided instead to ensure transparency without compromising data security.
-- **Wrangling Steps**: During the data wrangling process, several repetitive but essential validation steps (such as df.describe(), df.info(), and checks on dtypes) were performed. In some cases, these commands were later deleted or commented out in the final code to streamline readability once validation was complete. Their absence in the published scripts does not mean they were skipped; rather, they were executed during the workflow and discarded only after confirming accuracy.
+- **Data Privacy**: Due to privacy considerations, the cleaned datasets and intermediate files used in this project are not available for direct download. Documentation and methodological notes are provided instead to ensure transparency without compromising data security.  
+
+- **Wrangling Steps**: During the data wrangling process, several repetitive but essential validation steps (such as `df.describe()`, `df.info()`, and checks on `dtypes`) were performed. In some cases, these commands were later deleted or commented out in the final code to streamline readability once validation was complete. Their absence in the published scripts does not mean they were skipped; rather, they were executed during the workflow and discarded only after confirming accuracy.  
+
+- **Dataset Limitations**: Some official sources, such as **UN Comtrade**, provide datasets that are incomplete or too brief for long‑term trend analysis. This project acknowledges those gaps and works hard to complement them with additional context, validation, and careful interpretation. Every effort was made to ensure that the insights presented are as accurate and meaningful as possible, despite the constraints of the raw data.  
 
 
 ## Connect With Me
