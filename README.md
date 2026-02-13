@@ -137,8 +137,9 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 
 - **Data Scientists**: Explore multidomain modeling opportunities by linking trade flows, labor costs, and logistics data. For example, combining **UN Comtrade import values** with **transport mode data (air vs. sea)** and **tariff schemes** enables the construction of predictive models for supply chain risks. This can anticipate bottlenecks, identify cost-optimized sourcing strategies, and quantify resilience under different trade policy regimes.  
 
-**U.S. Semiconductor Exports Overview (2025)**
-![Page 1](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/69%20Exports_Imports_Dashboard.png)
+**U.S. Semiconductor Trade Overview (2025)**
+![Page 1](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/79%20Global%20Export%20Overview%20(2025)%20Page%201.png)
+![Page 2](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/80%20Semiconductor%20Imports%20Concentration%20Page%202.png)
 
 
   
