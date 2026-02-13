@@ -155,7 +155,7 @@ If you found this project interesting and would like to discuss insights, opport
 
 You can also review my CV to learn more about my background and experience: [CV Link](https://drive.google.com/file/d/1eGT9nxJvH_wlA_xEE3MSumNMo90Nqzi6/view?usp=sharing).
 
-Email: (contact@obandoanalytics.com)
+Email: contact@obandoanalytics.com
 
 
 ## Support This Project
