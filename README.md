@@ -145,6 +145,10 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
   The duality of exports and imports offers fertile ground for modeling. Linking **UN Comtrade flows** with **transport modes (air vs. sea)** and **tariff regimes** enables predictive analytics for supply chain risk.  
   - **Dashboard Insight**: Exports highlight balanced partnerships across Asia and North America, while imports expose single‑partner dependency. This contrast can fuel models that quantify resilience, simulate shocks, and recommend diversification strategies.
 
+- **Workforce & ECI**:
+Trade concentration is only half the story — the Employment Concentration Index (ECI) shows how semiconductor jobs are distributed across U.S. regions and industries. While total employment in NAICS 334 hovers around 3 million, the distribution is uneven.
+- **Dashboard Insight**: Employment growth is clustered in electronics manufacturing (≈1M) and precision instruments (≈0.41M), while semiconductors hold steady at ≈0.38M with slight cooling (‑0.03%). Smaller sub‑industries like magnetic & optical media show sharper declines (‑1.8%), signaling structural shifts.
+
 
 ### Complementary Narrative
 Together, the dashboards reveal **two sides of U.S. semiconductor trade in 2025**:  
@@ -157,6 +161,7 @@ This contrast underscores both the **strengths** and the **fragilities** of the 
 ![Page 1](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/80%20Global%20Export%20Overview%20(2025)%20Page%201.png)
 ![Page 2](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/81%20Semiconductor%20Imports%20Concentration%20Page%202.png)
 ![Page 3](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/82%20Semiconductor%20Trade%20Trends%20%26%20Balance%20(Page%203).png)
+![Page 4](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/83%20ECI%20Market%20Pulse%20%E2%80%93%20Electronics%20Manufacturing%20Dashboard%20Page%201.png)
 
 
   
