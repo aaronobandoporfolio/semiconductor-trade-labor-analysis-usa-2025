@@ -77,6 +77,7 @@ into MySQL for Semiconductor Trade Analysis](https://drive.google.com/file/d/1EY
 - [ECI Market Pulse – Electronics Manufacturing Dashboard pbix](https://drive.google.com/file/d/1ZIuLaMLLkzhTTzXwzvWz-xKfhyT5i5yl/view?usp=sharing)
 - [Imports_Exports_PowerBI_Dashboard_Documentation](https://drive.google.com/file/d/1oqqfI5zhDFFHMaO1UzxSrmnR179zJ95n/view?usp=sharing)
 - [BLS Earnings ECI Semiconductor Analysis](https://drive.google.com/file/d/1L6bBxDY1vx4KgrmH2xGdvy8UapCifT25/view?usp=sharing)
+- [Semiconductor ECI Dashboard Documentation](https://drive.google.com/file/d/10hsCyASn6n3PGmJTfLwk99J-QLyAC6nd/view?usp=sharing)
 
 
 
