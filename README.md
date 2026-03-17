@@ -11,7 +11,7 @@ The work is structured in phases, serving as a showcase of my professional appro
 - **Phase 4** will emphasize Data Visualization, including the development of a Power BI Dashboard designed to present insights interactively for executives, managers, and decision-makers.  
 - **Phase 5** will consolidate findings into a comprehensive Report and PowerPoint Presentation, tailored to professionals, recruiters, CEOs, and policymakers seeking strategic clarity and actionable recommendations.  
 
-The emphasis is on understanding how nearshoring, tariff advantages, and employment trends are influencing the semiconductor supply chain. Mexico and South Korea stand out as critical hubs, while China faces structural disadvantages due to Section 301 tariffs.
+The emphasis is on understanding how nearshoring, tariff advantages, and employment trends are influencing the semiconductor supply chain. Mexico, South Korea and Malaysia stand out as critical hubs, while China faces structural disadvantages due to Section 301 tariffs.
 
 
 ## Objectives
@@ -19,8 +19,8 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 - Compare U.S. semiconductor imports and exports by destination  
 - Quantify tariff structures and trade barriers (MFN, Section 301) and their impact on competitiveness  
 - Assess logistic efficiency and potential cost savings using rail and border data  
-- Evaluate labor costs and employment trends in semiconductor-related industries (NAICS 334)  
-- Project global demand growth and the rise of new hubs using OECD and SIA data  
+- Evaluate labor costs and employment trends in semiconductor-related industries (NAICS 334), including wage premium dynamics, real vs. nominal wage growth by subsector, skills compression, and the structural shift from headcount growth to value-per-worker retention  
+- Project global demand growth and the rise of new hubs using OECD and SIA data
 
 
 ## Data Sources
