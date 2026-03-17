@@ -161,11 +161,13 @@ Together, the dashboards reveal **two sides of U.S. semiconductor trade in 2025*
 
 This contrast underscores both the **strengths** and the **fragilities** of the supply chain — and the urgent need for diversification.
 
+**U.S. Semiconductor Employment and Wage Dynamics Analysis**
+![Dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)
+
 **U.S. Semiconductor Trade Overview (2025)**
 ![Page 1](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/80%20Global%20Export%20Overview%20(2025)%20Page%201.png)
 ![Page 2](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/81%20Semiconductor%20Imports%20Concentration%20Page%202.png)
 ![Page 3](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/82%20Semiconductor%20Trade%20Trends%20%26%20Balance%20(Page%203).png)
-![Page 4](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/83%20ECI%20Market%20Pulse%20%E2%80%93%20Electronics%20Manufacturing%20Dashboard%20Page%201.png)
 
 
   
