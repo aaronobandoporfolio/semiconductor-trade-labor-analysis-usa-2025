@@ -173,7 +173,7 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 
 - **Startups and CEOs**:  
   In 2025, the semiconductor trade tells two very different stories. On the export side, Mexico thrives under **USMCA's zero tariffs**, positioning itself as a competitive hub for electronics assembly. Meanwhile, China faces a **25% Section 301 tariff**, pushing U.S. firms to rethink sourcing strategies.  
-  - **Dashboard Insight**: Exports show strength and diversification, with Mexico and China leading as destinations and Malaysia playing a secondary but strategic role. Imports, however, reveal extreme dependence on Malaysia (≈+60%), forcing CEOs to balance efficiency with resilience.
+  - **Dashboard Insight**: Exports show strength and diversification, with Mexico and China leading as destinations and Malaysia playing a secondary but strategic role. Imports, however, reveal extreme dependence on Malaysia (≈60%+), forcing CEOs to balance efficiency with resilience.
 
 - **Recruiters**:  
   The talent race mirrors the trade race. U.S. hubs like **Phoenix, Austin, and Albany** are booming in semiconductor manufacturing and R&D, while external partners such as **Malaysia, Germany, and Japan** remain critical to global supply chains.  
