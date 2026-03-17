@@ -134,30 +134,6 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 
 ## Insights & Use Cases
 
-### Trade Analysis
-
-- **Startups and CEOs**:  
-  In 2025, the semiconductor trade tells two very different stories. On the export side, Mexico thrives under **USMCA's zero tariffs**, positioning itself as a competitive hub for electronics assembly. Meanwhile, China faces a **25% Section 301 tariff**, pushing U.S. firms to rethink sourcing strategies.  
-  - **Dashboard Insight**: Exports show strength and diversification, with Mexico and China leading as destinations and Malaysia playing a secondary but strategic role. Imports, however, reveal extreme dependence on Malaysia (≈+60%), forcing CEOs to balance efficiency with resilience.
-
-- **Recruiters**:  
-  The talent race mirrors the trade race. U.S. hubs like **Phoenix, Austin, and Albany** are booming in semiconductor manufacturing and R&D, while external partners such as **Malaysia, Germany, and Japan** remain critical to global supply chains.  
-  - **Dashboard Insight**: Exports are moderately concentrated (HHI ≈0.17), reflecting diverse demand. Imports are highly concentrated (HHI ≈0.70), signaling risk. Recruiters can align pipelines with domestic hotspots while keeping an eye on international partners that anchor supply chain resilience.
-
-- **Policy Analysts**:  
-  Behind the numbers lies systemic risk. OECD and USITC data show that **over 70% of semiconductor trade value is concentrated in just five countries**. Malaysia, a global powerhouse in assembly and testing (~13% of the market), dominates U.S. imports.  
-  - **Dashboard Insight**: Malaysia's dominance reflects efficiency but also vulnerability. Analysts can model disruption scenarios — geopolitical shocks, natural disasters — and evaluate diversification toward **Brazil, India, and Israel**, which appear as emerging suppliers in the import dashboard.
-
-- **Data Scientists**:  
-  The duality of exports and imports offers fertile ground for modeling. Linking **UN Comtrade flows** with **transport modes (air vs. sea)** and **tariff regimes** enables predictive analytics for supply chain risk.  
-  - **Dashboard Insight**: Exports highlight balanced partnerships across Asia and North America, while imports expose single‑partner dependency. This contrast can fuel models that quantify resilience, simulate shocks, and recommend diversification strategies.
-
-**U.S. Semiconductor Trade Overview (2025)**
-![Page 1](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/80%20Global%20Export%20Overview%20(2025)%20Page%201.png)
-![Page 2](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/81%20Semiconductor%20Imports%20Concentration%20Page%202.png)
-![Page 3](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/82%20Semiconductor%20Trade%20Trends%20%26%20Balance%20(Page%203).png)
-
-
 ### Workforce & ECI Analysis
 
 - **Workforce & ECI**:  
@@ -193,12 +169,36 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 ![Dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)
 
 
+### Trade Analysis
+
+- **Startups and CEOs**:  
+  In 2025, the semiconductor trade tells two very different stories. On the export side, Mexico thrives under **USMCA's zero tariffs**, positioning itself as a competitive hub for electronics assembly. Meanwhile, China faces a **25% Section 301 tariff**, pushing U.S. firms to rethink sourcing strategies.  
+  - **Dashboard Insight**: Exports show strength and diversification, with Mexico and China leading as destinations and Malaysia playing a secondary but strategic role. Imports, however, reveal extreme dependence on Malaysia (≈+60%), forcing CEOs to balance efficiency with resilience.
+
+- **Recruiters**:  
+  The talent race mirrors the trade race. U.S. hubs like **Phoenix, Austin, and Albany** are booming in semiconductor manufacturing and R&D, while external partners such as **Malaysia, Germany, and Japan** remain critical to global supply chains.  
+  - **Dashboard Insight**: Exports are moderately concentrated (HHI ≈0.17), reflecting diverse demand. Imports are highly concentrated (HHI ≈0.70), signaling risk. Recruiters can align pipelines with domestic hotspots while keeping an eye on international partners that anchor supply chain resilience.
+
+- **Policy Analysts**:  
+  Behind the numbers lies systemic risk. OECD and USITC data show that **over 70% of semiconductor trade value is concentrated in just five countries**. Malaysia, a global powerhouse in assembly and testing (~13% of the market), dominates U.S. imports.  
+  - **Dashboard Insight**: Malaysia's dominance reflects efficiency but also vulnerability. Analysts can model disruption scenarios — geopolitical shocks, natural disasters — and evaluate diversification toward **Brazil, India, and Israel**, which appear as emerging suppliers in the import dashboard.
+
+- **Data Scientists**:  
+  The duality of exports and imports offers fertile ground for modeling. Linking **UN Comtrade flows** with **transport modes (air vs. sea)** and **tariff regimes** enables predictive analytics for supply chain risk.  
+  - **Dashboard Insight**: Exports highlight balanced partnerships across Asia and North America, while imports expose single‑partner dependency. This contrast can fuel models that quantify resilience, simulate shocks, and recommend diversification strategies.
+
+**U.S. Semiconductor Trade Overview (2025)**
+![Page 1](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/80%20Global%20Export%20Overview%20(2025)%20Page%201.png)
+![Page 2](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/81%20Semiconductor%20Imports%20Concentration%20Page%202.png)
+![Page 3](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/82%20Semiconductor%20Trade%20Trends%20%26%20Balance%20(Page%203).png)
+
+
 ### Complementary Narrative
 
 Together, the dashboards reveal **two sides of U.S. semiconductor competitiveness in 2025**:
 
-- **Trade** → diversified exports with resilient allies, but highly concentrated imports vulnerable to Malaysia's dominance.
 - **Workforce** → wages accelerating even as headcount contracts, with stark divergence between subsectors masking the aggregate headline.
+- **Trade** → diversified exports with resilient allies, but highly concentrated imports vulnerable to Malaysia's dominance.
 
 This contrast underscores both the **strengths** and the **fragilities** of the U.S. semiconductor ecosystem — and the urgent need for simultaneous diversification in supply chains **and** talent strategy.
 
