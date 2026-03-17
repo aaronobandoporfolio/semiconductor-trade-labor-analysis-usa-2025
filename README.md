@@ -133,9 +133,11 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 
 ## Insights & Use Cases
 
+### Trade Analysis
+
 - **Startups and CEOs**:  
-  In 2025, the semiconductor trade tells two very different stories. On the export side, Mexico thrives under **USMCA’s zero tariffs**, positioning itself as a competitive hub for electronics assembly. Meanwhile, China faces a **25% Section 301 tariff**, pushing U.S. firms to rethink sourcing strategies.  
-  - **Dashboard Insight**: Exports show strength and diversification, with Mexico and China leading as destinations and Malaysia playing a secondary but strategic role. Imports, however, reveal extreme dependence on Malaysia (≈80–83%), forcing CEOs to balance efficiency with resilience.
+  In 2025, the semiconductor trade tells two very different stories. On the export side, Mexico thrives under **USMCA's zero tariffs**, positioning itself as a competitive hub for electronics assembly. Meanwhile, China faces a **25% Section 301 tariff**, pushing U.S. firms to rethink sourcing strategies.  
+  - **Dashboard Insight**: Exports show strength and diversification, with Mexico and China leading as destinations and Malaysia playing a secondary but strategic role. Imports, however, reveal extreme dependence on Malaysia (≈+60%), forcing CEOs to balance efficiency with resilience.
 
 - **Recruiters**:  
   The talent race mirrors the trade race. U.S. hubs like **Phoenix, Austin, and Albany** are booming in semiconductor manufacturing and R&D, while external partners such as **Malaysia, Germany, and Japan** remain critical to global supply chains.  
@@ -143,32 +145,61 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 
 - **Policy Analysts**:  
   Behind the numbers lies systemic risk. OECD and USITC data show that **over 70% of semiconductor trade value is concentrated in just five countries**. Malaysia, a global powerhouse in assembly and testing (~13% of the market), dominates U.S. imports.  
-  - **Dashboard Insight**: Malaysia’s dominance reflects efficiency but also vulnerability. Analysts can model disruption scenarios — geopolitical shocks, natural disasters — and evaluate diversification toward **Brazil, India, and Israel**, which appear as emerging suppliers in the import dashboard.
+  - **Dashboard Insight**: Malaysia's dominance reflects efficiency but also vulnerability. Analysts can model disruption scenarios — geopolitical shocks, natural disasters — and evaluate diversification toward **Brazil, India, and Israel**, which appear as emerging suppliers in the import dashboard.
 
 - **Data Scientists**:  
   The duality of exports and imports offers fertile ground for modeling. Linking **UN Comtrade flows** with **transport modes (air vs. sea)** and **tariff regimes** enables predictive analytics for supply chain risk.  
   - **Dashboard Insight**: Exports highlight balanced partnerships across Asia and North America, while imports expose single‑partner dependency. This contrast can fuel models that quantify resilience, simulate shocks, and recommend diversification strategies.
-
-- **Workforce & ECI**:
-Trade concentration is only half the story — the Employment Concentration Index (ECI) shows how semiconductor jobs are distributed across U.S. regions and industries. While total employment in NAICS 334 hovers around 3 million, the distribution is uneven.
-- **Dashboard Insight**: Employment growth is clustered in electronics manufacturing (≈1M) and precision instruments (≈0.41M), while semiconductors hold steady at ≈0.38M with slight cooling (‑0.03%). Smaller sub‑industries like magnetic & optical media show sharper declines (‑1.8%), signaling structural shifts.
-
-
-### Complementary Narrative
-Together, the dashboards reveal **two sides of U.S. semiconductor trade in 2025**:  
-- **Exports** → diversified and resilient, supported by strong allies.  
-- **Imports** → highly concentrated, vulnerable to Malaysia’s dominance.  
-
-This contrast underscores both the **strengths** and the **fragilities** of the supply chain — and the urgent need for diversification.
-
-**U.S. Semiconductor Employment and Wage Dynamics Analysis**
-![Dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)
 
 **U.S. Semiconductor Trade Overview (2025)**
 ![Page 1](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/80%20Global%20Export%20Overview%20(2025)%20Page%201.png)
 ![Page 2](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/81%20Semiconductor%20Imports%20Concentration%20Page%202.png)
 ![Page 3](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/82%20Semiconductor%20Trade%20Trends%20%26%20Balance%20(Page%203).png)
 
+
+### Workforce & ECI Analysis
+
+- **Workforce & ECI**:  
+  Trade concentration is only half the story — the Employment Concentration Index (ECI) shows how semiconductor jobs are distributed across U.S. regions and industries. While total employment in NAICS 334 hovers around 3 million, the distribution is uneven.  
+  - **Dashboard Insight**: Employment growth is clustered in electronics manufacturing (≈1M) and precision instruments (≈0.41M), while semiconductors hold steady at ≈0.38M with slight cooling (‑0.03%). Smaller sub‑industries like magnetic & optical media show sharper declines (‑1.8%), signaling structural shifts.
+
+- **ECI Deep Dive — Semiconductor Wage & Employment Dynamics (NAICS 3344)**:  
+  Beyond headcount distribution, a dedicated **ECI Employment Analytics Dashboard** drills into the wage dynamics of the U.S. semiconductor sector through December 2025. Built in **Power BI** with custom **DAX measures** and **HTML/CSS/JS** visual panels, and fed by a Python pipeline extracting eight BLS earnings tables, it surfaces six core findings:
+
+  | # | Finding | Key Metric |
+  |---|---------|------------|
+  | 1 | **Employment contraction stabilizing** | 365.2K workers · ▼4.6% YoY · Q4 plateau confirmed at −100 jobs/month |
+  | 2 | **Wage premium expanding** | +21.9% above manufacturing average · $21.8K/yr premium · widened +1.6 pp in 2025 |
+  | 3 | **Wage growth accelerating** | +6.9% nominal full-year · Q4 sprint +0.56% · retention driving raises |
+  | 4 | **Skill compression emerging** | Skills premium narrowed from 0.4% → 0.3% · possible oversupply of specialized talent |
+  | 5 | **Subsector divergence** | Comms Gear **+8.52% real** vs. Electronic Parts **−3.54% real** · 12 pp spread within NAICS 334 |
+  | 6 | **The Semiconductor Paradox confirmed** | Headcount fell while wages rose — the sector is concentrating talent, not growing it |
+
+  **Analytical workflow:**
+  1. **Data extraction** — Eight BLS CSV tables (weekly/hourly earnings, SA/NSA, all employees and production workers) processed through a six-function Python script.
+  2. **Intermediary files** — Six CSV insight files and two Excel workbooks exported to a validated Findings layer.
+  3. **Dashboard build** — Power BI report combining native visuals with custom HTML/CSS/JS panels and DAX-calculated KPIs.
+
+  **Dashboard navigation** includes five interactive panels accessible from the control sidebar:
+  - **Executive Summary** — headline KPIs, key findings, emerging risks, and a strategic recommendation
+  - **Storytelling** — the "Semiconductor Paradox" narrative in three acts, with four tested hypotheses (2 confirmed, 2 rejected)
+  - **Executive Walkthrough** — a 9-step guided tour explaining every visual in context
+  - **Data Source** — direct link to the BLS ECI tables for full transparency and independent verification
+  - **About This Dashboard** — methodology, technical stack, design philosophy, and known UI behaviors
+
+  > **Strategic implication**: The sector is shifting from *growth by headcount* to *growth by value per worker*. Leaders must invest in advanced training, differentiated pay structures, and talent mobility programs to sustain competitiveness — especially given that 2 of 5 subsectors posted real wage losses in 2025.
+
+![Dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)
+
+
+### Complementary Narrative
+
+Together, the dashboards reveal **two sides of U.S. semiconductor competitiveness in 2025**:
+
+- **Trade** → diversified exports with resilient allies, but highly concentrated imports vulnerable to Malaysia's dominance.
+- **Workforce** → wages accelerating even as headcount contracts, with stark divergence between subsectors masking the aggregate headline.
+
+This contrast underscores both the **strengths** and the **fragilities** of the U.S. semiconductor ecosystem — and the urgent need for simultaneous diversification in supply chains **and** talent strategy.
 
   
 ## Disclaimer  
