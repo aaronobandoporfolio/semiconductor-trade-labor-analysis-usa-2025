@@ -204,13 +204,10 @@ This contrast underscores both the **strengths** and the **fragilities** of the 
 
   
 ## Disclaimer  
-
 - **Data Privacy**: Due to privacy considerations, the cleaned datasets and intermediate files used in this project are not available for direct download. Documentation and methodological notes are provided instead to ensure transparency without compromising data security.  
-
 - **Wrangling Steps**: During the data wrangling process, several repetitive but essential validation steps (such as `df.describe()`, `df.info()`, and checks on `dtypes`) were performed. In some cases, these commands were later deleted or commented out in the final code to streamline readability once validation was complete. Their absence in the published scripts does not mean they were skipped; rather, they were executed during the workflow and discarded only after confirming accuracy.  
-
-- **Dataset Limitations**: Some official sources, such as **UN Comtrade**, provide datasets that are incomplete or too brief for long‑term trend analysis. This project acknowledges those gaps and works hard to complement them with additional context, validation, and careful interpretation. Every effort was made to ensure that the insights presented are as accurate and meaningful as possible, despite the constraints of the raw data.  
-
+- **Dataset Limitations**: Some official sources, such as **UN Comtrade** and the **U.S. Bureau of Labor Statistics (BLS)**, provide datasets that are incomplete or too brief for long‑term trend analysis — for example, BLS Employment Cost Index tables for NAICS 3344 are published at a fixed level of aggregation, with no granular breakdowns by state, occupation, or firm size available in the public release. This project acknowledges those gaps and works hard to complement them with additional context, validation, and careful interpretation. Every effort was made to ensure that the insights presented are as accurate and meaningful as possible, despite the constraints of the raw data.
+- **Dashboard Design**: Not every dashboard in this project reaches the same level of visual polish. Data availability, source formatting constraints, and time limitations sometimes make it difficult to build the fully refined experience I aim for. That said, every dashboard — regardless of complexity — is built with the same core principles: clarity first, dynamic where possible, and always designed to make the data as easy to understand and navigate as possible. When richer data and more time allow, as with the ECI Employment Analytics Dashboard, the result reflects that investment in design — combining custom **DAX measures**, **HTML/CSS/JS** visual panels, interactive navigation, and a guided walkthrough to elevate the analytical experience beyond a standard report.
 
 ## Connect With Me
 
