@@ -74,15 +74,13 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 - [State & Metro Employment — Source Dataset, SAE Tables (BLS)](https://drive.google.com/file/d/1xIlwAIftNFx8QVGm7WVKNOGulA6somkl/view?usp=sharing)
 - [Occupational Wages by Role — Source Dataset, OEWS (BLS)](https://drive.google.com/file/d/1Dm9Se3QDwJh-OBzt4PCSUI3vox_0qd6E/view?usp=sharing)
 - [Company Census File — Cleaning Process & Validation](https://drive.google.com/file/d/1_-K7h0vSKHO36TBgNEFuYoEpLDlO0Unp/view?usp=sharing)
-- [Loading Cleaned Imports into MySQL — Pipeline Documentation](https://drive.google.com/file/d/1EYzP69Kc7IlzDihOQ4pEbZuh5kAtRrj7/view?usp=sharing)
-
+  
 ---
 
 ### Dashboard 1 — U.S. Semiconductor Imports Overview
 
 > Who is selling semiconductors to the U.S., at what price, and from where?
 
-- [Company Census File — Cleaning Process & Validation](https://drive.google.com/file/d/1_-K7h0vSKHO36TBgNEFuYoEpLDlO0Unp/view?usp=sharing)
 - [Loading Cleaned Imports into MySQL — Pipeline Documentation](https://drive.google.com/file/d/1EYzP69Kc7IlzDihOQ4pEbZuh5kAtRrj7/view?usp=sharing)
 - [Imports EDA — Full Analysis & Findings](https://drive.google.com/file/d/1k2RcVabMy0CW8YUx8hM-jBAmBMXw85Md/view?usp=sharing)
 - [SQL Validation & Extended Insights — Imports (2025)](https://drive.google.com/file/d/11WCcobP-a0hK_gwzbrXkYfblGfZ_rIWB/view?usp=sharing)
@@ -106,9 +104,9 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 
 > Why are semiconductor wages rising while headcount is falling — and what does that mean for hiring strategy?
 
-- [BLS Earnings & ECI Analysis — Semiconductor Sector](https://drive.google.com/file/d/1L6bBxDY1vx4KgrmH2xGdvu8UapCifT25/view?usp=sharing)
-- [Dashboard Documentation — Wage & Skills Premium](https://drive.google.com/file/d/10hsCyASn6n3PGmJTfLwk99J-QLyAC6nd/view?usp=sharing)
+- [BLS Earnings & ECI Analysis — Semiconductor Sector](https://drive.google.com/file/d/1L6bBxDY1vx4KgrmH2xGdvy8UapCifT25/view?usp=sharing)
 - [Dashboard File — Wage & Skills Premium (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20And%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
+- [Dashboard Documentation — Wage & Skills Premium](https://drive.google.com/file/d/10hsCyASn6n3PGmJTfLwk99J-QLyAC6nd/view?usp=sharing)
 
 
 ## Process & Documentation Images
