@@ -1,4 +1,4 @@
-# Semiconductor Trade & Labor Analysis – USA 2025
+# Uncovering 2025 Nearshoring Opportunities: A U.S. Semiconductor Trade & Labor Analysis
 
 [![Dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
 
