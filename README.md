@@ -57,33 +57,58 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 
 ## Documentation and Power Bi Dashboard Links
 
-- [1. Why These Datasets, Why This
-Analysis, and How They Were Collected](https://drive.google.com/file/d/1B-DoWoTZz46CbGMlxdyh96ooA5mH0ddv/view?usp=sharing)
-- [2. USA TradeData Imports Dataset.pdf](https://drive.google.com/file/d/15XfoNXVKj7G0hJE2CGBGGT3rYNSSqkAt/view?usp=sharing)  
-- [3. HS 3542 UN Comtrade USA Exports Dataset.pdf](https://drive.google.com/file/d/1pRShU9XRMA1dkyWN9p54PP8MGv50_hOh/view?usp=sharing)  
-- [4. Semiconductor Demand Study (SIA & OECD Sources).pdf](https://drive.google.com/file/d/1niSpH__EBZdBA8a-gGmgplcgDxt7jDTM/view?usp=sharing)  
-- [5. Semiconductor Tariff Analysis – HS Code 85423100 (2025).pdf](https://drive.google.com/file/d/15FI1PaNU9tcyD6-j4nQEbEvy2xff--ym/view?usp=sharing)  
-- [6. Rail Equipment Accident Incident Data (Form 54).pdf](https://drive.google.com/file/d/1mOiZihihsxE3XrSKQwqxSErUZ8Y7CH7f/view?usp=sharing)  
-- [7. Quarterly Census of Employment and Wages.pdf](https://drive.google.com/file/d/1HlZ5APMSZj7GxU3De_NxVm7ft1BYHM1a/view?usp=sharing)  
-- [8. ECI Tables Downloaded for Analysis.pdf](https://drive.google.com/file/d/1Pj5ZDTAeu8sL2FTPo6mOxnFPI-Jayala/view?usp=sharing)  
-- [10. SAE Tables Downloaded for State and Metro Analysis.pdf](https://drive.google.com/file/d/1xIlwAIftNFx8QVGm7WVKNOGulA6somkl/view?usp=sharing)  
-- [11 Occupational Employment and Wage Statistics (OEWS).pdf](https://drive.google.com/file/d/1Dm9Se3QDwJh-OBzt4PCSUI3vox_0qd6E/view?usp=sharing)  
-- [12. Cleaning Company Census File (20260121).pdf](https://drive.google.com/file/d/1_-K7h0vSKHO36TBgNEFuYoEpLDlO0Unp/view?usp=sharing)
-- [13. Saving Cleaned Imports USA.csv
-into MySQL for Semiconductor Trade Analysis](https://drive.google.com/file/d/1EYzP69Kc7IlzDihOQ4pEbZuh5kAtRrj7/view?usp=sharing)
-- [14. U.S. Semiconductor Imports Analysis: Comprehensive EDA Documentation](https://drive.google.com/file/d/1k2RcVabMy0CW8YUx8hM-jBAmBMXw85Md/view?usp=sharing)
-- [15. SQL Validation and Extended Insights on U.S. Semiconductor Imports (2025)](https://drive.google.com/file/d/11WCcobP-a0hK_gwzbrXkYfblGfZ_rIWB/view?usp=sharing)
-- [16. CIF Imports Overview by Country 
-(2025) Dashboard Insights](https://drive.google.com/file/d/1sh7wzO63HLhjtmA6VAYC2tJR2sVIRa-b/view?usp=sharing)
-- [17. 1 US Semiconductors CIF Imports Overview.pbix](https://drive.google.com/file/d/1mbQUYXKKl5IAuiRkpYCiW4bcPqYXsULt/view?usp=sharing)
-- [18. An Exploratory Data Analysis of HS Code 3542 (USA Exportations)](https://drive.google.com/file/d/1fYur07R_3y9E-j08jG05jtHyKeOS0rqu/view?usp=sharing)
-- [19. SQL Validation and Extended Insights on U.S. Semiconductor Exports (2025)](https://drive.google.com/file/d/1EDEGOzQVgJFd7EHoD2xePtLYtCg8NWrm/view?usp=sharing)
-- [20. 2 U.S. Semiconductor Trade Overview (2025).pbix](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20And%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
-- [21. Imports_Exports_PowerBI_Dashboard_Documentation](https://drive.google.com/file/d/1oqqfI5zhDFFHMaO1UzxSrmnR179zJ95n/view?usp=sharing)
-- [22. BLS Earnings ECI Semiconductor Analysis](https://drive.google.com/file/d/1L6bBxDY1vx4KgrmH2xGdvy8UapCifT25/view?usp=sharing)
-- [23. Semiconductor ECI Dashboard Documentation](https://drive.google.com/file/d/10hsCyASn6n3PGmJTfLwk99J-QLyAC6nd/view?usp=sharing)
-- [24. 3 Semiconductor Wage & Skills Premium Dashboard.pbix](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20And%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
+### Phases 1 & 2 — Data Collection, Sourcing & Cleaning
 
+> Every dataset used in this project is sourced from official public institutions
+> (UN, BLS, WTO, OECD, U.S. DOT). The documents below cover where each dataset
+> came from, why it was selected, and how it was cleaned and prepared for analysis.
+
+- [Why These Datasets Were Selected and How They Were Collected](https://drive.google.com/file/d/1B-DoWoTZz46CbGMlxdyh96ooA5mH0ddv/view?usp=sharing)
+- [U.S. Semiconductor Imports — Source Dataset (UN Comtrade)](https://drive.google.com/file/d/15XfoNXVKj7G0hJE2CGBGGT3rYNSSqkAt/view?usp=sharing)
+- [U.S. Semiconductor Exports — Source Dataset (UN Comtrade)](https://drive.google.com/file/d/1pRShU9XRMA1dkyWN9p54PP8MGv50_hOh/view?usp=sharing)
+- [Global Semiconductor Demand Study — Source Dataset (SIA & OECD)](https://drive.google.com/file/d/1niSpH__EBZdBA8a-gGmgplcgDxt7jDTM/view?usp=sharing)
+- [Tariff Structure — Source Dataset, HS Code 85423100 (2025)](https://drive.google.com/file/d/15FI1PaNU9tcyD6-j4nQEbEvy2xff--ym/view?usp=sharing)
+- [Logistics Risk — Source Dataset, Rail Equipment Incidents (U.S. DOT Form 54)](https://drive.google.com/file/d/1mOiZihihsxE3XrSKQwqxSErUZ8Y7CH7f/view?usp=sharing)
+- [U.S. Employment & Wages — Source Dataset, Quarterly Census (BLS QCEW)](https://drive.google.com/file/d/1HlZ5APMSZj7GxU3De_NxVm7ft1BYHM1a/view?usp=sharing)
+- [Employment Cost Index — Source Dataset, ECI Tables (BLS)](https://drive.google.com/file/d/1Pj5ZDTAeu8sL2FTPo6mOxnFPI-Jayala/view?usp=sharing)
+- [State & Metro Employment — Source Dataset, SAE Tables (BLS)](https://drive.google.com/file/d/1xIlwAIftNFx8QVGm7WVKNOGulA6somkl/view?usp=sharing)
+- [Occupational Wages by Role — Source Dataset, OEWS (BLS)](https://drive.google.com/file/d/1Dm9Se3QDwJh-OBzt4PCSUI3vox_0qd6E/view?usp=sharing)
+- [Company Census File — Cleaning Process & Validation](https://drive.google.com/file/d/1_-K7h0vSKHO36TBgNEFuYoEpLDlO0Unp/view?usp=sharing)
+- [Loading Cleaned Imports into MySQL — Pipeline Documentation](https://drive.google.com/file/d/1EYzP69Kc7IlzDihOQ4pEbZuh5kAtRrj7/view?usp=sharing)
+
+---
+
+### Dashboard 1 — U.S. Semiconductor Imports Overview
+
+> Who is selling semiconductors to the U.S., at what price, and from where?
+
+- [Company Census File — Cleaning Process & Validation](https://drive.google.com/file/d/1_-K7h0vSKHO36TBgNEFuYoEpLDlO0Unp/view?usp=sharing)
+- [Loading Cleaned Imports into MySQL — Pipeline Documentation](https://drive.google.com/file/d/1EYzP69Kc7IlzDihOQ4pEbZuh5kAtRrj7/view?usp=sharing)
+- [Imports EDA — Full Analysis & Findings](https://drive.google.com/file/d/1k2RcVabMy0CW8YUx8hM-jBAmBMXw85Md/view?usp=sharing)
+- [SQL Validation & Extended Insights — Imports (2025)](https://drive.google.com/file/d/11WCcobP-a0hK_gwzbrXkYfblGfZ_rIWB/view?usp=sharing)
+- [Dashboard File — CIF Imports Overview (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20And%20Dashboards/1%20US%20Semiconductors%20CIF%20Imports%20Overview.pbix)
+- [Dashboard Documentation — Imports by Country (2025)](https://drive.google.com/file/d/1sh7wzO63HLhjtmA6VAYC2tJR2sVIRa-b/view?usp=sharing)
+
+---
+
+### Dashboard 2 — U.S. Semiconductor Trade Balance: Exports vs. Imports
+
+> How do U.S. export destinations compare to import sources — and where are the strategic gaps?
+
+- [Exports EDA — Full Analysis & Findings](https://drive.google.com/file/d/1fYur07R_3y9E-j08jG05jtHyKeOS0rqu/view?usp=sharing)
+- [SQL Validation & Extended Insights — Exports (2025)](https://drive.google.com/file/d/1EDEGOzQVgJFd7EHoD2xePtLYtCg8NWrm/view?usp=sharing)
+- [Dashboard File — Trade Overview (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20And%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
+- [Dashboard Documentation — Imports & Exports Combined](https://drive.google.com/file/d/1oqqfI5zhDFFHMaO1UzxSrmnR179zJ95n/view?usp=sharing)
+
+---
+
+### Dashboard 3 — Semiconductor Workforce: Wages, Employment & the Skills Premium
+
+> Why are semiconductor wages rising while headcount is falling — and what does that mean for hiring strategy?
+
+- [BLS Earnings & ECI Analysis — Semiconductor Sector](https://drive.google.com/file/d/1L6bBxDY1vx4KgrmH2xGdvu8UapCifT25/view?usp=sharing)
+- [Dashboard Documentation — Wage & Skills Premium](https://drive.google.com/file/d/10hsCyASn6n3PGmJTfLwk99J-QLyAC6nd/view?usp=sharing)
+- [Dashboard File — Wage & Skills Premium (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20And%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
 
 
 ## Process & Documentation Images
