@@ -1,6 +1,6 @@
 # Semiconductor Trade & Labor Analysis – USA 2025
 
-![dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)
+[![Dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
 
 ## Project Overview
 
@@ -213,10 +213,9 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
   - **Dashboard Insight**: Exports highlight balanced partnerships across Asia and North America, while imports expose single‑partner dependency. This contrast can fuel models that quantify resilience, simulate shocks, and recommend diversification strategies.
 
 **U.S. Semiconductor Trade Overview (2025)**
-![Page 1](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/80%20Global%20Export%20Overview%20(2025)%20Page%201.png)
-![Page 2](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/81%20Semiconductor%20Imports%20Concentration%20Page%202.png)
-![Page 3](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/82%20Semiconductor%20Trade%20Trends%20%26%20Balance%20(Page%203).png)
-[Dashboard File — Trade Overview (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
+[![Page 1](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/80%20Global%20Export%20Overview%20(2025)%20Page%201.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
+[![Page 2](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/81%20Semiconductor%20Imports%20Concentration%20Page%202.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
+[![Page 3](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/82%20Semiconductor%20Trade%20Trends%20%26%20Balance%20(Page%203).png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
 
 
 ### Complementary Narrative
