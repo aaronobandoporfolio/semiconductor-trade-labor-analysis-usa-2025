@@ -1,5 +1,9 @@
 # Semiconductor Trade & Labor Analysis – USA 2025
 
+![dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)
+[3 Semiconductor Wage & Skills Premium Dashboard.pbix](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20And%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
+
+
 ## Project Overview
 
 This project examines how U.S. semiconductor trade flows (HS Code 85423100) are being reshaped by inflationary pressures, labor costs, tariff structures, and global demand. By integrating official datasets from trade, labor, logistics, and market demand sources, the analysis highlights strategic insights relevant to executives, startups, recruiters, and policymakers.
@@ -13,9 +17,6 @@ The work is structured in phases, serving as a showcase of my professional appro
 - **Phase 5: Final Reporting** – Will consolidate findings into a comprehensive Report and PowerPoint Presentation, tailored to professionals, recruiters, CEOs, and policymakers seeking strategic clarity. (**Target: Q2 2026**)
 
 The emphasis is on understanding how nearshoring, tariff advantages, and employment trends are influencing the semiconductor supply chain. Mexico, South Korea and Malaysia stand out as critical hubs, while China faces structural disadvantages due to Section 301 tariffs.
-
-![dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)
-[3 Semiconductor Wage & Skills Premium Dashboard.pbix](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20And%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
 
 
 ## Objectives
