@@ -36,7 +36,7 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 
 ### 3. Semiconductor Demand Study  
 - [OECD – Semiconductors Topic](https://www.oecd.org/en/topics/semiconductors.html)  
-- [SEMI.org – Market Data](https://www.semiconductors.org/policies/tax/market-data/?type=post)
+- [Semiconductors Industry Association (SIA) – Market Data](https://www.semiconductors.org/policies/tax/market-data/?type=post)
 
 ### 4. Tariff Analysis – HS Code 85423100  
 - [WTO Tariff Data](https://ttd.wto.org/en/data/idb/applied-duties?member=C840&product=85423100&year=2025)  
