@@ -192,8 +192,7 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 
   > **Strategic implication**: The sector is shifting from *growth by headcount* to *growth by value per worker*. Leaders must invest in advanced training, differentiated pay structures, and talent mobility programs to sustain competitiveness — especially given that 2 of 5 subsectors posted real wage losses in 2025.
 
-![Dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)
-[Dashboard File — Wage & Skills Premium (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
+[![Dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
 
 ### Trade Analysis
 
