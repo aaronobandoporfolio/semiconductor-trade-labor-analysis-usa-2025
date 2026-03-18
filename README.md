@@ -1,8 +1,6 @@
 # Semiconductor Trade & Labor Analysis – USA 2025
 
 ![dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)
-[3 Semiconductor Wage & Skills Premium Dashboard.pbix](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20And%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
-
 
 ## Project Overview
 
@@ -85,7 +83,7 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 - [Loading Cleaned Imports into MySQL — Pipeline Documentation](https://drive.google.com/file/d/1EYzP69Kc7IlzDihOQ4pEbZuh5kAtRrj7/view?usp=sharing)
 - [Imports EDA — Full Analysis & Findings](https://drive.google.com/file/d/1k2RcVabMy0CW8YUx8hM-jBAmBMXw85Md/view?usp=sharing)
 - [SQL Validation & Extended Insights — Imports (2025)](https://drive.google.com/file/d/11WCcobP-a0hK_gwzbrXkYfblGfZ_rIWB/view?usp=sharing)
-- [Dashboard File — CIF Imports Overview (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20And%20Dashboards/1%20US%20Semiconductors%20CIF%20Imports%20Overview.pbix)
+- [Dashboard File — CIF Imports Overview (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/1%20US%20Semiconductors%20CIF%20Imports%20Overview.pbix)
 - [Dashboard Documentation — Imports by Country (2025)](https://drive.google.com/file/d/1sh7wzO63HLhjtmA6VAYC2tJR2sVIRa-b/view?usp=sharing)
 
 ---
@@ -96,7 +94,7 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 
 - [Exports EDA — Full Analysis & Findings](https://drive.google.com/file/d/1fYur07R_3y9E-j08jG05jtHyKeOS0rqu/view?usp=sharing)
 - [SQL Validation & Extended Insights — Exports (2025)](https://drive.google.com/file/d/1EDEGOzQVgJFd7EHoD2xePtLYtCg8NWrm/view?usp=sharing)
-- [Dashboard File — Trade Overview (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20And%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
+- [Dashboard File — Trade Overview (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
 - [Dashboard Documentation — Imports & Exports Combined](https://drive.google.com/file/d/1oqqfI5zhDFFHMaO1UzxSrmnR179zJ95n/view?usp=sharing)
 
 ---
@@ -106,7 +104,7 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 > Why are semiconductor wages rising while headcount is falling — and what does that mean for hiring strategy?
 
 - [BLS Earnings & ECI Analysis — Semiconductor Sector](https://drive.google.com/file/d/1L6bBxDY1vx4KgrmH2xGdvy8UapCifT25/view?usp=sharing)
-- [Dashboard File — Wage & Skills Premium (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20And%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
+- [Dashboard File — Wage & Skills Premium (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
 - [Dashboard Documentation — Wage & Skills Premium](https://drive.google.com/file/d/10hsCyASn6n3PGmJTfLwk99J-QLyAC6nd/view?usp=sharing)
 
 
