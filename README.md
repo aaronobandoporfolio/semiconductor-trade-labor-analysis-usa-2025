@@ -240,7 +240,7 @@ This contrast underscores both the **strengths** and the **fragilities** of the 
 
 If you found this project interesting and would like to discuss insights, opportunities, or collaborations, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/aaron-obando-55a098308/).  
 
-You can also review my CV to learn more about my background and experience: [CV Link](https://drive.google.com/file/d/1eGT9nxJvH_wlA_xEE3MSumNMo90Nqzi6/view?usp=sharing).
+You can also review my CV to learn more about my background and experience: [CV Link](https://drive.google.com/file/d/1mEmvdFMjBYZ2gHJWf0lr0sWNJrvNmQ6Z/view?usp=sharing).
 
 Email: contact@obandoanalytics.com
 
