@@ -62,17 +62,17 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 > (UN, BLS, WTO, OECD, U.S. DOT). The documents below cover where each dataset
 > came from, why it was selected, and how it was cleaned and prepared for analysis.
 
-- [Why These Datasets Were Selected and How They Were Collected](https://drive.google.com/file/d/1B-DoWoTZz46CbGMlxdyh96ooA5mH0ddv/view?usp=sharing)
-- [U.S. Semiconductor Imports — Source Dataset (UN Comtrade)](https://drive.google.com/file/d/15XfoNXVKj7G0hJE2CGBGGT3rYNSSqkAt/view?usp=sharing)
-- [U.S. Semiconductor Exports — Source Dataset (UN Comtrade)](https://drive.google.com/file/d/1pRShU9XRMA1dkyWN9p54PP8MGv50_hOh/view?usp=sharing)
-- [Global Semiconductor Demand Study — Source Dataset (SIA & OECD)](https://drive.google.com/file/d/1niSpH__EBZdBA8a-gGmgplcgDxt7jDTM/view?usp=sharing)
-- [Tariff Structure — Source Dataset, HS Code 85423100 (2025)](https://drive.google.com/file/d/15FI1PaNU9tcyD6-j4nQEbEvy2xff--ym/view?usp=sharing)
-- [Logistics Risk — Source Dataset, Rail Equipment Incidents (U.S. DOT Form 54)](https://drive.google.com/file/d/1mOiZihihsxE3XrSKQwqxSErUZ8Y7CH7f/view?usp=sharing)
-- [U.S. Employment & Wages — Source Dataset, Quarterly Census (BLS QCEW)](https://drive.google.com/file/d/1HlZ5APMSZj7GxU3De_NxVm7ft1BYHM1a/view?usp=sharing)
-- [Employment Cost Index — Source Dataset, ECI Tables (BLS)](https://drive.google.com/file/d/1Pj5ZDTAeu8sL2FTPo6mOxnFPI-Jayala/view?usp=sharing)
-- [State & Metro Employment — Source Dataset, SAE Tables (BLS)](https://drive.google.com/file/d/1xIlwAIftNFx8QVGm7WVKNOGulA6somkl/view?usp=sharing)
-- [Occupational Wages by Role — Source Dataset, OEWS (BLS)](https://drive.google.com/file/d/1Dm9Se3QDwJh-OBzt4PCSUI3vox_0qd6E/view?usp=sharing)
-- [Company Census File — Cleaning Process & Validation](https://drive.google.com/file/d/1_-K7h0vSKHO36TBgNEFuYoEpLDlO0Unp/view?usp=sharing)
+- [Why These Datasets Were Selected and How They Were Collected](https://drive.google.com/file/d/1-3SQiZhzIkydtv6eWh92isykCIxGN_ef/view?usp=sharing)
+- [U.S. Semiconductor Imports — Source Dataset (UN Comtrade)](https://drive.google.com/file/d/1u0P0rbN6ok3GJFVW5FBWn0qq2E11dxIC/view?usp=sharing)
+- [U.S. Semiconductor Exports — Source Dataset (UN Comtrade)](https://drive.google.com/file/d/1YcdE62QwZrf7Y5lE99XZmv03Pfy_9w3L/view?usp=sharing)
+- [Global Semiconductor Demand Study — Source Dataset (SIA & OECD)](https://drive.google.com/file/d/1Pr-jg3PHVlkSzI1eT4q0XfalV_hWEbnt/view?usp=sharing)
+- [Tariff Structure — Source Dataset, HS Code 85423100 (2025)](https://drive.google.com/file/d/1E962Viu1xvghCLE5IfafTda5OaI2H55F/view?usp=sharing)
+- [Logistics Risk — Source Dataset, Rail Equipment Incidents (U.S. DOT Form 54)](https://drive.google.com/file/d/1gRpTuLqjJvutQps7Xzc2dIEjD6iiViLE/view?usp=sharing)
+- [U.S. Employment & Wages — Source Dataset, Quarterly Census (BLS QCEW)](https://drive.google.com/file/d/1Z56mXnFIui68kvf9GsmsriejWwQ0xH4k/view?usp=sharing)
+- [Employment Cost Index — Source Dataset, ECI Tables (BLS)](https://drive.google.com/file/d/1mfsM_xQTCQX8xuWtivi6noqI7_OVqsP2/view?usp=sharing)
+- [State & Metro Employment — Source Dataset, SAE Tables (BLS)](https://drive.google.com/file/d/1yg2FOCxXwXcJGXHD0iDUGf-KAXUJyPGD/view?usp=sharing)
+- [Occupational Wages by Role — Source Dataset, OEWS (BLS)](https://drive.google.com/file/d/1EOsHBXyN1-5Zz7fYwIEZJ8tCwqgzge0A/view?usp=sharing)
+- [Company Census File — Cleaning Process & Validation](https://drive.google.com/file/d/1MXG2djJDZ7_B_SEqY-peLbFJe2PlBUtK/view?usp=sharing)
   
 ---
 
@@ -80,11 +80,11 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 
 > Who is selling semiconductors to the U.S., at what price, and from where?
 
-- [Loading Cleaned Imports into MySQL — Pipeline Documentation](https://drive.google.com/file/d/1EYzP69Kc7IlzDihOQ4pEbZuh5kAtRrj7/view?usp=sharing)
-- [Imports EDA — Full Analysis & Findings](https://drive.google.com/file/d/1k2RcVabMy0CW8YUx8hM-jBAmBMXw85Md/view?usp=sharing)
-- [SQL Validation & Extended Insights — Imports (2025)](https://drive.google.com/file/d/11WCcobP-a0hK_gwzbrXkYfblGfZ_rIWB/view?usp=sharing)
+- [Loading Cleaned Imports into MySQL — Pipeline Documentation](https://drive.google.com/file/d/18xiokOF3ZzXAXeGOYf7EkMlt_fh0144Z/view?usp=sharing)
+- [Imports EDA — Full Analysis & Findings](https://drive.google.com/file/d/1Sou0BtrLAZy2XEDGCnaHI_5MkLMjEHIB/view?usp=sharing)
+- [SQL Validation & Extended Insights — Imports (2025)](https://drive.google.com/file/d/1lXmCQC2wlwdD64JHw5vW9hzP8Lr46GeH/view?usp=sharing)
 - [Dashboard File — CIF Imports Overview (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/1%20US%20Semiconductors%20CIF%20Imports%20Overview.pbix)
-- [Dashboard Documentation — Imports by Country (2025)](https://drive.google.com/file/d/1sh7wzO63HLhjtmA6VAYC2tJR2sVIRa-b/view?usp=sharing)
+- [Dashboard Documentation — Imports by Country (2025)](https://drive.google.com/file/d/1wntK7ip2EMJFM9lplSnfYG-LZQYUDoIi/view?usp=sharing)
 
 ---
 
@@ -92,10 +92,10 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 
 > How do U.S. export destinations compare to import sources — and where are the strategic gaps?
 
-- [Exports EDA — Full Analysis & Findings](https://drive.google.com/file/d/1fYur07R_3y9E-j08jG05jtHyKeOS0rqu/view?usp=sharing)
-- [SQL Validation & Extended Insights — Exports (2025)](https://drive.google.com/file/d/1EDEGOzQVgJFd7EHoD2xePtLYtCg8NWrm/view?usp=sharing)
+- [Exports EDA — Full Analysis & Findings](https://drive.google.com/file/d/1NcOpa9zuEkv0iVsBZMFj5n9lnR0o_cNq/view?usp=sharing)
+- [SQL Validation & Extended Insights — Exports (2025)](https://drive.google.com/file/d/1srhp7MSJkPbx9LWRvAfKDYVgVojdoJGx/view?usp=sharing)
 - [Dashboard File — Trade Overview (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
-- [Dashboard Documentation — Imports & Exports Combined](https://drive.google.com/file/d/1oqqfI5zhDFFHMaO1UzxSrmnR179zJ95n/view?usp=sharing)
+- [Dashboard Documentation — Imports & Exports Combined](https://drive.google.com/file/d/1Cmqq9XC17ByEmvI3GnvsH13GKSvvh6Eh/view?usp=sharing)
 
 ---
 
@@ -103,9 +103,9 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 
 > Why are semiconductor wages rising while headcount is falling — and what does that mean for hiring strategy?
 
-- [BLS Earnings & ECI Analysis — Semiconductor Sector](https://drive.google.com/file/d/1L6bBxDY1vx4KgrmH2xGdvy8UapCifT25/view?usp=sharing)
+- [BLS Earnings & ECI Analysis — Semiconductor Sector](https://drive.google.com/file/d/1uA-Y2eKHvb2NhIynn_gG8Z3Loyfd59oW/view?usp=sharing)
 - [Dashboard File — Wage & Skills Premium (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
-- [Dashboard Documentation — Wage & Skills Premium](https://drive.google.com/file/d/10hsCyASn6n3PGmJTfLwk99J-QLyAC6nd/view?usp=sharing)
+- [Dashboard Documentation — Wage & Skills Premium](https://drive.google.com/file/d/1Py86BmphD81hzcrQlAP4qlySyd2uAFlV/view?usp=sharing)
 
 
 ## Process & Documentation Images
