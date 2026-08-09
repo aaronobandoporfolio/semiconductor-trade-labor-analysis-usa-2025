@@ -215,8 +215,6 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 **U.S. Semiconductor Trade Overview (2025)**
 [![Page 1](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/80%20Global%20Export%20Overview%20(2025)%20Page%201.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
 [![Page 2](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/81%20Semiconductor%20Imports%20Concentration%20Page%202.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
-[![Page 3](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/82%20Semiconductor%20Trade%20Trends%20%26%20Balance%20(Page%203).png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
-
 
 ### Complementary Narrative
 
