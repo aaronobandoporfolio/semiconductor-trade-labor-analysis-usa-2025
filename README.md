@@ -8,11 +8,11 @@ This project examines how U.S. semiconductor trade flows (HS Code 85423100) are 
 
 The work is structured in phases, serving as a showcase of my professional approach to data analysis and business intelligence:  
 
-- **Phase 1: Data Extraction** – Focused on locating and extracting data from authoritative legal and public sources. (**Completed February 2026**)  
-- **Phase 2: Data Preprocessing** – Involved cleaning, organizing, and preparing the datasets to ensure accuracy and reliability. (**Completed February 2026**)  
-- **Phase 3: Exploratory Data Analysis (EDA)** – The current stage, dedicated to uncovering patterns, relationships, and actionable insights. (**Target: Q2 2026**)  
-- **Phase 4: Data Visualization** – Will emphasize the development of a Power BI Dashboard designed to present insights interactively for executives, managers, and decision-makers. (**Target: Q2 2026**)  
-- **Phase 5: Final Reporting** – Will consolidate findings into a comprehensive Report and PowerPoint Presentation, tailored to professionals, recruiters, CEOs, and policymakers seeking strategic clarity. (**Target: Q2 2026**)
+- **Phase 1: Data Extraction** – Focused on locating and extracting data from authoritative legal and public sources. 
+- **Phase 2: Data Preprocessing** – Involved cleaning, organizing, and preparing the datasets to ensure accuracy and reliability. 
+- **Phase 3: Exploratory Data Analysis (EDA)** – The current stage, dedicated to uncovering patterns, relationships, and actionable insights. 
+- **Phase 4: Data Visualization** – Will emphasize the development of a Power BI Dashboard designed to present insights interactively for executives, managers, and decision-makers.
+- **Phase 5: Final Reporting** – Will consolidate findings into a comprehensive Report and PowerPoint Presentation, tailored to professionals, recruiters, CEOs, and policymakers seeking strategic clarity.
 
 The emphasis is on understanding how nearshoring, tariff advantages, and employment trends are influencing the semiconductor supply chain. Mexico, South Korea and Malaysia stand out as critical hubs, while China faces structural disadvantages due to Section 301 tariffs.
 
