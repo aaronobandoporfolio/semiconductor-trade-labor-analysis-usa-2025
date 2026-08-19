@@ -247,6 +247,38 @@ This contrast underscores both the **strengths** and the **fragilities** of the 
 - **Dataset Limitations**: Some official sources, such as **UN Comtrade** and the **U.S. Bureau of Labor Statistics (BLS)**, provide datasets that are incomplete or too brief for long‑term trend analysis — for example, BLS Employment Cost Index tables for NAICS 3344 are published at a fixed level of aggregation, with no granular breakdowns by state, occupation, or firm size available in the public release. This project acknowledges those gaps and works hard to complement them with additional context, validation, and careful interpretation. Every effort was made to ensure that the insights presented are as accurate and meaningful as possible, despite the constraints of the raw data.
 - **Dashboard Design**: Not every dashboard in this project reaches the same level of visual polish. Data availability, source formatting constraints, and time limitations sometimes make it difficult to build the fully refined experience I aim for. That said, every dashboard — regardless of complexity — is built with the same core principles: clarity first, dynamic where possible, and always designed to make the data as easy to understand and navigate as possible. When richer data and more time allow, as with the ECI Employment Analytics Dashboard, the result reflects that investment in design — combining custom **DAX measures**, **HTML/CSS/JS** visual panels, interactive navigation, and a guided walkthrough to elevate the analytical experience beyond a standard report.
 
+
+*## Other Independent Research
+
+While this project focuses on semiconductor trade and labor, I also publish shorter, standalone research syntheses on labor market and BI topics. Recent example:
+
+### The Entry-Level Paradox (2026)
+
+> An independent research review of U.S. employability trends, 2022–2026 — how AI is reshaping entry-level hiring even as wages in AI-exposed fields accelerate.
+
+[![The Entry-Level Paradox](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/87%20Extra%20-%20Entry-Level-Paradox-AaronObando.png)
+
+**The core finding:** Junior hiring in tech is contracting sharply while wages in the same AI-exposed fields accelerate. This isn't collapse — it's repricing.
+
+| Signal | Metric |
+|---|---|
+| US junior tech postings | ▼ up to 67% (software & data-analyst entry-level listings vs. pre-2024 levels) |
+| UK grad tech roles | ▼ 46% in 2024, with a further ~53% drop projected into 2026 |
+| AI-exposed wage growth | ▲ 16.7% for computer systems design since fall 2022, vs. +7.5% nationally |
+| Aggregate unemployment | No detectable rise — the squeeze is at entry, not economy-wide |
+
+**Where the doors are closing vs. opening:** Software dev and data-analyst entry-level postings are down sharply, while healthcare, government, and hospitality — sectors requiring physical presence or licensure AI can't yet substitute — account for roughly 75% of net new job growth. The ladder didn't vanish; it moved.
+
+**Three takeaways:**
+1. **You need the job to get the job.** "Entry-level" postings now routinely demand 2–3 years of experience — the exact rung AI automates first.
+2. **Scarcer entry, richer premium.** Wages in AI-exposed fields are growing roughly 2x the national rate; the ones already inside are becoming more valuable, not pushed out.
+3. **Proof of work beats the credential.** With the traditional ladder narrower, portfolios, shipped projects, and demonstrated skill are what separate candidates who break through from those stuck applying blind.
+
+A Dallas Fed finding (Atkinson, 2026) traces the drop in under-25 employment to a low job-finding rate for new entrants — not layoffs.
+
+*Sources: NACE Class of 2026 Report · ZipRecruiter · Federal Reserve Bank of Dallas (Atkinson, 2026) · Brookings Institution · Goldman Sachs Research*
+
+
 ## Connect With Me
 
 If you found this project interesting and would like to discuss insights, opportunities, or collaborations, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/aaron-obando-55a098308/).  
