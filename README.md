@@ -256,7 +256,7 @@ While this project focuses on semiconductor trade and labor, I also publish shor
 
 > An independent research review of U.S. employability trends, 2022–2026 — how AI is reshaping entry-level hiring even as wages in AI-exposed fields accelerate.
 
-[![The Entry-Level Paradox](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/87%20Extra%20-%20Entry-Level-Paradox-AaronObando.png)
+![The Entry-Level Paradox](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/87%20Extra%20-%20Entry-Level-Paradox-AaronObando.png)
 
 **The core finding:** Junior hiring in tech is contracting sharply while wages in the same AI-exposed fields accelerate. This isn't collapse — it's repricing.
 
