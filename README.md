@@ -38,12 +38,12 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 ### 2. HS 3542 UN Comtrade USA Exports Dataset  
 - [UN Comtrade – HS 854231 USA Exports](https://comtradeplus.un.org/TradeFlow?Frequency=A&Flows=M&CommodityCodes=854231&Partners=842&Reporters=156&period=2024&AggregateBy=none&BreakdownMode=plus)
 
-### 3. Semiconductor Demand Study (Cleaned_Demand_SIA_OECD.xlsx)
+### 3. Semiconductor Demand Study (Demand_SIA_OECD.xlsx)
 - [OECD – Semiconductors Topic](https://www.oecd.org/en/topics/semiconductors.html)  
 - [Semiconductor Industry Association (SIA) – Market Data](https://www.semiconductors.org/policies/tax/market-data/?type=post)
 - Built from monthly SIA global sales figures (Jan–Nov 2025, with a WSTS/SIA 2026 projection of roughly US$1 trillion) alongside OECD context on value-chain concentration, where five countries — the United States, South Korea, Taiwan, Japan, and China — account for around 75% of global value added.
 
-### 4. Tariff Analysis – HS Code 85423100 (Cleaned_semiconductors_tariffs_2025.xlsx)
+### 4. Tariff Analysis – HS Code 85423100 (semiconductors_tariffs_2025.xlsx)
 - [WTO Tariff Data](https://ttd.wto.org/en/data/idb/applied-duties?member=C840&product=85423100&year=2025)  
 - [USITC HTS Search](https://hts.usitc.gov/search?query=85423100)  
 - [Ballast Markets – Section 301 Tariffs](https://content.ballastmarkets.com/blog/2025-11-08-section-301-tariffs-explained-complete-list/)
