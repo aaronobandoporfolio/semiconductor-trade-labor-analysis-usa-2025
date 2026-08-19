@@ -2,6 +2,10 @@
 
 [![Dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
 
+## Project Status
+
+This project was paused for a period due to my father's hospitalization. I'm now back and actively retaking the work, continuing through Phase 3 (EDA) toward the final dashboards and report.
+
 ## Project Overview
 
 This project examines how U.S. semiconductor trade flows (HS Code 85423100) are being reshaped by inflationary pressures, labor costs, tariff structures, and global demand. By integrating official datasets from trade, labor, logistics, and market demand sources, the analysis highlights strategic insights relevant to executives, startups, recruiters, and policymakers.
@@ -34,14 +38,16 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 ### 2. HS 3542 UN Comtrade USA Exports Dataset  
 - [UN Comtrade – HS 854231 USA Exports](https://comtradeplus.un.org/TradeFlow?Frequency=A&Flows=M&CommodityCodes=854231&Partners=842&Reporters=156&period=2024&AggregateBy=none&BreakdownMode=plus)
 
-### 3. Semiconductor Demand Study  
+### 3. Semiconductor Demand Study (Cleaned_Demand_SIA_OECD.xlsx)
 - [OECD – Semiconductors Topic](https://www.oecd.org/en/topics/semiconductors.html)  
 - [Semiconductor Industry Association (SIA) – Market Data](https://www.semiconductors.org/policies/tax/market-data/?type=post)
+- Built from monthly SIA global sales figures (Jan–Nov 2025, with a WSTS/SIA 2026 projection of roughly US$1 trillion) alongside OECD context on value-chain concentration, where five countries — the United States, South Korea, Taiwan, Japan, and China — account for around 75% of global value added.
 
-### 4. Tariff Analysis – HS Code 85423100  
+### 4. Tariff Analysis – HS Code 85423100 (Cleaned_semiconductors_tariffs_2025.xlsx)
 - [WTO Tariff Data](https://ttd.wto.org/en/data/idb/applied-duties?member=C840&product=85423100&year=2025)  
 - [USITC HTS Search](https://hts.usitc.gov/search?query=85423100)  
 - [Ballast Markets – Section 301 Tariffs](https://content.ballastmarkets.com/blog/2025-11-08-section-301-tariffs-explained-complete-list/)
+- Consolidates applied duty rates by country of origin for processors and controllers under HS 85423100: a 0% MFN/general rate of duty for most trading partners (including USMCA and KORUS treaty partners), an elevated 35% rate for North Korea, and a 25% Section 301 rate applied to China.
 
 ### 5. Rail Equipment & Logistics  
 - [Rail Equipment Accident Data – Form 54](https://data.transportation.gov/Railroads/Rail-Equipment-Accident-Incident-Data-Form-54-/85tf-25kj/about_data)
@@ -216,12 +222,21 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 [![Page 1](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/80%20Global%20Export%20Overview%20(2025)%20Page%201.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
 [![Page 2](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/81%20Semiconductor%20Imports%20Concentration%20Page%202.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
 
+### Global Demand & Tariff Context
+
+- **Global Demand (SIA / OECD)**:  
+  Monthly global semiconductor sales climbed steadily through 2025, from **$56.5B in January to $75.3B in November**, with year-over-year growth accelerating from roughly +18% early in the year to nearly +30% by November. WSTS/SIA project the industry will approach **~US$1 trillion in global sales by 2026**. OECD context reinforces the concentration risk seen in the trade dashboards: the United States, South Korea, Taiwan, Japan, and China together account for about **75% of global value added**, with the U.S. leading in chip design and IP (~40%), Taiwan and South Korea leading manufacturing and memory (~15% each), and Japan anchoring critical materials and lithography equipment (~10%).
+
+- **Tariff Structure (HS 85423100)**:  
+  For processors and controllers under HS 85423100, the **general/MFN rate of duty is 0%** for nearly all U.S. trading partners — including treaty partners under USMCA and KORUS — while **North Korea faces an elevated 35% rate** for political reasons. Separately, **China faces a 25% Section 301 tariff** on this HS code, consistent with the broader nearshoring narrative: Mexico's zero-tariff USMCA access makes it structurally more competitive than China for U.S.-bound semiconductor trade.
+
 ### Complementary Narrative
 
 Together, the dashboards reveal **two sides of U.S. semiconductor competitiveness in 2025**:
 
 - **Workforce** → wages accelerating even as headcount contracts, with stark divergence between subsectors masking the aggregate headline.
 - **Trade** → diversified exports with resilient allies, but highly concentrated imports vulnerable to Malaysia's dominance.
+- **Demand & Tariffs** → global demand is accelerating toward a ~$1 trillion market, but that growth sits on a narrow, concentrated value chain, while tariff structure actively rewards USMCA-aligned nearshoring over Chinese sourcing.
 
 This contrast underscores both the **strengths** and the **fragilities** of the U.S. semiconductor ecosystem — and the urgent need for simultaneous diversification in supply chains **and** talent strategy.
 
@@ -236,7 +251,7 @@ This contrast underscores both the **strengths** and the **fragilities** of the 
 
 If you found this project interesting and would like to discuss insights, opportunities, or collaborations, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/aaron-obando-55a098308/).  
 
-You can also review my CV to learn more about my background and experience: [CV Link](https://drive.google.com/file/d/1mEmvdFMjBYZ2gHJWf0lr0sWNJrvNmQ6Z/view?usp=sharing).
+You can also review my CV to learn more about my background and experience: [CV Link](https://drive.google.com/file/d/1ttqLts0YRgc1I59XmWVxr5fanecvM1ku/view?usp=sharing).
 
 Email: contact@obandoanalytics.com
 
@@ -244,4 +259,4 @@ Email: contact@obandoanalytics.com
 ## Author
 
 **Aaron Eliseo Obando Gómez**  
-Data analyst focused on bridging trade, labor, and logistics to deliver actionable insights and strategic storytelling.
+Data Analyst, Business Intelligence Analyst, and Business Analyst focused on bridging trade, labor, and logistics to deliver actionable insights and strategic storytelling.
