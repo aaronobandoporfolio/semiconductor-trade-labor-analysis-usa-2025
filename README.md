@@ -191,6 +191,9 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
   | 4 | **Skill compression emerging** | Skills premium narrowed from 0.4% → 0.3% · possible oversupply of specialized talent |
   | 5 | **Subsector divergence** | Comms Gear **+8.52% real** vs. Electronic Parts **−3.54% real** · 12 pp spread within NAICS 334 |
   | 6 | **The Semiconductor Paradox confirmed** | Headcount fell while wages rose — the sector is concentrating talent, not growing it |
+
+  ---
+  
   **Analytical workflow:**
   1. **Data extraction** — Eight BLS CSV tables (weekly/hourly earnings, SA/NSA, all employees and production workers) processed through a six-function Python script.
   2. **Intermediary files** — Six CSV insight files and two Excel workbooks exported to a validated Findings layer.
