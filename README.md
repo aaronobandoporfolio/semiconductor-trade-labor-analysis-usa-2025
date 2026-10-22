@@ -219,7 +219,11 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
   | 4 | **Border states show no excess severity** | 19.3% of events · 17.2% of cost · $46.6K vs. $42.7K median |
   | 5 | **Crossings cost lives, derailments cost money** | 78 of 90 deaths at crossings · 0 deaths in derailments |
   | 6 | **The main line carries the cost** | 39.3% of events · 74.9% of damage cost |
-  **Analytical workflow:**
+
+  ---
+  
+### Analytical Workflow
+  
   1. **Data preparation** — Python (pandas) pipeline: column selection with `usecols`, costs converted from text to numbers, and cause, accident, equipment, border and severity groups derived.
   2. **Duplicate handling** — 779 repeat and joint reports flagged, not deleted, leaving 3,554 unique events and reducing total damage from $1.02B to $907.6M.
   3. **Dashboard build** — Power BI report with measures built on unique events, reconciled against the Python tables before publishing.
