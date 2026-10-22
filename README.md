@@ -194,7 +194,7 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
   > **Strategic implication**: The sector is shifting from *growth by headcount* to *growth by value per worker*. Leaders must invest in advanced training, differentiated pay structures, and talent mobility programs to sustain competitiveness — especially given that 2 of 5 subsectors posted real wage losses in 2025.
 [![Dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
  
-### Logistics Risk Analysis — U.S. Rail Incidents (Dashboard 4)
+### Logistics Risk Analysis — U.S. Rail Incidents
  
 - **Logistics Risk (FRA Form 54)**:  
   Trade and workforce are only part of the picture — goods also have to move inland. A dedicated **Rail Logistics Risk Dashboard** analyzes 4,333 rail equipment accident reports (January 2024 – October 2025) from the U.S. DOT Form 54 dataset to understand where the U.S. rail network breaks and what it costs. Built in **Power BI** with **DAX measures** and fed by a **Python pipeline** that reduced 115 raw columns to 25, it tests four hypotheses and surfaces six core findings:
