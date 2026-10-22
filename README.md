@@ -119,9 +119,9 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 > This dashboard explores failure drivers, cost concentration,
 > geographic distribution, fatalities, injuries, and risk patterns.
 
-- [Project Documentation — Methodology, Data Cleaning & Analysis](ADD_DOCUMENTATION_LINK)
+- [Project Documentation — Methodology, Data Cleaning & Analysis](https://drive.google.com/file/d/1XqKmdgn_xqgW7CcYZpsGtDMl3q6TrfN7/view?usp=sharing)
 
-- [Power BI Dashboard — Rail Logistics Risk Analysis](ADD_POWERBI_LINK)
+- [Power BI Dashboard — Rail Logistics Risk Analysis](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/4%20Rail%20Logistics%20Risk%20Dashboard.pbix)
 
 
 ## Process & Documentation Images
@@ -232,8 +232,12 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
   - **Data scientists**: The dataset has no train-mile exposure data, so the work shows counts and costs, not risk rates. Linking it to traffic volumes is a natural next modeling step.
   > **Strategic implication**: Rail logistics risk is a tail-risk problem, not an average-incident problem. The inland leg of the semiconductor supply chain is shaped by a small number of high-cost events, which complements the concentration found in the import analysis.
   > **Note**: Independent project. The data comes from U.S. DOT Form 54 and the project is not affiliated with the U.S. DOT or FRA.
-  **Full documentation:** [Rail Logistics Risk Analysis — Full Documentation](PASTE-DOCUMENT-LINK-HERE)
-[![Dashboard 4](PASTE-IMAGE-LINK-HERE)](PASTE-PBIX-LINK-HERE)
+  **Full documentation:** [Rail Logistics Risk Analysis — Full Documentation](https://drive.google.com/file/d/1XqKmdgn_xqgW7CcYZpsGtDMl3q6TrfN7/view?usp=sharing)
+[![Dashboard 4 page 2](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/89%20rail-logistics-risk-dashboard.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/4%20Rail%20Logistics%20Risk%20Dashboard.pbix)
+[![Dashboard 4 page 2](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/89%20rail-logistics-risk-dashboard.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/4%20Rail%20Logistics%20Risk%20Dashboard.pbix)
+[![Dashboard 4 page 3](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/90%20rail-logistics-risk-dashboard.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/4%20Rail%20Logistics%20Risk%20Dashboard.pbix)
+[![Dashboard 4 page 4](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/91%20rail-logistics-risk-dashboard.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/4%20Rail%20Logistics%20Risk%20Dashboard.pbix)
+[![Dashboard 4 page 5](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/92%20rail-logistics-risk-dashboard.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/4%20Rail%20Logistics%20Risk%20Dashboard.pbix)
  
 ### Trade Analysis
  
