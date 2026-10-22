@@ -165,16 +165,14 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
 
 
 ## Insights & Use Cases
-
+ 
 ### Workforce & ECI Analysis
-
+ 
 - **Workforce & ECI**:  
   Trade concentration is only half the story — the Employment Concentration Index (ECI) shows how semiconductor jobs are distributed across U.S. regions and industries. While total employment in NAICS 334 hovers around 3 million, the distribution is uneven.  
   - **Dashboard Insight**: Employment growth is clustered in electronics manufacturing (≈1M) and precision instruments (≈0.41M), while semiconductors hold steady at ≈0.38M with slight cooling (‑0.03%). Smaller sub‑industries like magnetic & optical media show sharper declines (‑1.8%), signaling structural shifts.
-
 - **ECI Deep Dive — Semiconductor Wage & Employment Dynamics (NAICS 3344)**:  
   Beyond headcount distribution, a dedicated **ECI Employment Analytics Dashboard** drills into the wage dynamics of the U.S. semiconductor sector through December 2025. Built in **Power BI** with custom **DAX measures** and **HTML/CSS/JS** visual panels, and fed by a Python pipeline extracting eight BLS earnings tables, it surfaces six core findings:
-
   | # | Finding | Key Metric |
   |---|---------|------------|
   | 1 | **Employment contraction stabilizing** | 365.2K workers · ▼4.6% YoY · Q4 plateau confirmed at −100 jobs/month |
@@ -183,63 +181,83 @@ All of these files will be analyzed thoroughly in **Phase 3 (EDA)** to uncover a
   | 4 | **Skill compression emerging** | Skills premium narrowed from 0.4% → 0.3% · possible oversupply of specialized talent |
   | 5 | **Subsector divergence** | Comms Gear **+8.52% real** vs. Electronic Parts **−3.54% real** · 12 pp spread within NAICS 334 |
   | 6 | **The Semiconductor Paradox confirmed** | Headcount fell while wages rose — the sector is concentrating talent, not growing it |
-
   **Analytical workflow:**
   1. **Data extraction** — Eight BLS CSV tables (weekly/hourly earnings, SA/NSA, all employees and production workers) processed through a six-function Python script.
   2. **Intermediary files** — Six CSV insight files and two Excel workbooks exported to a validated Findings layer.
   3. **Dashboard build** — Power BI report combining native visuals with custom HTML/CSS/JS panels and DAX-calculated KPIs.
-
   **Dashboard navigation** includes five interactive panels accessible from the control sidebar:
   - **Executive Summary** — headline KPIs, key findings, emerging risks, and a strategic recommendation
   - **Storytelling** — the "Semiconductor Paradox" narrative in three acts, with four tested hypotheses (2 confirmed, 2 rejected)
   - **Executive Walkthrough** — a 9-step guided tour explaining every visual in context
   - **Data Source** — direct link to the BLS ECI tables for full transparency and independent verification
   - **About This Dashboard** — methodology, technical stack, design philosophy, and known UI behaviors
-
   > **Strategic implication**: The sector is shifting from *growth by headcount* to *growth by value per worker*. Leaders must invest in advanced training, differentiated pay structures, and talent mobility programs to sustain competitiveness — especially given that 2 of 5 subsectors posted real wage losses in 2025.
-
 [![Dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
-
+ 
+### Logistics Risk Analysis — U.S. Rail Incidents (Dashboard 4)
+ 
+- **Logistics Risk (FRA Form 54)**:  
+  Trade and workforce are only part of the picture — goods also have to move inland. A dedicated **Rail Logistics Risk Dashboard** analyzes 4,333 rail equipment accident reports (January 2024 – October 2025) from the U.S. DOT Form 54 dataset to understand where the U.S. rail network breaks and what it costs. Built in **Power BI** with **DAX measures** and fed by a **Python pipeline** that reduced 115 raw columns to 25, it tests four hypotheses and surfaces six core findings:
+  | # | Finding | Key Metric |
+  |---|---------|------------|
+  | 1 | **Derailments drive the cost** | 55.6% of events · 78.9% of damage cost · $56.0K median per event |
+  | 2 | **Cost is highly concentrated** | Top 1% of events = 39% of cost · top 10% = 74.9% |
+  | 3 | **Human errors are frequent, not costly** | 35.2% of events · only 17.3% of cost · track and equipment causes ≈ $64K median |
+  | 4 | **Border states show no excess severity** | 19.3% of events · 17.2% of cost · $46.6K vs. $42.7K median |
+  | 5 | **Crossings cost lives, derailments cost money** | 78 of 90 deaths at crossings · 0 deaths in derailments |
+  | 6 | **The main line carries the cost** | 39.3% of events · 74.9% of damage cost |
+  **Analytical workflow:**
+  1. **Data preparation** — Python (pandas) pipeline: column selection with `usecols`, costs converted from text to numbers, and cause, accident, equipment, border and severity groups derived.
+  2. **Duplicate handling** — 779 repeat and joint reports flagged, not deleted, leaving 3,554 unique events and reducing total damage from $1.02B to $907.6M.
+  3. **Dashboard build** — Power BI report with measures built on unique events, reconciled against the Python tables before publishing.
+  **Dashboard navigation** includes five pages:
+  - **Executive Summary** — headline KPIs, four hypothesis verdicts, monthly trend, and a key takeaway
+  - **Failure Drivers** — median cost by cause, main line vs. yard, and frequency vs. cost by accident type
+  - **Cost Concentration** — Pareto curve of damage cost and event frequency by severity bucket, with a mega-event slicer
+  - **Geographic Concentration** — state map, top 10 states, and border vs. rest-of-U.S. median cost
+  - **Methodology & Limitations** — data preparation, duplicate handling, limitations, and a link to the repository
+  **Use cases:**
+  - **Supply-chain leaders**: Planning around rare, costly derailments matters more than planning around the average incident, since roughly 10% of events account for 75% of damage cost.
+  - **Policy analysts**: Crossings dominate fatalities while derailments dominate cost, so safety and resilience investment target different problems.
+  - **Data scientists**: The dataset has no train-mile exposure data, so the work shows counts and costs, not risk rates. Linking it to traffic volumes is a natural next modeling step.
+  > **Strategic implication**: Rail logistics risk is a tail-risk problem, not an average-incident problem. The inland leg of the semiconductor supply chain is shaped by a small number of high-cost events, which complements the concentration found in the import analysis.
+  > **Note**: Independent project. The data comes from U.S. DOT Form 54 and the project is not affiliated with the U.S. DOT or FRA.
+  **Full documentation:** [Rail Logistics Risk Analysis — Full Documentation](PASTE-DOCUMENT-LINK-HERE)
+[![Dashboard 4](PASTE-IMAGE-LINK-HERE)](PASTE-PBIX-LINK-HERE)
+ 
 ### Trade Analysis
-
+ 
 - **Startups and CEOs**:  
   In 2025, the semiconductor trade tells two very different stories. On the export side, Mexico thrives under **USMCA's zero tariffs**, positioning itself as a competitive hub for electronics assembly. Meanwhile, China faces a **25% Section 301 tariff**, pushing U.S. firms to rethink sourcing strategies.  
   - **Dashboard Insight**: Exports show strength and diversification, with Mexico and China leading as destinations and Malaysia playing a secondary but strategic role. Imports, however, reveal extreme dependence on Malaysia (≈60%+), forcing CEOs to balance efficiency with resilience.
-
 - **Recruiters**:  
   The talent race mirrors the trade race. U.S. hubs like **Phoenix, Austin, and Albany** are booming in semiconductor manufacturing and R&D, while external partners such as **Malaysia, Germany, and Japan** remain critical to global supply chains.  
   - **Dashboard Insight**: Exports are moderately concentrated (HHI ≈0.17), reflecting diverse demand. Imports are highly concentrated (HHI ≈0.70), signaling risk. Recruiters can align pipelines with domestic hotspots while keeping an eye on international partners that anchor supply chain resilience.
-
 - **Policy Analysts**:  
   Behind the numbers lies systemic risk. OECD and USITC data show that **over 70% of semiconductor trade value is concentrated in just five countries**. Malaysia, a global powerhouse in assembly and testing (~13% of the market), dominates U.S. imports.  
   - **Dashboard Insight**: Malaysia's dominance reflects efficiency but also vulnerability. Analysts can model disruption scenarios — geopolitical shocks, natural disasters — and evaluate diversification toward **Brazil, India, and Israel**, which appear as emerging suppliers in the import dashboard.
-
 - **Data Scientists**:  
   The duality of exports and imports offers fertile ground for modeling. Linking **UN Comtrade flows** with **transport modes (air vs. sea)** and **tariff regimes** enables predictive analytics for supply chain risk.  
   - **Dashboard Insight**: Exports highlight balanced partnerships across Asia and North America, while imports expose single‑partner dependency. This contrast can fuel models that quantify resilience, simulate shocks, and recommend diversification strategies.
-
 **U.S. Semiconductor Trade Overview (2025)**
 [![Page 1](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/80%20Global%20Export%20Overview%20(2025)%20Page%201.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
 [![Page 2](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/81%20Semiconductor%20Imports%20Concentration%20Page%202.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
-
+ 
 ### Global Demand & Tariff Context
-
+ 
 - **Global Demand (SIA / OECD)**:  
   Monthly global semiconductor sales climbed steadily through 2025, from **$56.5B in January to $75.3B in November**, with year-over-year growth accelerating from roughly +18% early in the year to nearly +30% by November. WSTS/SIA project the industry will approach **~US$1 trillion in global sales by 2026**. OECD context reinforces the concentration risk seen in the trade dashboards: the United States, South Korea, Taiwan, Japan, and China together account for about **75% of global value added**, with the U.S. leading in chip design and IP (~40%), Taiwan and South Korea leading manufacturing and memory (~15% each), and Japan anchoring critical materials and lithography equipment (~10%).
-
 - **Tariff Structure (HS 85423100)**:  
   For processors and controllers under HS 85423100, the **general/MFN rate of duty is 0%** for nearly all U.S. trading partners — including treaty partners under USMCA and KORUS — while **North Korea faces an elevated 35% rate** for political reasons. Separately, **China faces a 25% Section 301 tariff** on this HS code, consistent with the broader nearshoring narrative: Mexico's zero-tariff USMCA access makes it structurally more competitive than China for U.S.-bound semiconductor trade.
-
 ### Complementary Narrative
-
+ 
 Together, the dashboards reveal **two sides of U.S. semiconductor competitiveness in 2025**:
-
+ 
 - **Workforce** → wages accelerating even as headcount contracts, with stark divergence between subsectors masking the aggregate headline.
+- **Logistics** → rail damage is concentrated: a small share of high-cost events, mostly derailments, carries most of the cost, so the inland leg of the supply chain is a tail-risk question rather than an average-incident one.
 - **Trade** → diversified exports with resilient allies, but highly concentrated imports vulnerable to Malaysia's dominance.
 - **Demand & Tariffs** → global demand is accelerating toward a ~$1 trillion market, but that growth sits on a narrow, concentrated value chain, while tariff structure actively rewards USMCA-aligned nearshoring over Chinese sourcing.
-
 This contrast underscores both the **strengths** and the **fragilities** of the U.S. semiconductor ecosystem — and the urgent need for simultaneous diversification in supply chains **and** talent strategy.
-
   
 ## Disclaimer  
 - **Data Privacy**: Due to privacy considerations, the cleaned datasets and intermediate files used in this project are not available for direct download. Documentation and methodological notes are provided instead to ensure transparency without compromising data security.  
