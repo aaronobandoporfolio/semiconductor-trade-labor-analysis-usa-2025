@@ -113,7 +113,7 @@ The emphasis is on understanding how nearshoring, tariff advantages, and employm
 - [Dashboard File — Wage & Skills Premium (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
 - [Dashboard Documentation — Wage & Skills Premium](https://drive.google.com/file/d/1Py86BmphD81hzcrQlAP4qlySyd2uAFlV/view?usp=sharing)
 
-### Rail Logistics Risk Analysis
+### Dashboard 4 — Rail Logistics Risk Analysis
 
 > Analysis of U.S. rail equipment incidents using FRA Form 54 data.
 > This dashboard explores failure drivers, cost concentration,
