@@ -4,9 +4,9 @@
 
 ## Quick Overview (60-second read)
 
-**Stack:** Python (pandas) · MySQL · Power BI (DAX, custom HTML/CSS/JS visuals) · Excel
-**Scope:** 23 cleaned files from official sources (UN Comtrade, BLS, WTO, OECD, U.S. DOT) across trade, tariffs, labor, logistics, and global demand
-**Deliverables:** 4 Power BI dashboards, SQL validation, full documentation for every phase
+- **Stack:** Python (pandas) · MySQL · Power BI (DAX, custom HTML/CSS/JS visuals) · Excel
+- **Scope:** 23 cleaned files from official sources (UN Comtrade, BLS, WTO, OECD, U.S. DOT) across trade, tariffs, labor, logistics, and global demand
+- **Deliverables:** 4 Power BI dashboards, SQL validation, full documentation for every phase
 
 ### 1. The Business Problem
 
