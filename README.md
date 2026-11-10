@@ -1,6 +1,9 @@
 # Is the U.S. semiconductor supply chain becoming more vulnerable despite growing global demand?
 
-[![Dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/93_Video_Showcase_GitHub.mp4)]
+
+https://github.com/user-attachments/assets/fed4a62a-5ae6-42c0-8dc6-1b67a6f20292
+
+
 
 ## Quick Overview (60-second read)
 
