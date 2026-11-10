@@ -1,19 +1,409 @@
 # Is the U.S. semiconductor supply chain becoming more vulnerable despite growing global demand?
 
+▶ **Project presentation (video)**
 
 https://github.com/user-attachments/assets/fed4a62a-5ae6-42c0-8dc6-1b67a6f20292
 
-
-
 ## Quick Overview (60-second read)
 
+- **Status:** Nearly complete — Phases 1 to 4 finished (four Power BI dashboards), final reporting in its last stage
 - **Stack:** Python (pandas) · MySQL · Power BI (DAX, custom HTML/CSS/JS visuals) · Excel
 - **Scope:** 23 cleaned files from official sources (UN Comtrade, BLS, WTO, OECD, U.S. DOT) across trade, tariffs, labor, logistics, and global demand
-- **Deliverables:** 4 Power BI dashboards, SQL validation, full documentation for every phase
+- **Deliverables:** 4 Power BI dashboards, SQL validation, a project presentation video, and full documentation for every phase
 
 ### 1. The Business Problem
 
 Global semiconductor demand is accelerating toward a ~US$1 trillion market by 2026, but the U.S. depends on a narrow set of suppliers, a thin inland logistics network, and a shrinking, increasingly expensive workforce. **Where is the U.S. semiconductor supply chain most exposed, and what should executives, recruiters, and policymakers do about it?**
+
+The analysis focuses on HS Code 85423100 (processors and controllers) and asks three decision-oriented questions:
+
+- **Sourcing:** How concentrated are U.S. imports, and do tariffs push buyers toward safer or riskier suppliers?
+- **Logistics:** Once chips land, where does the inland rail network break and what does it cost?
+- **Talent:** Is the workforce growing with demand, or are firms concentrating value in fewer workers?
+
+### 2. The Three Most Important Findings
+
+| # | Finding | Key Evidence | Why It Matters |
+|---|---------|--------------|----------------|
+| 1 | **U.S. imports are dangerously concentrated** | Malaysia ≈60%+ of imports · import HHI ≈0.70 vs. export HHI ≈0.17 | Exports are diversified, imports are not: a single-partner shock hits sourcing directly |
+| 2 | **Rail logistics risk is a tail-risk problem** | Top 10% of events = 74.9% of damage cost · derailments = 55.6% of events but 78.9% of cost | Resilience planning should target rare, costly derailments, not the average incident |
+| 3 | **The workforce is concentrating, not growing (the "Semiconductor Paradox")** | Headcount ▼4.6% YoY (365.2K) while wages ▲6.9% · premium +21.9% over manufacturing | Strategy is shifting from growth by headcount to value per worker; hiring and retention must follow |
+
+**Supporting context:** Tariffs reinforce the nearshoring story: a 0% rate for USMCA and KORUS partners versus a 25% Section 301 rate on China, making Mexico structurally more competitive than China for U.S.-bound chips.
+
+### 3. Evidence & Analytical Methodology
+
+| Finding | Evidence Base | Method |
+|---------|---------------|--------|
+| Import concentration | UN Comtrade imports and exports (HS 85423100), WTO and USITC tariff schedules, OECD/SIA demand data | Share-of-value analysis by partner country, Herfindahl-Hirschman Index (HHI) for imports vs. exports, SQL validation of Python results |
+| Rail tail-risk | 4,333 U.S. DOT Form 54 accident reports (Jan 2024 – Oct 2025) | Python pipeline cut 115 raw columns to 25, 779 repeat/joint reports flagged (not deleted) leaving 3,554 unique events, Pareto concentration analysis, four hypotheses tested |
+| Workforce paradox | BLS Employment Cost Index, QCEW, SAE, OEWS, and eight BLS earnings tables (NAICS 3344) | Six-function Python extraction, real vs. nominal wage comparison by subsector, wage and skills premium measures built in DAX, four hypotheses tested (2 confirmed, 2 rejected) |
+
+**Quality controls:** Data types verified column by column, repeat reports flagged instead of silently dropped, Power BI measures reconciled against the Python tables before publishing, and every source is an official public institution.
+
+**Limitations (stated openly):** The rail dataset has no train-mile exposure data, so results show counts and costs, not risk rates. Public ECI tables for NAICS 3344 have no breakdown by state, occupation, or firm size.
+
+### Real-World Validation
+
+The concentration risk found in the data has played out before. In mid-2021, COVID-19 lockdowns in Malaysia, a major hub for chip assembly and testing, disrupted back-end chip supply and were cited among the factors behind production cuts at automakers. The same pattern this project measures (heavy reliance on one assembly hub) is what made a regional shutdown a global supply problem.
+
+## Project Status
+
+**Nearly complete.** Phases 1 to 4 are finished: the data was collected, cleaned, analyzed (EDA) and turned into four Power BI dashboards, each with its own documentation. Phase 5 (final reporting) is in its last stage, and a presentation video is published at the top of this README. The project was paused for a period for personal reasons and has since been resumed through to its final stage.
+
+## Project Overview
+
+This project examines how U.S. semiconductor trade flows (HS Code 85423100) are being reshaped by inflationary pressures, labor costs, tariff structures, and global demand. By integrating official datasets from trade, labor, logistics, and market demand sources, the analysis highlights strategic insights relevant to executives, startups, recruiters, and policymakers.
+
+The work is structured in phases, serving as a showcase of my professional approach to data analysis and business intelligence:
+
+- **Phase 1: Data Extraction** (completed) – Focused on locating and extracting data from authoritative legal and public sources.
+- **Phase 2: Data Preprocessing** (completed) – Involved cleaning, organizing, and preparing the datasets to ensure accuracy and reliability.
+- **Phase 3: Exploratory Data Analysis (EDA)** (completed) – Dedicated to uncovering patterns, relationships, and actionable insights.
+- **Phase 4: Data Visualization** (completed) – Four Power BI dashboards (imports, trade balance, workforce wages, and rail logistics risk) designed to present insights interactively for executives, managers, and decision-makers.
+- **Phase 5: Final Reporting** (final stage) – Consolidates findings into a comprehensive report and presentation, tailored to professionals, recruiters, CEOs, and policymakers seeking strategic clarity. The presentation video is available at the top of this README.
+
+The emphasis is on understanding how nearshoring, tariff advantages, and employment trends are influencing the semiconductor supply chain. Mexico, South Korea and Malaysia stand out as critical hubs, while China faces structural disadvantages due to Section 301 tariffs.
+
+## Objectives
+
+- Compare U.S. semiconductor imports and exports by destination
+- Quantify tariff structures and trade barriers (MFN, Section 301) and their impact on competitiveness
+- Assess logistic efficiency and potential cost savings using rail and border data
+- Evaluate labor costs and employment trends in semiconductor-related industries (NAICS 334), including wage premium dynamics, real vs. nominal wage growth by subsector, skills compression, and the structural shift from headcount growth to value-per-worker retention
+- Project global demand growth and the rise of new hubs using OECD and SIA data
+
+## Data Sources
+
+### 1. USA TradeData Imports Dataset
+
+- [UN Comtrade – HS 854231 USA Imports](https://comtradeplus.un.org/TradeFlow?Frequency=A&Flows=M&CommodityCodes=854231&Partners=842&Reporters=156&period=2024&AggregateBy=none&BreakdownMode=plus)
+
+### 2. HS 3542 UN Comtrade USA Exports Dataset
+
+- [UN Comtrade – HS 854231 USA Exports](https://comtradeplus.un.org/TradeFlow?Frequency=A&Flows=M&CommodityCodes=854231&Partners=842&Reporters=156&period=2024&AggregateBy=none&BreakdownMode=plus)
+
+### 3. Semiconductor Demand Study (Demand_SIA_OECD.xlsx)
+
+- [OECD – Semiconductors Topic](https://www.oecd.org/en/topics/semiconductors.html)
+- [Semiconductor Industry Association (SIA) – Market Data](https://www.semiconductors.org/policies/tax/market-data/?type=post)
+- Built from monthly SIA global sales figures (Jan–Nov 2025, with a WSTS/SIA 2026 projection of roughly US$1 trillion) alongside OECD context on value-chain concentration, where five countries — the United States, South Korea, Taiwan, Japan, and China — account for around 75% of global value added.
+
+### 4. Tariff Analysis – HS Code 85423100 (semiconductors_tariffs_2025.xlsx)
+
+- [WTO Tariff Data](https://ttd.wto.org/en/data/idb/applied-duties?member=C840&product=85423100&year=2025)
+- [USITC HTS Search](https://hts.usitc.gov/search?query=85423100)
+- [Ballast Markets – Section 301 Tariffs](https://content.ballastmarkets.com/blog/2025-11-08-section-301-tariffs-explained-complete-list/)
+- Consolidates applied duty rates by country of origin for processors and controllers under HS 85423100: a 0% MFN/general rate of duty for most trading partners (including USMCA and KORUS treaty partners), an elevated 35% rate for North Korea, and a 25% Section 301 rate applied to China.
+
+### 5. Rail Equipment & Logistics
+
+- [Rail Equipment Accident Data – Form 54](https://data.transportation.gov/Railroads/Rail-Equipment-Accident-Incident-Data-Form-54-/85tf-25kj/about_data)
+
+### 6. Labor & Employment Data
+
+- [Quarterly Census of Employment and Wages (QCEW)](https://www.bls.gov/data/)
+- [Employment Cost Index (ECI)](https://www.bls.gov/news.release/eci.toc.htm)
+- [State and Metro Employment (SAE)](https://www.bls.gov/data/)
+- [Occupational Employment and Wage Statistics (OEWS)](https://www.bls.gov/data/)
+- [Company Census File – BLS CEW](https://www.bls.gov/cew/)
+
+## Documentation and Power BI Dashboard Links
+
+### Phases 1 & 2 — Data Collection, Sourcing & Cleaning
+
+> Every dataset used in this project is sourced from official public institutions
+> (UN, BLS, WTO, OECD, U.S. DOT). The documents below cover where each dataset
+> came from, why it was selected, and how it was cleaned and prepared for analysis.
+
+- [Why These Datasets Were Selected and How They Were Collected](https://drive.google.com/file/d/1-3SQiZhzIkydtv6eWh92isykCIxGN_ef/view?usp=sharing)
+- [U.S. Semiconductor Imports — Source Dataset (UN Comtrade)](https://drive.google.com/file/d/1u0P0rbN6ok3GJFVW5FBWn0qq2E11dxIC/view?usp=sharing)
+- [U.S. Semiconductor Exports — Source Dataset (UN Comtrade)](https://drive.google.com/file/d/1YcdE62QwZrf7Y5lE99XZmv03Pfy_9w3L/view?usp=sharing)
+- [Global Semiconductor Demand Study — Source Dataset (SIA & OECD)](https://drive.google.com/file/d/1Pr-jg3PHVlkSzI1eT4q0XfalV_hWEbnt/view?usp=sharing)
+- [Tariff Structure — Source Dataset, HS Code 85423100 (2025)](https://drive.google.com/file/d/1E962Viu1xvghCLE5IfafTda5OaI2H55F/view?usp=sharing)
+- [Logistics Risk — Source Dataset, Rail Equipment Incidents (U.S. DOT Form 54)](https://drive.google.com/file/d/1gRpTuLqjJvutQps7Xzc2dIEjD6iiViLE/view?usp=sharing)
+- [U.S. Employment & Wages — Source Dataset, Quarterly Census (BLS QCEW)](https://drive.google.com/file/d/1Z56mXnFIui68kvf9GsmsriejWwQ0xH4k/view?usp=sharing)
+- [Employment Cost Index — Source Dataset, ECI Tables (BLS)](https://drive.google.com/file/d/1mfsM_xQTCQX8xuWtivi6noqI7_OVqsP2/view?usp=sharing)
+- [State & Metro Employment — Source Dataset, SAE Tables (BLS)](https://drive.google.com/file/d/1yg2FOCxXwXcJGXHD0iDUGf-KAXUJyPGD/view?usp=sharing)
+- [Occupational Wages by Role — Source Dataset, OEWS (BLS)](https://drive.google.com/file/d/1EOsHBXyN1-5Zz7fYwIEZJ8tCwqgzge0A/view?usp=sharing)
+- [Company Census File — Cleaning Process & Validation](https://drive.google.com/file/d/1MXG2djJDZ7_B_SEqY-peLbFJe2PlBUtK/view?usp=sharing)
+
+---
+
+### Dashboard 1 — U.S. Semiconductor Imports Overview
+
+> Who is selling semiconductors to the U.S., at what price, and from where?
+
+- [Loading Cleaned Imports into MySQL — Pipeline Documentation](https://drive.google.com/file/d/18xiokOF3ZzXAXeGOYf7EkMlt_fh0144Z/view?usp=sharing)
+- [Imports EDA — Full Analysis & Findings](https://drive.google.com/file/d/1Sou0BtrLAZy2XEDGCnaHI_5MkLMjEHIB/view?usp=sharing)
+- [SQL Validation & Extended Insights — Imports (2025)](https://drive.google.com/file/d/1lXmCQC2wlwdD64JHw5vW9hzP8Lr46GeH/view?usp=sharing)
+- [Dashboard File — CIF Imports Overview (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/1%20US%20Semiconductors%20CIF%20Imports%20Overview.pbix)
+- [Dashboard Documentation — Imports by Country (2025)](https://drive.google.com/file/d/1wntK7ip2EMJFM9lplSnfYG-LZQYUDoIi/view?usp=sharing)
+
+---
+
+### Dashboard 2 — U.S. Semiconductor Trade Balance: Exports vs. Imports
+
+> How do U.S. export destinations compare to import sources — and where are the strategic gaps?
+
+- [Exports EDA — Full Analysis & Findings](https://drive.google.com/file/d/1NcOpa9zuEkv0iVsBZMFj5n9lnR0o_cNq/view?usp=sharing)
+- [SQL Validation & Extended Insights — Exports (2025)](https://drive.google.com/file/d/1srhp7MSJkPbx9LWRvAfKDYVgVojdoJGx/view?usp=sharing)
+- [Dashboard File — Trade Overview (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
+- [Dashboard Documentation — Imports & Exports Combined](https://drive.google.com/file/d/1Cmqq9XC17ByEmvI3GnvsH13GKSvvh6Eh/view?usp=sharing)
+
+---
+
+### Dashboard 3 — Semiconductor Workforce: Wages, Employment & the Skills Premium
+
+> Why are semiconductor wages rising while headcount is falling — and what does that mean for hiring strategy?
+
+- [BLS Earnings & ECI Analysis — Semiconductor Sector](https://drive.google.com/file/d/1uA-Y2eKHvb2NhIynn_gG8Z3Loyfd59oW/view?usp=sharing)
+- [Dashboard File — Wage & Skills Premium (.pbix)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
+- [Dashboard Documentation — Wage & Skills Premium](https://drive.google.com/file/d/1Py86BmphD81hzcrQlAP4qlySyd2uAFlV/view?usp=sharing)
+
+---
+
+### Dashboard 4 — Rail Logistics Risk Analysis
+
+> Analysis of U.S. rail equipment incidents using FRA Form 54 data.
+> This dashboard explores failure drivers, cost concentration,
+> geographic distribution, fatalities, injuries, and risk patterns.
+
+- [Project Documentation — Methodology, Data Cleaning & Analysis](https://drive.google.com/file/d/1XqKmdgn_xqgW7CcYZpsGtDMl3q6TrfN7/view?usp=sharing)
+- [Power BI Dashboard — Rail Logistics Risk Analysis](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/4%20Rail%20Logistics%20Risk%20Dashboard.pbix)
+
+## Process & Documentation Images
+
+### Data Wrangling Process
+
+During Phase 2, I worked with two windows simultaneously: one running Python scripts in Visual Studio Code and another displaying CSV files in Excel. This setup allowed me to check the accuracy of my data wrangling process step by step.
+
+- I verified data types across columns, which were all accurate.
+- My focus was on extracting what was relevant and dropping what was not.
+- After ensuring the wrangling met expectations, I documented the major steps and added comments to the code.
+- Some files contained millions of rows, which required longer debugging cycles to ensure accuracy.
+
+![Dual-Screen Data Wrangling](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/Screenshot%202026-01-29%20191735.png)
+
+### Cleaned Data Repository
+
+The cleaned dataset consists of **23 files in total**, covering trade, labor, logistics, and economic indicators. These include:
+
+1. Occupational Employment and Wage Statistics (OEWS).txt
+2. Rail_Equipment_Accident_Incident_Data_(Form_54)_20260121.csv
+3. Demand SIA_OECD.xlsx
+4. Imports USA.csv
+5. Quarterly Census of Employment and Wages.csv
+6. semiconductors_tariffs_2025.xlsx
+7. Company_Census_File_20260121.csv
+8. HS_3542_Un_Comtrade_USA_Exports.csv
+9. Employment and Earnings Table B-1a.pdf
+10. Employment and Earnings Table B-1b.pdf
+11. Employment and Earnings Table B-3a.pdf
+12. Employment and Earnings Table B-3b.pdf
+13. Employment and Earnings Table B-8a.pdf
+14. Employment and Earnings Table B-8b.pdf
+15. Export Price Indexes, by Harmonized System - 2025 M11 Results.pdf
+16. Ports by Commodities.pdf
+17. SAE table-2-employees-on-nonfarm-payrolls-by-states-selected-metropolitan-areas-and-metropolitan-divisions.pdf
+18. Table 1. Seasonally adjusted Employment Cost Index – 2025 Q03 Results.pdf
+19. Table 2. Seasonally adjusted Employment Cost Index – 2025 Q03 Results.pdf
+20. Table 3. Seasonally adjusted Employment Cost Index – 2025 Q03 Results.pdf
+21. Index for wages and salaries – 2025.pdf
+22. Table 13. Compensation and wages and salaries (not seasonally adjusted) – 2025 Q0.pdf
+23. Weekly_Traffic_Volume_20260121.csv
+
+These files support the Phase 3 exploratory analysis (EDA) and the four dashboards documented above.
+
+![Project Folder Structure](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/Screenshot%202026-01-29%20192358.png)
+
+![Cleaned Data Repository](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/Screenshot%202026-01-29%20191958.png)
+
+## Insights & Use Cases
+
+### Workforce & ECI Analysis
+
+- **Workforce & ECI**:
+  Trade concentration is only half the story — the Employment Cost Index (ECI) and BLS employment data show how semiconductor jobs and pay are distributed across U.S. industries. While total employment in NAICS 334 hovers around 3 million, the distribution is uneven.
+  - **Dashboard Insight**: Employment growth is clustered in electronics manufacturing (≈1M) and precision instruments (≈0.41M), while semiconductors hold steady at ≈0.38M with slight cooling (‑0.03%). Smaller sub‑industries like magnetic & optical media show sharper declines (‑1.8%), signaling structural shifts.
+
+- **ECI Deep Dive — Semiconductor Wage & Employment Dynamics (NAICS 3344)**:
+  Beyond headcount distribution, a dedicated **ECI Employment Analytics Dashboard** drills into the wage dynamics of the U.S. semiconductor sector through December 2025. Built in **Power BI** with custom **DAX measures** and **HTML/CSS/JS** visual panels, and fed by a Python pipeline extracting eight BLS earnings tables, it surfaces six core findings:
+
+  | # | Finding | Key Metric |
+  |---|---------|------------|
+  | 1 | **Employment contraction stabilizing** | 365.2K workers · ▼4.6% YoY · Q4 plateau confirmed at −100 jobs/month |
+  | 2 | **Wage premium expanding** | +21.9% above manufacturing average · $21.8K/yr premium · widened +1.6 pp in 2025 |
+  | 3 | **Wage growth accelerating** | +6.9% nominal full-year · Q4 sprint +0.56% · retention driving raises |
+  | 4 | **Skill compression emerging** | Skills premium narrowed from 0.4% → 0.3% · possible oversupply of specialized talent |
+  | 5 | **Subsector divergence** | Comms Gear **+8.52% real** vs. Electronic Parts **−3.54% real** · 12 pp spread within NAICS 334 |
+  | 6 | **The Semiconductor Paradox confirmed** | Headcount fell while wages rose — the sector is concentrating talent, not growing it |
+
+  ---
+
+  **Analytical workflow:**
+
+  1. **Data extraction** — Eight BLS CSV tables (weekly/hourly earnings, SA/NSA, all employees and production workers) processed through a six-function Python script.
+  2. **Intermediary files** — Six CSV insight files and two Excel workbooks exported to a validated Findings layer.
+  3. **Dashboard build** — Power BI report combining native visuals with custom HTML/CSS/JS panels and DAX-calculated KPIs.
+
+  **Dashboard navigation** includes five interactive panels accessible from the control sidebar:
+
+  - **Executive Summary** — headline KPIs, key findings, emerging risks, and a strategic recommendation
+  - **Storytelling** — the "Semiconductor Paradox" narrative in three acts, with four tested hypotheses (2 confirmed, 2 rejected)
+  - **Executive Walkthrough** — a 9-step guided tour explaining every visual in context
+  - **Data Source** — direct link to the BLS ECI tables for full transparency and independent verification
+  - **About This Dashboard** — methodology, technical stack, design philosophy, and known UI behaviors
+
+  > **Strategic implication**: The sector is shifting from *growth by headcount* to *growth by value per worker*. Leaders must invest in advanced training, differentiated pay structures, and talent mobility programs to sustain competitiveness — especially given that 2 of 5 subsectors posted real wage losses in 2025.
+
+[![Dashboard](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/86%20Semiconductor%20Sector%20ECI%20Analysis.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/3%20Semiconductor%20Wage%20%26%20Skills%20Premium%20Dashboard.pbix)
+
+### Logistics Risk Analysis — U.S. Rail Incidents
+
+- **Logistics Risk (FRA Form 54)**:
+  Trade and workforce are only part of the picture — goods also have to move inland. A dedicated **Rail Logistics Risk Dashboard** analyzes 4,333 rail equipment accident reports (January 2024 – October 2025) from the U.S. DOT Form 54 dataset to understand where the U.S. rail network breaks and what it costs. Built in **Power BI** with **DAX measures** and fed by a **Python pipeline** that reduced 115 raw columns to 25, it tests four hypotheses and surfaces six core findings:
+
+  | # | Finding | Key Metric |
+  |---|---------|------------|
+  | 1 | **Derailments drive the cost** | 55.6% of events · 78.9% of damage cost · $56.0K median per event |
+  | 2 | **Cost is highly concentrated** | Top 1% of events = 39% of cost · top 10% = 74.9% |
+  | 3 | **Human errors are frequent, not costly** | 35.2% of events · only 17.3% of cost · track and equipment causes ≈ $64K median |
+  | 4 | **Border states show no excess severity** | 19.3% of events · 17.2% of cost · $46.6K vs. $42.7K median |
+  | 5 | **Crossings cost lives, derailments cost money** | 78 of 90 deaths at crossings · 0 deaths in derailments |
+  | 6 | **The main line carries the cost** | 39.3% of events · 74.9% of damage cost |
+
+  ---
+
+  **Analytical workflow:**
+
+  1. **Data preparation** — Python (pandas) pipeline: column selection with `usecols`, costs converted from text to numbers, and cause, accident, equipment, border and severity groups derived.
+  2. **Duplicate handling** — 779 repeat and joint reports flagged, not deleted, leaving 3,554 unique events and reducing total damage from $1.02B to $907.6M.
+  3. **Dashboard build** — Power BI report with measures built on unique events, reconciled against the Python tables before publishing.
+
+  **Dashboard navigation** includes five pages:
+
+  - **Executive Summary** — headline KPIs, four hypothesis verdicts, monthly trend, and a key takeaway
+  - **Failure Drivers** — median cost by cause, main line vs. yard, and frequency vs. cost by accident type
+  - **Cost Concentration** — Pareto curve of damage cost and event frequency by severity bucket, with a mega-event slicer
+  - **Geographic Concentration** — state map, top 10 states, and border vs. rest-of-U.S. median cost
+  - **Methodology & Limitations** — data preparation, duplicate handling, limitations, and a link to the repository
+
+  **Use cases:**
+
+  - **Supply-chain leaders**: Planning around rare, costly derailments matters more than planning around the average incident, since roughly 10% of events account for 75% of damage cost.
+  - **Policy analysts**: Crossings dominate fatalities while derailments dominate cost, so safety and resilience investment target different problems.
+  - **Data scientists**: The dataset has no train-mile exposure data, so the work shows counts and costs, not risk rates. Linking it to traffic volumes is a natural next modeling step.
+
+  > **Strategic implication**: Rail logistics risk is a tail-risk problem, not an average-incident problem. The inland leg of the semiconductor supply chain is shaped by a small number of high-cost events, which complements the concentration found in the import analysis.
+
+  > **Note**: Independent project. The data comes from U.S. DOT Form 54 and the project is not affiliated with the U.S. DOT or FRA.
+
+  **Full documentation:** [Rail Logistics Risk Analysis — Full Documentation](https://drive.google.com/file/d/1XqKmdgn_xqgW7CcYZpsGtDMl3q6TrfN7/view?usp=sharing)
+
+[![Dashboard 4 page 1](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/88%20rail-logistics-risk-dashboard.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/4%20Rail%20Logistics%20Risk%20Dashboard.pbix)
+[![Dashboard 4 page 2](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/89%20rail-logistics-risk-dashboard.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/4%20Rail%20Logistics%20Risk%20Dashboard.pbix)
+[![Dashboard 4 page 3](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/90%20rail-logistics-risk-dashboard.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/4%20Rail%20Logistics%20Risk%20Dashboard.pbix)
+[![Dashboard 4 page 4](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/91%20rail-logistics-risk-dashboard.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/4%20Rail%20Logistics%20Risk%20Dashboard.pbix)
+[![Dashboard 4 page 5](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/92%20rail-logistics-risk-dashboard.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/4%20Rail%20Logistics%20Risk%20Dashboard.pbix)
+
+### Trade Analysis
+
+- **Startups and CEOs**:
+  In 2025, the semiconductor trade tells two very different stories. On the export side, Mexico thrives under **USMCA's zero tariffs**, positioning itself as a competitive hub for electronics assembly. Meanwhile, China faces a **25% Section 301 tariff**, pushing U.S. firms to rethink sourcing strategies.
+  - **Dashboard Insight**: Exports show strength and diversification, with Mexico and China leading as destinations and Malaysia playing a secondary but strategic role. Imports, however, reveal extreme dependence on Malaysia (≈60%+), forcing CEOs to balance efficiency with resilience.
+
+- **Recruiters**:
+  The talent race mirrors the trade race. U.S. hubs like **Phoenix, Austin, and Albany** are booming in semiconductor manufacturing and R&D, while external partners such as **Malaysia, Germany, and Japan** remain critical to global supply chains.
+  - **Dashboard Insight**: Exports are moderately concentrated (HHI ≈0.17), reflecting diverse demand. Imports are highly concentrated (HHI ≈0.70), signaling risk. Recruiters can align pipelines with domestic hotspots while keeping an eye on international partners that anchor supply chain resilience.
+
+- **Policy Analysts**:
+  Behind the numbers lies systemic risk. OECD and USITC data show that **over 70% of semiconductor trade value is concentrated in just five countries**. Malaysia, a global powerhouse in assembly and testing (~13% of the market), dominates U.S. imports.
+  - **Dashboard Insight**: Malaysia's dominance reflects efficiency but also vulnerability. Analysts can model disruption scenarios — geopolitical shocks, natural disasters — and evaluate diversification toward **Brazil, India, and Israel**, which appear as emerging suppliers in the import dashboard.
+
+- **Data Scientists**:
+  The duality of exports and imports offers fertile ground for modeling. Linking **UN Comtrade flows** with **transport modes (air vs. sea)** and **tariff regimes** enables predictive analytics for supply chain risk.
+  - **Dashboard Insight**: Exports highlight balanced partnerships across Asia and North America, while imports expose single‑partner dependency. This contrast can fuel models that quantify resilience, simulate shocks, and recommend diversification strategies.
+
+**U.S. Semiconductor Trade Overview (2025)**
+
+[![Page 1](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/80%20Global%20Export%20Overview%20(2025)%20Page%201.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
+[![Page 2](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/81%20Semiconductor%20Imports%20Concentration%20Page%202.png)](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Data%20Visualization%20%26%20Dashboards/2%20U.S.%20Semiconductor%20Trade%20Overview%20(2025).pbix)
+
+### Global Demand & Tariff Context
+
+- **Global Demand (SIA / OECD)**:
+  Monthly global semiconductor sales climbed steadily through 2025, from **$56.5B in January to $75.3B in November**, with year-over-year growth accelerating from roughly +18% early in the year to nearly +30% by November. WSTS/SIA project the industry will approach **~US$1 trillion in global sales by 2026**. OECD context reinforces the concentration risk seen in the trade dashboards: the United States, South Korea, Taiwan, Japan, and China together account for about **75% of global value added**, with the U.S. leading in chip design and IP (~40%), Taiwan and South Korea leading manufacturing and memory (~15% each), and Japan anchoring critical materials and lithography equipment (~10%).
+
+- **Tariff Structure (HS 85423100)**:
+  For processors and controllers under HS 85423100, the **general/MFN rate of duty is 0%** for nearly all U.S. trading partners — including treaty partners under USMCA and KORUS — while **North Korea faces an elevated 35% rate** for political reasons. Separately, **China faces a 25% Section 301 tariff** on this HS code, consistent with the broader nearshoring narrative: Mexico's zero-tariff USMCA access makes it structurally more competitive than China for U.S.-bound semiconductor trade.
+
+### Complementary Narrative
+
+Together, the four dashboards reveal **the full picture of U.S. semiconductor competitiveness in 2025**:
+
+- **Workforce** → wages accelerating even as headcount contracts, with stark divergence between subsectors masking the aggregate headline.
+- **Logistics** → rail damage is concentrated: a small share of high-cost events, mostly derailments, carries most of the cost, so the inland leg of the supply chain is a tail-risk question rather than an average-incident one.
+- **Trade** → diversified exports with resilient allies, but highly concentrated imports vulnerable to Malaysia's dominance.
+- **Demand & Tariffs** → global demand is accelerating toward a ~$1 trillion market, but that growth sits on a narrow, concentrated value chain, while tariff structure actively rewards USMCA-aligned nearshoring over Chinese sourcing.
+
+This contrast underscores both the **strengths** and the **fragilities** of the U.S. semiconductor ecosystem — and the urgent need for simultaneous diversification in supply chains **and** talent strategy.
+
+## Disclaimer
+
+- **Data Privacy**: Due to privacy considerations, the cleaned datasets and intermediate files used in this project are not available for direct download. Documentation and methodological notes are provided instead to ensure transparency without compromising data security.
+- **Wrangling Steps**: During the data wrangling process, several repetitive but essential validation steps (such as `df.describe()`, `df.info()`, and checks on `dtypes`) were performed. In some cases, these commands were later deleted or commented out in the final code to streamline readability once validation was complete. Their absence in the published scripts does not mean they were skipped; rather, they were executed during the workflow and discarded only after confirming accuracy.
+- **Dataset Limitations**: Some official sources, such as **UN Comtrade** and the **U.S. Bureau of Labor Statistics (BLS)**, provide datasets that are incomplete or too brief for long‑term trend analysis — for example, BLS Employment Cost Index tables for NAICS 3344 are published at a fixed level of aggregation, with no granular breakdowns by state, occupation, or firm size available in the public release. This project acknowledges those gaps and works hard to complement them with additional context, validation, and careful interpretation. Every effort was made to ensure that the insights presented are as accurate and meaningful as possible, despite the constraints of the raw data.
+- **Dashboard Design**: Not every dashboard in this project reaches the same level of visual polish. Data availability, source formatting constraints, and time limitations sometimes make it difficult to build the fully refined experience I aim for. That said, every dashboard — regardless of complexity — is built with the same core principles: clarity first, dynamic where possible, and always designed to make the data as easy to understand and navigate as possible. When richer data and more time allow, as with the ECI Employment Analytics Dashboard, the result reflects that investment in design — combining custom **DAX measures**, **HTML/CSS/JS** visual panels, interactive navigation, and a guided walkthrough to elevate the analytical experience beyond a standard report.
+
+---
+
+## Other Independent Research
+
+While this project focuses on semiconductor trade and labor, I also publish shorter, standalone research syntheses on labor market and BI topics. Recent example:
+
+### The Entry-Level Paradox (2026)
+
+> An independent research review of U.S. employability trends, 2022–2026 — how AI is reshaping entry-level hiring even as wages in AI-exposed fields accelerate.
+
+![The Entry-Level Paradox](https://github.com/aaronobandoporfolio/semiconductor-trade-labor-analysis-usa-2025/blob/main/Images/87%20Extra%20-%20Entry-Level-Paradox-AaronObando.png)
+
+**The core finding:** Junior hiring in tech is contracting sharply while wages in the same AI-exposed fields accelerate. This isn't collapse — it's repricing.
+
+| Signal | Metric |
+|---|---|
+| US junior tech postings | ▼ up to 67% (software & data-analyst entry-level listings vs. pre-2024 levels) |
+| UK grad tech roles | ▼ 46% in 2024, with a further ~53% drop projected into 2026 |
+| AI-exposed wage growth | ▲ 16.7% for computer systems design since fall 2022, vs. +7.5% nationally |
+| Aggregate unemployment | No detectable rise — the squeeze is at entry, not economy-wide |
+
+**Where the doors are closing vs. opening:** Software dev and data-analyst entry-level postings are down sharply, while healthcare, government, and hospitality — sectors requiring physical presence or licensure AI can't yet substitute — account for roughly 75% of net new job growth. The ladder didn't vanish; it moved.
+
+**Three takeaways:**
+
+1. **You need the job to get the job.** "Entry-level" postings now routinely demand 2–3 years of experience — the exact rung AI automates first.
+2. **Scarcer entry, richer premium.** Wages in AI-exposed fields are growing roughly 2x the national rate; the ones already inside are becoming more valuable, not pushed out.
+3. **Proof of work beats the credential.** With the traditional ladder narrower, portfolios, shipped projects, and demonstrated skill are what separate candidates who break through from those stuck applying blind.
+
+A Dallas Fed finding (Atkinson, 2026) traces the drop in under-25 employment to a low job-finding rate for new entrants — not layoffs.
+
+*Sources: NACE Class of 2026 Report · ZipRecruiter · Federal Reserve Bank of Dallas (Atkinson, 2026) · Brookings Institution · Goldman Sachs Research*
+
+---
+
+## Connect With Me
+
+If you found this project interesting and would like to discuss insights, opportunities, or collaborations, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/aaron-obando-55a098308/).
+
+You can also review my CV to learn more about my background and experience: [CV Link](https://drive.google.com/file/d/1ttqLts0YRgc1I59XmWVxr5fanecvM1ku/view?usp=sharing).
+
+Email: contact@obandoanalytics.com
+
+## Author
+
+**Aaron Eliseo Obando Gómez**
+Data Analyst, Business Intelligence Analyst, and Business Analyst focused on bridging trade, labor, and logistics to deliver actionable insights and strategic storytelling.
+
 
 The analysis focuses on HS Code 85423100 (processors and controllers) and asks three decision-oriented questions:
 
