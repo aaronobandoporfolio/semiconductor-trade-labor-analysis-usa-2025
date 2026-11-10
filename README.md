@@ -1,6 +1,6 @@
 # Is the U.S. semiconductor supply chain becoming more vulnerable despite growing global demand?
 
-[![Dashboard](https://imgur.com/gallery/post1-Iww5sc7#pdJyhMM)
+[![Dashboard](https://imgur.com/gallery/post1-Iww5sc7#pdJyhMM.mp4)
 
 ## Quick Overview (60-second read)
 
